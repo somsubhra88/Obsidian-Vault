@@ -44,6 +44,6 @@ When we made this decision to go with UCB for Conversion Rate Optimization, ther
 # Do we gain with respect to speed which was the primary ask from Yokochi-san?
 We haven't tested particularly this aspect of the improvement, with minimal code changes we can't expect much of a difference in performance.
 
-# why weight has to be included in reward calculation when click distribution still follows Bernoulli (For example, sampling by Beta distribution and arm selection by weight and random variable would be also applicable)
--   why other conjugate prior distributions were not explored well such as Gaussian TS
--   why the policy will be changed to UCB without any verification when UCB was not utilized at all in past.
+### Why weight has to be included in reward calculation when click distribution still follows Bernoulli (For example, sampling by Beta distribution and arm selection by weight and random variable would be also applicable)?
+### Why other conjugate prior distributions were not explored well such as Gaussian TS
+### Why the policy will be changed to UCB without any verification when UCB was not utilized at all in past.

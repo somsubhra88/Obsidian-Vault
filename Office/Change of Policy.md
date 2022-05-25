@@ -55,6 +55,6 @@ $$
 $$
 ### Why other conjugate prior distributions were not explored well such as Gaussian TS
 ```note-blue
-
+test
 ```
 ### Why the policy will be changed to UCB without any verification when UCB was not utilized at all in past.

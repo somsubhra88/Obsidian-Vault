@@ -48,8 +48,8 @@ We haven't tested particularly this aspect of the improvement, with minimal code
 There is a physical interpretation of the weights - 
 $$
 \begin{align}
-\text{We wanted to find the Probability of conversion given that there is an impression, i.e.} \\
-Pr
+& \text{We wanted to find the Probability of conversion given that there is an impression, i.e.} \\
+& Pr\big(conversion \vert impression) = Pr(conversion \vert click) \cdot Pr(click \vert )
 \end{align}
 $$
 ### Why other conjugate prior distributions were not explored well such as Gaussian TS

@@ -1,4 +1,4 @@
-## <font color="Green">Why is not technically feasible to implement Thompson-Sampling for CVR optimization? </font>
+# Why is not technically feasible to implement Thompson-Sampling for CVR optimization?
 In [[Thompson Beta Sampling]] begin with an independent prior belief over each $θ_k$. Take these priors to be **beta-distributed** with parameters $α = (α_1, . . . , α_K)$ and $β = (β_1, . . . , β_K)$. In particular, for each action $k$, the prior **Probability Density Function** of $θ_k$ is 
 $$p(\theta_k) = \frac{\Gamma(\alpha_k + \beta_k)}{\Gamma(\alpha_k) \Gamma(\beta_k)} \theta_k^{\alpha_k - 1} (1 - \theta_k)^{\beta_k - 1} $$
 
@@ -26,11 +26,11 @@ Instead of integer update if we have fraction update, this growth will be pretty
 As weights are fixed for every bandit(banner), so the update formula we can use $$ (\alpha_k, \beta_k) \leftarrow (\alpha_k, \beta_k) + \Big(w_k\sum_{t=0}^T I_{x_t = k} r_t, \sum_{t=0}^T I_{x_t = k} (1 - w_k r_t) \Big) $$
 But this may have convergence issue as _Regret Bound_ and the _Convergence Rate_ is not well-defined. By doing rigorous simulation study we can achieve some confidence, but there is no guarantee.
 
-## <font color="green">Have we done any study in offline mode for change in results?</font>
+# Have we done any study in offline mode for change in results?
 We haven't done any specific simulation study for this purpose, but in general TS works better in compare to UCB.
 
 
-## <font color="green">What are the potential benefits of using UCB vs TS?</font>
+# What are the potential benefits of using UCB vs TS?
 When we made this decision to go with UCB for Conversion Rate Optimization, there were a couple of reasons —
 - We have decided to go with minimal code changes and if we want to modify Thompson-Beta Sampling Algorithm code it will create multiple issues—
 	- As TS code was in production we don't want to touch the existing workflow
@@ -41,7 +41,7 @@ When we made this decision to go with UCB for Conversion Rate Optimization, ther
 	- Easy to implement, minimal code change.
 
 
-# Do we gain with respect to speed which was the primary ask from Yokochi-san?</font>
+# Do we gain with respect to speed which was the primary ask from Yokochi-san?
 We haven't tested particularly this aspect of the improvement, with minimal code changes we can't expect much of a difference in performance.
 
 # why weight has to be included in reward calculation when click distribution still follows Bernoulli (For example, sampling by Beta distribution and arm selection by weight and random variable would be also applicable)

@@ -44,7 +44,7 @@ When we made this decision to go with UCB for Conversion Rate Optimization, ther
 # Do we gain with respect to speed which was the primary ask from Yokochi-san?
 We haven't tested particularly this aspect of the improvement, with minimal code changes we can't expect much of a difference in performance.
 
-### Why weight has to be included in reward calculation when click distribution still follows Bernoulli (For example, sampling by Beta distribution and arm selection by weight and random variable would be also applicable)?
+### Why does weight has to be included in reward calculation when clicking distribution still follows Bernoulli (For example, sampling by Beta distribution and arm selection by weight and random variable would be also applicable)?
 There is a physical interpretation of the weights - 
 $$
 \begin{align}

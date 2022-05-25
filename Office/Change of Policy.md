@@ -49,7 +49,8 @@ There is a physical interpretation of the weights -
 $$
 \begin{align}
 & \text{We wanted to find the Probability of conversion given that there is an impression, i.e.} \\
-& Pr\big(conversion \; \ \;vert impression) = Pr(conversion \; \vert \; click) \cdot Pr(click \; \vert \; impression)
+& i.e. Pr\big(conversion \; \ \;vert impression) = Pr(conversion \; \vert \; click) \cdot Pr(click \; \vert \; impression \big ) \\
+& i.e. Pr\big(conversion \; \ \;vert impression) = \text{Predefined Weight} \cdot Pr(click \; \vert \; impression)
 \end{align}
 $$
 ### Why other conjugate prior distributions were not explored well such as Gaussian TS

@@ -32,12 +32,12 @@ We haven't done any specific simulation study for this purpose, but in general T
 
 # What are the potential benefits of using UCB vs TS?
 When we made this decision to go with UCB for Conversion Rate Optimization, there were a couple of reasons —
-- We have decided to go with minimal code changes and if we want to modify Thompson-Beta Sampling Algorithm code it will create multiple issues—
+- We have decided to go with minimal code changes and if we want to modify the Thompson-Beta Sampling Algorithm code it will create multiple issues—
 	- As TS code was in production we don't want to touch the existing workflow
 	- Even if we accommodate the changes in TS code, then we need to make sure that without weights it should work as before it was. From a coding perspective, it's a challenge. 
-	- For CTR used case, rewards are integer whereas in case of CVR it'll be fraction as we are multiplying with some precalculated weights, so no longer it'll be a Beta-Bernoulli conjugate prior. In such cases, we are not very sure about the convergence of such conjugate prior.
+	- For CTR used case, rewards are integer whereas in the case of CVR it'll be a fraction as we are multiplying with some precalculated weights, so no longer it'll be a Beta-Bernoulli conjugate prior. In such cases, we are not very sure about the convergence of such conjugate prior.
 - The reason we chose UCB —
-	- There isn't any assumptions regarding the rewards, as we're not presuming any prior distribution.
+	- There aren't any assumptions regarding the rewards, as we're not presuming any prior distribution.
 	- Easy to implement, minimal code change.
 
 

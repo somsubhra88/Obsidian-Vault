@@ -3,7 +3,7 @@ All Actor-Critic algorithms have two components, which are learned jointly—an 
 It is common to learn the **advantage function** $A^\pi(s,a) = Q^\pi(s,a) - V^\pi(s)$ as the reinforcing signals in these methods.
 
 ### Actor
-Actors learn parameterized policies $\pi_{\theta_a}$ using the policy gradient. Actors are also used to select the actions during interaction with the environment. The updatation of the actors uses the below formula:
+Actors learn parameterized policies $\pi_{\theta_a}$ using the policy gradient. Actors are also used to select actions during interaction with the environment. The updatation of the actors uses the below formula:
 $$
 \begin{aligned}
 \text{Actor-Critic:}\;  &\Delta_\theta J(\pi_{\theta_a}) = \mathbb{E}\big[A_t^{\pi_{\theta_a}} \Delta_\theta log \; \pi_{\theta_a}(a_t \vert s_t) \big] \\

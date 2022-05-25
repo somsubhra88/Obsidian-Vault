@@ -23,3 +23,4 @@ Update rule is same as the gradient descent—
 $$
 \theta_c \leftarrow \theta +  \alpha \Delta_{\theta_c}L(\theta_c)
 $$
+Test

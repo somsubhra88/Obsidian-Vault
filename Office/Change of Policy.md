@@ -50,8 +50,7 @@ $$
 \begin{align}
 & \text{We wanted to find the Probability of conversion given that there is an impression, i.e.} \\
 & Pr\big(conversion \; \ \;vert impression) = Pr(conversion \; \vert \; click) \cdot Pr(click \; \vert \; impression)
-\end{align} \\
-& Pr\big(conversion \; \ \;vert impression) = 
+\end{align}
 $$
 ### Why other conjugate prior distributions were not explored well such as Gaussian TS
 ### Why the policy will be changed to UCB without any verification when UCB was not utilized at all in past.

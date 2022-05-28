@@ -19,5 +19,5 @@
 6. **Number of Sampled Actions** $n$: The number of actions we'll generate from the Generative Model
 7. **Minimum Weighting** $\lambda$: This is related to Value Target $y$. 
 8. **Q-Networks** : Using of two Q-networks $Q_{\theta_1} \; \& \;Q_{\theta_2}$ is inspired from the [[Clipped Double Q-Learning]], this used to avoid the over estimation error. But in our case a convex combination of the two values is used, with a higher weight on the minimum, to form a learning target which is used by both Q-networks: $$y = r + \gamma \;max_{a_i} \left[ \lambda \; min_{j=1,2} Q_{\theta_j^\prime} (s^\prime , a_i) + (1- \lambda) \; max_{j=1,2} Q_{\theta_j^\prime} (s^\prime , a_i) \right] $$
-9. **Generative Network
+9. **Generative Network** 
 10. **Perturbation network** $\xi_{\phi}$: To increase the diversity of visited actions, we introduce a perturbation model $\xi_{\phi}(s, a, \Phi)$, which outputs an adjustment to an action $a$ in the range $[−\Phi, \Phi]$. The perturbation model $\xi_{\phi}$ can be trained to maximize $Q_θ(s, a)$ through the [[Deterministic Policy Gradient Algorithm]].

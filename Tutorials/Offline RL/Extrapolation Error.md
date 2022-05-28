@@ -1,1 +1,1 @@
-The key insight in TD Learning is that. 
+The key insight in TD Learning is that $Q$-values for the current time step can be defined in terms of $Q$-values of the next time step. That is, $Q^{\pi}

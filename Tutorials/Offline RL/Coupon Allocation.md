@@ -1,7 +1,7 @@
 # Business Objective
-Currently in most places discounting on products works very unidirectional, like the same amount of discount every time and for every customer. We believe there are essentially three questions that need to be answered—
-- <font color="Red">Whom to give the coupon? </font>This particular question will be answered by the purchase probability (this is an entirely different project which is already in the verge of finishing)
-- <font color="red">What coupon to give? </font> We want to answer this particular piece of the puzzle, we have planned to use historical data to train an RL agent which will eventually interact with the system in going forward and recommended the discount percentage
+Currently in most places discounting on products works very unidirectional, as the same amount of discount every time and for every customer. We believe there are essentially three questions that need to be answered—
+- <font color="Red">Who to give the coupon to? </font>This particular question will be answered by the purchase probability (this is an entirely different project which is already in the verge of finishing)
+- <font color="red">What coupon to give? </font> We want to answer this particular piece of the puzzle, we have planned to use historical data to train an RL agent which will eventually interact with the system in going forward, and recommended the discount percentage
 - <font color="red">When to give?</font> We are currently not focusing on answering this particular question, but we are hoping that while we'll be training the RL agent in offline fashion that time also we can have this question to be answered.
 
 

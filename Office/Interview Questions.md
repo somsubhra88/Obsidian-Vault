@@ -1,4 +1,5 @@
-You are given two positive integers 𝑎 and 𝑏. In one move you can increase 𝑎 by 1 (replace 𝑎 with 𝑎+1). Your task is to find the minimum number of moves you need to do in order to make 𝑎 divisible by 𝑏. It is possible, that you have to make 0 moves, as 𝑎 is already divisible by 𝑏. 
+# Codi
+1. You are given two positive integers $a$ and $b$. In one move you can increase $a$ by 1 (replace $a$ with $a+1$). Your task is to find the minimum number of moves you need to do in order to make $a$ divisible by $b$. It is possible, that you have to make 0 moves, as $a$ is already divisible by $b$. 
 
 
 wHAT DO WE NEED cAPS LOCK FOR?

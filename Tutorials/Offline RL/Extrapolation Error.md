@@ -10,4 +10,4 @@ However, there are two problems with the above equation -
 	- **SARSA**: solution is to use the action actually taken in the next state, $a^\prime$, i.e.  $Q^\pi (s, a) \approx r + \gamma Q^\pi (s^\prime, a^\prime)$
 	- **DQN**: solution is to use the maximum $Q$-value, , i.e.  $Q^\pi (s, a) \approx r + \gamma \; max_{a_i^\prime} \; Q^\pi (s^\prime, a_i^\prime)$
 
-In most of the offline setting we don't have the luxury to interact with the environment and whatever data we have we need to train the model using that only. *Extrapolation Error* generally arises when the data does have enough coverage for the next stat and action pair, i.e., if the $(s^\prime, a^\prime)$ pair is not observed in the original data, in that case we want t
+In most of the offline setting we don't have the luxury to interact with the environment and whatever data we have we need to train the model using that only. *Extrapolation Error* generally arises when the data doesn't have enough coverage for the next state and action pair, i.e., if the $(s^\prime, a^\prime)$ pair is not observed in the original data, in that case we want to extrapolate using functional approximation. 

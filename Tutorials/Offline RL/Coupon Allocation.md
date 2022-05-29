@@ -1,19 +1,19 @@
 # Business Objective
 Currently in most places discounting on products works very unidirectional, as the same amount of discount every time and for every customer. We believe there are essentially three questions that need to be answered—
-- <font color="Red">Who to give the coupon to? </font>This particular question will be answered by the purchase probability (this is an entirely different project which is already in the verge of finishing)
-- <font color="red">What coupon to give? </font> We want to answer this particular piece of the puzzle, we have planned to use historical data to train an RL agent which will eventually interact with the system in going forward, and recommended the discount percentage
-- <font color="red">When to give?</font> We are currently not focusing on answering this particular question, but we are hoping that while we'll be training the RL agent in offline fashion that time also we can have this question to be answered.
+- <font color="Red">Who to give the coupon to? </font>This particular question will be answered by the purchase probability (this is an entirely different project which is already on the verge of finishing)
+- <font color="red">What coupon to give? </font> We want to answer this particular piece of the puzzle, we have planned to use historical data to train an RL agent which will eventually interact with the system going forward, and recommended the discount percentage
+- <font color="red">When to give?</font> We are currently not focusing on answering this particular question, but we are hoping that while we'll be training the RL agent in an offline fashion at that time also we can have this question to be answered.
 
 
 # Coupon System
-Different coupon system has different objectives, most of the cases there primarily two objectives
+Different coupon system has different objectives, In most the cases there are primarily two objectives
 ```note-green
-- Customer Revisit or interaction with the e-commerce platform or the increase the click through rate, eventually all these boils down to same objective, i.e. retention of the customers
+- Customer Revisit or interaction with the e-commerce platform or the increase the click-through rate, eventually all these boils down to same objective, i.e. retention of the customers
 - The second most challenging and optimistic goal is to increase the conversion, i.e. increasing the purchase
 ```
 
 ```note-grey-background
-Obviously, the larger value to distribute coupons is, the higher retention and conversion. However, it may bring huge financial loss to the platform when coupons allocation is too costly. Thus, it is a key problem for the platform to decide an appropriate value of each coupon, and maximizing the users’ retention while limiting the cost not to exceed a fixed budget.
+Obviously, the larger value to distribute coupons is, the higher retention and conversion. However, it may bring huge financial loss to the platform when coupon allocation is too costly. Thus, it is a key problem for the platform to decide an appropriate value of each coupon, and maximize the users’ retention while limiting the cost not to exceed a fixed budget.
 ```
 
 The budget constrained coupons allocation problem is usually formulated as a [[Constrained Markov Decision process (CMDP)]], and then can be converted into a Lagrangian dual problem. [[Batch Reinforcement Learning]] methods are used to avoid potential financial risks in the learning process, as the budget cannot be recovered once dispensed. Unfortunately, a key issue is that the policy needs to be re-learned every time when the value of $\lambda$ is updated until the budget constraint is satisfied. Such a repetitive policy learning process brings a great computation overhead.

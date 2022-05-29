@@ -1,7 +1,7 @@
 **Batch Constrained Q-Learning** is an Offline Reinforcement Learning algorithm proposed by [(Fujimoto et al., 2019)](https://arxiv.org/abs/1812.02900) In this paper, they have demonstrated that due to errors introduced by extrapolation, standard off policy deep reinforcement learning algorithms, such as DQN and [[DDPG]], are incapable of learning without data correlated to the distribution under the current policy, making them ineffective for this fixed batch setting. We introduce a novel class of off-policy algorithms, batch-constrained reinforcement learning, which restricts the action space in order to force the agent towards behaving close to on-policy with respect to a subset of the given data.
 
 ## Batch-Constrained Reinforcement Learning
-- Current off-policy deep reinforcement learning algorithms fail to address extrapolation error by selecting actions with respect to a learned value estimate. 
+- Current off-policy deep reinforcement learning algorithms fail to address [[Extrapolation Error]] by selecting actions with respect to a learned value estimate. 
 - To avoid extrapolation error, a policy should induce a similar state-action visitation to the batch. We denote policies which satisfy this notion as batch-constrained. 
 - To optimize off-policy learning for a given batch, _batch-constrained_ policies are trained to select actions with respect to three objectives:
 	- Pick Similar State-Action pairs present in the batch.

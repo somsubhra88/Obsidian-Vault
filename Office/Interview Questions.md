@@ -8,4 +8,6 @@
 
 # Maths/Puzzle
 1. $x + y + z = 10$
-	1. Number of Positive 
+	1. Number of Positive Integer Solution?
+	2. Number of Non-negative Integer Solution?
+2. 

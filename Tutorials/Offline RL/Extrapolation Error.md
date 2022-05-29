@@ -5,4 +5,4 @@ $$
 Assume we have a neural network to represent the $Q$-function, $Q_\theta$. In TD learning, $Q^\pi_{target}(s_t, a_t)$ is derived by estimating the right-hand side of the above equation using $Q_\theta$. At each training iteration, $\hat{Q}^\pi (s_t, a_t)$ is updated to bring it closer to $Q^\pi_{target} (s_t, a_t)$.
 
 However, there are two problems with the above equation - 
-- The first problem is the outer expectation $\mathbb{E}_{s^\prime \sim p(s^\prime \vert s, a), r \sim \mathcal{R}(s, a, s^\prime)} [ \cdots ]$ due to next state and reward. If the environment is deterministic, then it is correct to only consider the actual next stae when calculating the expectation over the next states. However. if the envi
+- The first problem is the outer expectation $\mathbb{E}_{s^\prime \sim p(s^\prime \vert s, a), r \sim \mathcal{R}(s, a, s^\prime)} [ \cdots ]$ due to next state and reward. If the environment is deterministic, then it is correct to only consider the actual next state when calculating the expectation over the next states. However. if the environment into a number of different next states, but only one 

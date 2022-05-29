@@ -7,3 +7,5 @@
 
 
 # Maths/Puzzle
+1. $x + y + z = 10$
+	1. Number of Positive 

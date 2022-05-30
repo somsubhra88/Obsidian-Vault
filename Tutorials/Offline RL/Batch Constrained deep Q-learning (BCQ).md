@@ -9,7 +9,12 @@
 	- Maximize the Value Function.
 
 ## Algorithm: Pseudo Code
+$$
+\begin{algorithm}
 
+
+
+$$
 
 ![[Screenshot 2022-05-17 at 10.45.21 PM.png]]
 

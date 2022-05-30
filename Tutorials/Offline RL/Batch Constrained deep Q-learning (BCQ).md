@@ -10,10 +10,11 @@
 
 ## Algorithm: Pseudo Code
 $$
+\usepackage{algorithm,algorithmic}
 \begin{algorithm}
 
 
-
+\end{algorithm}
 $$
 
 ![[Screenshot 2022-05-17 at 10.45.21 PM.png]]

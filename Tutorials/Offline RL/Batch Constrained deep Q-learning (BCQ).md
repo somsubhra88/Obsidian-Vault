@@ -10,7 +10,6 @@
 
 ## Algorithm: Pseudo Code
 $$
-\usepackage{algorithm,algorithmic}
 \begin{algorithm}
 
 

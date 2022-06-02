@@ -9,6 +9,8 @@
 	- Maximize the Value Function.
 
 ## Algorithm: Pseudo Code
+
+
 ![[Screenshot 2022-05-17 at 10.45.21 PM.png]]
 
 1. **Batch** $\mathcal{B}$: Fixed Data-Set (Batch) of Environment Intersections, and no further experience can be acquired.

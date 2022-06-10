@@ -10,4 +10,4 @@
 1. $x + y + z = 10$
 	1. Number of Positive Integer Solution?
 	2. Number of Non-negative Integer Solution?
-2. 
+2. In some country each town is connected with every other town by road. An insane king decided to impose one-way 

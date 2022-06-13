@@ -1,4 +1,4 @@
 # Background
 Earlier Click Through Rate(CTR) was the metric we optimized using Bandit Algorithm and predominantly we're using [[Thompson Beta Sampling]]. This we wanted to optimize Conversion Rate(CVR), while we're trying to optimize this we faced several challenges - 
 - **Delayed Feedback** - Conversion feedback is delayed and so an immediate reward was not available, hence updation of the Bandit was not possible even after taking an action
-- **Anonymous Feedback** - It is qui
+- **Anonymous Feedback** - It is quite possible that before a conversion a customer has experience several different banner and at the time of the conversion it is really 

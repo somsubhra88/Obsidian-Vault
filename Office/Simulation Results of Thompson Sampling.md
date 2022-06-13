@@ -5,4 +5,4 @@ Earlier Click Through Rate(CTR) was the metric we optimized using Bandit Algorit
 - **Anonymous Feedback** - It is quite possible that before a conversion a customer has experienced several different banners and at the time of the conversion, it is challenging to attribute this conversion to all the banners he has seen previously, moreover it will be entirely illogical to give the entire credit to the last seen banner.
 - **Aggregated Feedback** - It is observed that a customer has purchased multiple products at the same time, in such a scenario the effect of multiple banners is confounded among themselves and it's hard to segregate them.
 
-Because of all these challenges we 
+Because of all these challenges we decided to go with an Algorithm Named "__"

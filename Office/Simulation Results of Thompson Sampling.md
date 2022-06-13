@@ -20,4 +20,4 @@ Now, we have to figure out which algorithm fits into this construct and started 
 - **Upper Confidence Bound**- As this algorithm doesn't require any prior assumptions on the rewards distribution, so we thought this algorithm is perfectly fitted to our construct and we went ahead with this
 
 #### Simulation Study
-As business stakeholders we're not very c
+As business stakeholders were not very comfortable with the policy change, and they want to validate our hypothesis through a simulation study. 

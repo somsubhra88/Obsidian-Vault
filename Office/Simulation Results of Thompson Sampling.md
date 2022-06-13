@@ -8,7 +8,7 @@ Earlier Click Through Rate(CTR) was the metric we optimized using Bandit Algorit
 Because of all these challenges we decided to go with an Algorithm Named "_Bandit Algorithm for Delayed, Aggregated and Anonymous Feedback_", this algorithm has its own complexity and its worthiness of the algorithm is yet to be proven. Initial simulation results show promising results, but we need to validate this with proper data and rigorous simulation. So, we have decided to go with a simple implementation first and then slowly we'll move towards a more complex algorithm. We decided to go ahead with minimal code changes.
 
 #### Method We have adopted
-Our hypothesis was that the Probability of conversion given there is a click is invariant to time for a particular banner, i.e. $Pr(Conversion \vert Click)$ is invariant to time and can be estimated from historical data. So, the Probability of a click given a conversion is 
+Our hypothesis was that the Probability of conversion given there is a click is invariant to time for a particular banner, i.e. $Pr(Conversion \vert Click)$ is invariant to time and can be estimated from historical data. So, the Probability of a click given an impression depends upon the campaign, i.e. $Pr(Click \vert Impression)$ is campaign sp
 
 
 and started our feasibility checking with all the plausible algorithms - 

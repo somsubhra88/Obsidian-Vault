@@ -25,3 +25,5 @@ As business stakeholders were not very comfortable with the policy change, and t
 - Regret Bound
 - Estimation of the Bandit Arms Mean
 
+![[Simulation of Thompson Sampling Regret.png]]
+

@@ -23,4 +23,5 @@ Now, we have to figure out which algorithm fits into this construct and started 
 As business stakeholders were not very comfortable with the policy change, and they want to validate our hypothesis through a simulation study. So, we have done a simulation study to check/compare the following things - 
 - Convergence Rate
 - Regret Bound
-- 
+- Estimation of the Bandit Arms Mean
+

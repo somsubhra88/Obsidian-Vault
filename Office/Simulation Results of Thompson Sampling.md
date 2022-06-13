@@ -1,2 +1,2 @@
 # Background
-Earlier the metric we used to 
+Earlier Click Through Rate(CTR) was the metric we optimized using Bandit 

@@ -14,4 +14,5 @@ Our hypothesis was that the Probability of conversion given there is a click is 
 Now, we have to figure out which algorithm fits into this construct and started our feasibility checking with all the plausible algorithms - 
 
 - **Thompson Beta Sampling**- We hypothesized that there is a possibility that Thompson Beta Sampling will not converge because it is primarily meant for integer rewards.
-- **Thompson Normal Sampling
+- **Thompson Normal Sampling**- This may fit into our construct but we found several drawbacks with this algorithms - 
+	- First, rewards are particularly not normally distribute, 

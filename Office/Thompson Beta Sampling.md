@@ -10,7 +10,7 @@ To gain the most out of it we first have to have the good knowledge regarding th
 - The mean rewards $θ = (θ_1, ..., θ_K)$ are unknown, but fixed over time.
 - An action $x_1$ is applied, and a reward $r_1 \in \{0, 1\}$ is generated with success probability $Pr(r_1 = 1|x_1, θ) = θ_{x_1}$. After observing $r_1$, the agent applies another action $x_2$, observes a reward $r_2$, and this process continues.
 
-### <font color="Green">Thompson Sampling</font>
+### Thompson Sampling
 Very intuitive algorithm which comprises primarily 4 steps—
 - Start with prior over parameters.
 - Sample a particular set of parameters from the prior.

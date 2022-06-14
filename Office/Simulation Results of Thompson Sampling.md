@@ -7,7 +7,7 @@ Earlier Click Through Rate(CTR) was the metric we optimized using Bandit Algorit
 
 Because of all these challenges we decided to go with an Algorithm Named "_Bandit Algorithm for Delayed, Aggregated and Anonymous Feedback_", this algorithm has complexity and the worthiness of the algorithm is yet to be proven. Initial simulation results show promising results, but we need to validate this with proper data and rigorous simulation. So, we have decided to go with a simple implementation first and then slowly we'll move towards a more complex algorithm. We decided to go ahead with minimal code changes.
 
-#### Method We have adopted
+## Method We have adopted
 We hypothesized that the Probability of conversion given there is a click is invariant to time for a particular banner, i.e. $Pr(Conversion \vert Click)$ is invariant to time and can be estimated from historical data. So, the Probability of a click given an impression depends upon the campaign, i.e. $Pr(Click \vert Impression)$ is campaign specific. We are already optimizing, CTR which is nothing but finding the banner having the best odds of a click, i.e. we'll exploit the banner which is having maximum CTR we have estimated through the Bandit Experimentation. Our idea was very simple, we'll calculate the $Pr(Conversion \vert Click)$ from the historical data and feed into the algorithm as pre-calculated weights, and the positive rewards(number of clicks) will be multiplied by these weights to get the approximate conversions, this can be considered as the feedback from the environment.
 
 
@@ -19,11 +19,13 @@ Now, we have to figure out which algorithm fits into this construct and started 
 	- Second, it was never been tested with real data and we didn't do much simulation study as well for this, we're a little skeptical about it
 - **Upper Confidence Bound**- As this algorithm doesn't require any prior assumptions on the rewards distribution, so we thought this algorithm is perfectly fitted to our construct and we went ahead with this
 
-#### Simulation Study
+## Simulation Study
 As business stakeholders were not very comfortable with the policy change, and they want to validate our hypothesis through a simulation study. So, we have done a simulation study to check/compare the following things - 
 - Convergence Rate
 - Regret Bound
 - Estimation of the Bandit Arms Mean
+
+### Regret Plot
 
 ![[Simulation of Thompson Sampling Regret.png]]
 
@@ -40,8 +42,10 @@ In the Multi-Arm Bandit problem, the maximum possible reward would be obtained i
 
 The regret $\mathcal{L}$ is calculated by taking the difference between the reward obtained by the implemented policy and the reward that would have been obtained if instead the optimal policy had been followed, over a total of $T$ time steps:
 $$
-\mathcal{L} = T \cdot \mathbb{E}\big[ R_t \vert A_t = a_* \big] - \sum_{i=1}^T \mathbb{E} \big[ R_t \vert  \big]
+\mathcal{L} = T \cdot \mathbb{E}\big[ R_t \vert A_t = a_* \big] - \sum_{i=1}^T \mathbb{E} \big[ R_t \vert A_t = a \big]
 $$
+
+
 
 
 ![[Simulation of Thompson Sampling Reward.png]]

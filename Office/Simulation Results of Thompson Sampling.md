@@ -25,7 +25,7 @@ As business stakeholders were not very comfortable with the policy change, and t
 - Regret Bound
 - Estimation of the Bandit Arms Mean
 
-For simulation we have used two different policies and two different environments, with this setup we have conducted multiple simulations, all possible permutation and combinations we have tried and most of the cases trend is same. As there isn't any
+For simulation we have used two different policies and two different environments, with this setup we have conducted multiple simulations, all possible permutation and combinations we have tried and most of the cases trend is same. As there isn't any significant differences or trends in all those simulation, hence I have provided the plots for one of the simulations.
 
 #### Polices Used
 - Upper Confidence Bound 

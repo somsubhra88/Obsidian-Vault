@@ -40,7 +40,7 @@ In the Multi-Arm Bandit problem, the maximum possible reward would be obtained i
 
 The regret $\mathcal{L}$ is calculated by taking the difference between the reward obtained by the implemented policy and the reward that would have been obtained if instead the optimal policy had been followed, over a total of $T$ time steps:
 $$
-\mathcal{L} = T \cdot \mathbb{E}\big[ R_t \vert A_t = a* \big]
+\mathcal{L} = T \cdot \mathbb{E}\big[ R_t \vert A_t = a_* \big] - \sum_{i=1}^T \mathbb{E} \big[ R_t \vert  \big]
 $$
 
 

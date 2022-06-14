@@ -49,8 +49,8 @@ Theoretically, regrets for all the standard algorithms are asymptotically conver
 
 ##### Observations
 1. The best policy and environment combination are Thompson Sampling in Bernoulli Environment, after a long 10k iterations the total regret is close to 25, which is very promising when we look at the rest of the plots.
-2. The Worst among all is Upper Confidence Bound in Bernoulli Environment, its performance is worse than UCB in the fractional reward environment. We have hypothesised that UCB in Fractional Reward will perform better, and simulation results also showing the similar trt
-
+2. The Worst among all is Upper Confidence Bound in Bernoulli Environment, its performance is worse than UCB in the fractional reward environment. We have hypothesized that UCB in Fractional Reward will perform better, and simulation results also show similar trends.
+3. Thompson Sampling in Fractional Reward environment 
 
 
 ### Average Reward Plot(Convergence Test)

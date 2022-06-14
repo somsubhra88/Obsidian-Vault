@@ -64,4 +64,4 @@ To test the convergence rate, we plotted the average cumulative rewards against 
 As regret is converged in all the scenarios, convergence is guaranteed, but we wanted to see how soon each of the combinations converges to the mean of the best-performing arm.
 
 ##### Observations
-1. After one thousand episodes all the algorithms stopped exploration and started exploiting the best arm, which is having a mean response rate is $20%$. 
+1. After one thousand episodes all the algorithms stopped exploration and started exploiting the best arm, which is having a mean response rate is $20\%$. As the regret of the

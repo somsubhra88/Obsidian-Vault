@@ -36,7 +36,9 @@ For simulation we have used two different policies and two different environment
 - Fractional Reward Environment - Produces success values ranging from 0 to 1 and failure(0) with a certain probability
 
 #### Simulation Parameters
-I have tested with multiple combinations
+I have tested with multiple combinations - 
+- Number of Arms - Ranging from 5 arms to 12 arms
+- Arms Mean - 
 
 
 ### Regret Plot

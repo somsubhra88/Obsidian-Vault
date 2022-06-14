@@ -47,7 +47,8 @@ Environment Used -
 
 Theoretically, regrets for all the standard algorithms are asymptotically converged to an upper bound. The different algorithm has different upper bound, the algorithm which is having the lowest upper bound, is considered to be better in terms of regret. So, to do a comparison study we tend to plot the regrets over the number of episodes and try to visualize the outcomes.
 
-####
+##### Observations
+1. The 
 
 
 

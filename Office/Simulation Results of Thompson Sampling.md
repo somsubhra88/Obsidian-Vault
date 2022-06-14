@@ -25,7 +25,8 @@ As business stakeholders were not very comfortable with the policy change, and t
 - Regret Bound
 - Estimation of the Bandit Arms Mean
 
-<dive style='page-break-after: always; visibility: hid'
+<dive style="page-break-after: always; visibility: hidden"> \pagebreak </div>
+
 ### Regret Plot
 
 In the Multi-Arm Bandit problem, the maximum possible reward would be obtained if the best arm/banner was chosen at every time step. Every time a non-optimal banner is selected the total possible reward that can be obtained reduces further from this theoretical maximum. As a result, you **_regret_** choosing this bandit and wish instead that you’d chosen the best one. As the term _regret_ implies, you may have no way to know in advance that you’re making a non-optimal choice, only in hindsight do you realize your mistake.

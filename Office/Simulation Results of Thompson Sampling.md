@@ -25,7 +25,7 @@ As business stakeholders were not very comfortable with the policy change, and t
 - Regret Bound
 - Estimation of the Bandit Arms Mean
 
-<dive style="page-break-after: always; visibility: hidden"> \pagebreak </div>
+<dive style="page-break-after: always; visibility: hidden"></div>
 
 ### Regret Plot
 

@@ -61,6 +61,7 @@ To test the convergence rate, we plotted the average cumulative rewards against 
 
 ![[Simulation of Thompson Sampling Reward.png]]
 
-As regret is converged in all the scenarios, convergence is guaranteed, but we wanted to see how soon each of the combinations converges to the best performing arm
+As regret is converged in all the scenarios, convergence is guaranteed, but we wanted to see how soon each of the combinations converges to the mean of the best-performing arm.
 
 ##### Observations
+1. After one thousands of episodes all the algorithms stopped 

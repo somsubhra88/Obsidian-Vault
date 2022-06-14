@@ -27,9 +27,7 @@ As business stakeholders were not very comfortable with the policy change, and t
 
 For simulation we have used two different policies and two different environments,
 
-Polices used - 
-- Upper Confidence Bound
-- Thompson Beta Sampling
+Polices used - Upper Confidence Bound & Thompson Beta Sampling
 
 Environment Used - 
 - Bernoulli Environment - Produces success(1) or failure(0) with some probability
@@ -45,10 +43,10 @@ The regret $\mathcal{L}$ is calculated by taking the difference between the rewa
 $$
 \mathcal{L} = T \cdot \mathbb{E}\big[ R_t \vert A_t = a_* \big] - \sum_{i=1}^T \mathbb{E} \big[ R_t \vert A_t = a \big]
 $$
+Theoretically, regrets for all the standard algorithms are asymptotically converged to an upper bound. The different algorithm has different upper bound, the algorithm which is having the lowest upper bound, is considered to be better in terms of regret. So, to do a comparison study we tend to plot the regrets over the number of episodes and try to visualize the outcomes.
 
 ![[Simulation of Thompson Sampling Regret.png]]
 
-Theoretically, regrets for all the standard algorithms are asymptotically converged to an upper bound. The different algorithm has different upper bound, the algorithm which is having the lowest upper bound, is considered to be better in terms of regret. So, to do a comparison study we tend to plot the regrets over the number of episodes and try to visualize the outcomes.
 
 ##### Observations
 1. The best policy and environment combination are Thompson Sampling in Bernoulli Environment, after a long 10k iterations the total regret is close to 25, which is very promising when we look at the rest of the plots.
@@ -60,11 +58,10 @@ Theoretically, regrets for all the standard algorithms are asymptotically conver
 
 The regret plot indicates how the potential loss of opportunity we gonna occur over time or during the campaigns, but it doesn't give any indication about the rate of convergence. We'll be only able to reduce the loss of opportunity the moment we'll stop exploration, and we can have the luxury to halt the exploration when we're confident about the best-performing banner. So, as soon as we can estimate the mean of the arms, the more we can exploit the best arm/banner.
 
-To test the convergence rate, we plotted the average cumulative rewards against the episodes.
+To test the convergence rate, we plotted the average cumulative rewards against the episodes. As regret is converged in all the scenarios, convergence is guaranteed, but we wanted to see how soon each of the combinations converges to the mean of the best-performing arm.
 
 ![[Simulation of Thompson Sampling Reward.png]]
 
-As regret is converged in all the scenarios, convergence is guaranteed, but we wanted to see how soon each of the combinations converges to the mean of the best-performing arm.
 
 ##### Observations
 1. After one thousand episodes all the algorithms stopped exploration and started exploiting the best arm, which is having a mean response rate is $20\%$. 

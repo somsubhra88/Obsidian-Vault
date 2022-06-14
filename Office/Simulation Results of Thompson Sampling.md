@@ -55,7 +55,7 @@ Theoretically, regrets for all the standard algorithms are asymptotically conver
 
 ### Average Reward Plot(Convergence Test)
 
-Regret plot gives an indication that how potential loss of opportunity we gonna occur over time or during the campaigns, but it doesn't give any indication about the rate of convergence. We'll be only able to reduc
+The regret plot gives an indication that how potential loss of opportunity we gonna occur over time or during the campaigns, but it doesn't give any indication about the rate of convergence. We'll be only able to reduce the loss opportunity the moment we'll stop exploration, and we can have the luxury to halt the explor
 
 ![[Simulation of Thompson Sampling Reward.png]]
 

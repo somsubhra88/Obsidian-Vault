@@ -25,6 +25,8 @@ As business stakeholders were not very comfortable with the policy change, and t
 - Regret Bound
 - Estimation of the Bandit Arms Mean
 
+F
+
 <dive style="page-break-after: always; visibility: hidden"></div>
 
 ### Regret Plot
@@ -37,15 +39,6 @@ $$
 $$
 
 ![[Simulation of Thompson Sampling Regret.png]]
-
-The above image is for a regret plot for two different policies and two different environments, 
-Polices used - 
-- Upper Confidence Bound
-- Thompson Beta Sampling
-
-Environment Used - 
-- Bernoulli Environment - Produces success(1) or failure(0) with some probability
-- Fractional Reward Environment - Produces success values ranging from 0 to 1 and failure(0) with a certain probability
 
 Theoretically, regrets for all the standard algorithms are asymptotically converged to an upper bound. The different algorithm has different upper bound, the algorithm which is having the lowest upper bound, is considered to be better in terms of regret. So, to do a comparison study we tend to plot the regrets over the number of episodes and try to visualize the outcomes.
 

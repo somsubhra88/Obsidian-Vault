@@ -25,7 +25,15 @@ As business stakeholders were not very comfortable with the policy change, and t
 - Regret Bound
 - Estimation of the Bandit Arms Mean
 
-F
+For simulation we have used two different policies and two different environments,
+
+Polices used - 
+- Upper Confidence Bound
+- Thompson Beta Sampling
+
+Environment Used - 
+- Bernoulli Environment - Produces success(1) or failure(0) with some probability
+- Fractional Reward Environment - Produces success values ranging from 0 to 1 and failure(0) with a certain probability
 
 <dive style="page-break-after: always; visibility: hidden"></div>
 

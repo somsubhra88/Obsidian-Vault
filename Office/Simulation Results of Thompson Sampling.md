@@ -55,7 +55,9 @@ Theoretically, regrets for all the standard algorithms are asymptotically conver
 
 ### Average Reward Plot(Convergence Test)
 
-The regret plot gives an indication that how potential loss of opportunity we gonna occur over time or during the campaigns, but it doesn't give any indication about the rate of convergence. We'll be only able to reduce the loss of opportunity the moment we'll stop exploration, and we can have the luxury to halt the exploration when we're confident about the best-performing banner. So, as soon as we are able to estimate the mean of the ar
+The regret plot gives an indication that how potential loss of opportunity we gonna occur over time or during the campaigns, but it doesn't give any indication about the rate of convergence. We'll be only able to reduce the loss of opportunity the moment we'll stop exploration, and we can have the luxury to halt the exploration when we're confident about the best-performing banner. So, as soon as we are able to estimate the mean of the arms, the more we can exploit the best arm/banner.
+
+To test the convergence rate, we 
 
 ![[Simulation of Thompson Sampling Reward.png]]
 

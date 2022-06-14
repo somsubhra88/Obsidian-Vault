@@ -39,7 +39,7 @@ For simulation we have used two different policies and two different environment
 I have tested with multiple combinations - 
 - Number of Arms - Ranging from 5 arms to 12 arms
 - Arms Mean - Ranging from 0.01 to 0.20, and the means are equally spaced, but randomly assigned
-- 
+- Number of Episodes - 10,000
 
 
 ### Regret Plot

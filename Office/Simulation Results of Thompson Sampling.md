@@ -70,4 +70,4 @@ As regret is converged in all the scenarios, convergence is guaranteed, but we w
 
 
 ## Conclusion
-Above simulation study shows that Thompson Sampling can also be used for Fractional Reward as well, though it's performance is degraded in compare to Thompson Sampling with Integer Reward, but still it's way better than Upper Confidence Bound algorithm. 
+Above simulation study shows that Thompson Sampling can also be used for Fractional Reward as well, though it's performance is degraded in compare to Thompson Sampling with Integer Reward, but still it's way better than Upper Confidence Bound algorithm. So, we can go ahead implement the same we did for UCB1. If we decide to make changes in 

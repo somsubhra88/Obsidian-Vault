@@ -49,7 +49,7 @@ Environment Used -
 
 
 
-
+### Average Reward Plot(Convergence Test)
 
 ![[Simulation of Thompson Sampling Reward.png]]
 

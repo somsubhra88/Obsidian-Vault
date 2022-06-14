@@ -27,6 +27,13 @@ As business stakeholders were not very comfortable with the policy change, and t
 
 ### Regret Plot
 
+In the Multi-Arm Bandit problem, the maximum possible reward would be obtained if the best arm/banner was chosen at every time step. Every time a non-optimal banner is selected the total possible reward that can be obtained reduces further from this theoretical maximum. As a result, you **_regret_** choosing this bandit and wish instead that you’d chosen the best one. As the term _regret_ implies, you may have no way to know in advance that you’re making a non-optimal choice, only in hindsight do you realize your mistake.
+
+The regret $\mathcal{L}$ is calculated by taking the difference between the reward obtained by the implemented policy and the reward that would have been obtained if instead the optimal policy had been followed, over a total of $T$ time steps:
+$$
+\mathcal{L} = T \cdot \mathbb{E}\big[ R_t \vert A_t = a_* \big] - \sum_{i=1}^T \mathbb{E} \big[ R_t \vert A_t = a \big]
+$$
+
 ![[Simulation of Thompson Sampling Regret.png]]
 
 The above image is for a regret plot for two different policies and two different environments, 
@@ -38,12 +45,8 @@ Environment Used -
 - Bernoulli Environment - Produces success(1) or failure(0) with some probability
 - Fractional Reward Environment - Produces success values ranging from 0 to 1 and failure(0) with a certain probability
 
-In the Multi-Arm Bandit problem, the maximum possible reward would be obtained if the best arm/banner was chosen at every time step. Every time a non-optimal banner is selected the total possible reward that can be obtained reduces further from this theoretical maximum. As a result, you **_regret_** choosing this bandit and wish instead that you’d chosen the best one. As the term _regret_ implies, you may have no way to know in advance that you’re making a non-optimal choice, only in hindsight do you realize your mistake.
 
-The regret $\mathcal{L}$ is calculated by taking the difference between the reward obtained by the implemented policy and the reward that would have been obtained if instead the optimal policy had been followed, over a total of $T$ time steps:
-$$
-\mathcal{L} = T \cdot \mathbb{E}\big[ R_t \vert A_t = a_* \big] - \sum_{i=1}^T \mathbb{E} \big[ R_t \vert A_t = a \big]
-$$
+
 
 
 

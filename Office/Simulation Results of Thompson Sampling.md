@@ -27,7 +27,9 @@ As business stakeholders were not very comfortable with the policy change, and t
 
 ![[Simulation of Thompson Sampling Regret.png]]
 
-The above image is for regret plot for 
+The above image is for regret plot for two different policies and two different environments, Polices used - 
+- Upper Confidence Bound
+- Thompson Beta
 
 
 

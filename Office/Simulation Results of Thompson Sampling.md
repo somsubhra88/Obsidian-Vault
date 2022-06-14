@@ -70,4 +70,4 @@ As regret is converged in all the scenarios, convergence is guaranteed, but we w
 
 
 ## Conclusion
-Above simulation
+Above simulation study shows that Thompson Sampling can also be used for Fractional Reward as well, though it's performance is degrade

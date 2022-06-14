@@ -27,9 +27,11 @@ As business stakeholders were not very comfortable with the policy change, and t
 
 For simulation we have used two different policies and two different environments,
 
-- **Polices Used** - Upper Confidence Bound & Thompson Beta Sampling
+#### Polices Used
+- Upper Confidence Bound 
+- Thompson Beta Sampling
 
-- **Environment Used** - 
+#### Environment Used
 	- Bernoulli Environment - Produces success(1) or failure(0) with some probability
 	- Fractional Reward Environment - Produces success values ranging from 0 to 1 and failure(0) with a certain probability
 

@@ -27,6 +27,9 @@ As business stakeholders were not very comfortable with the policy change, and t
 
 ![[Simulation of Thompson Sampling Regret.png]]
 
+The above image is for regret plot for 
+
+
 
 ![[Simulation of Thompson Sampling Reward.png]]
 

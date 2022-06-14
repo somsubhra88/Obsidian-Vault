@@ -55,7 +55,7 @@ Theoretically, regrets for all the standard algorithms are asymptotically conver
 
 ### Average Reward Plot(Convergence Test)
 
-The regret plot gives an indication that how potential loss of opportunity we gonna occur over time or during the campaigns, but it doesn't give any indication about the rate of convergence. We'll be only able to reduce the loss of opportunity the moment we'll stop exploration, and we can have the luxury to halt the exploration when we're confident about the best-performing banner. So, as soon as we are able to estimate the mean of the arms, the more we can exploit the best arm/banner.
+The regret plot indicates how potential loss of opportunity we gonna occur over time or during the campaigns, but it doesn't give any indication about the rate of convergence. We'll be only able to reduce the loss of opportunity the moment we'll stop exploration, and we can have the luxury to halt the exploration when we're confident about the best-performing banner. So, as soon as we can estimate the mean of the arms, the more we can exploit the best arm/banner.
 
 To test the convergence rate, we plotted the average cumulative rewards against the episodes.
 
@@ -65,5 +65,5 @@ As regret is converged in all the scenarios, convergence is guaranteed, but we w
 
 ##### Observations
 1. After one thousand episodes all the algorithms stopped exploration and started exploiting the best arm, which is having a mean response rate is $20\%$. 
-2. As the regret of the regret of UCB algorithms were in the initial period so, its taking time to converge, but in case of Thompson Sampling regret was pretty low so it didn't take much time to converge.
-3. From the above two observations, we can conclude that convergence starting point is more or less same for all the algorithms. Our second hypothesis was that using of fractional reward instead of integer reward may hit the convergence rate, but from the above plot we don't see such possibilites.
+2. As the regret of the regret of UCB algorithms were in the initial period so, it is taking time to converge, but in case of Thompson Sampling regret was pretty low so it didn't take much time to converge.
+3. From the above two observations, we can conclude that convergence starting point is more or less same for all the algorithms. Our second hypothesis was that using of fractional reward instead of integer reward may hit the convergence rate, but from the above plot we don't see such possibilities.

@@ -33,8 +33,8 @@ Polices used -
 - Thompson Beta Sampling
 
 Environment Used - 
-- Bernoulli Environment - Produces success(1) or failure with some probability
-- Fractional Reward Environment - Produces success values ranging from (0,1)
+- Bernoulli Environment - Produces success(1) or failure(0) with some probability
+- Fractional Reward Environment - Produces success values ranging from 0 to 1 and failure(0) with certain probability
 
 
 

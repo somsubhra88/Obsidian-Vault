@@ -65,4 +65,5 @@ As regret is converged in all the scenarios, convergence is guaranteed, but we w
 
 ##### Observations
 1. After one thousand episodes all the algorithms stopped exploration and started exploiting the best arm, which is having a mean response rate is $20\%$. 
-2. As the regret of the regret of UCB algorithms were in the initial period so, its taking time to converge, but in case of Thom
+2. As the regret of the regret of UCB algorithms were in the initial period so, its taking time to converge, but in case of Thompson Sampling regret was pretty low so it didn't take much time to converge.
+3. From the above two observations, we can concl

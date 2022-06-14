@@ -33,7 +33,8 @@ Polices used -
 - Thompson Beta Sampling
 
 Environment Used - 
-- Bernouli E
+- Bernoulli Environment - Produces success(1) or failure with some probability
+- 
 
 
 

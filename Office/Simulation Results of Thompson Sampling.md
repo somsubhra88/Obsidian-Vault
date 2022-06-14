@@ -45,7 +45,7 @@ Environment Used -
 - Bernoulli Environment - Produces success(1) or failure(0) with some probability
 - Fractional Reward Environment - Produces success values ranging from 0 to 1 and failure(0) with a certain probability
 
-
+Theoretically, regrets for all the standard algorithms is asymptotically converges
 
 
 

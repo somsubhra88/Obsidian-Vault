@@ -55,6 +55,7 @@ Theoretically, regrets for all the standard algorithms are asymptotically conver
 
 ### Average Reward Plot(Convergence Test)
 
+Regret plot gives an indication that how potential loss of opportuniywe gonna occur over the time or during 
 
 ![[Simulation of Thompson Sampling Reward.png]]
 

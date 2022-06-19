@@ -17,7 +17,7 @@ Now, we have to figure out which algorithm fits into this construct and start ou
 - **Thompson Normal Sampling**- This may fit into our construct, but we found several drawbacks with this algorithm - 
 	- First, rewards are mainly not normally distributed; the closest distribution is Uniform distribution.
 	- Second, it has never been tested with accurate data, and we didn't do much simulation study for this; we're a little skeptical about it.
-- **Upper Confidence Bound**- As this algorithm doesn't require any prior assumptions on the rewards distribution, so we thought this algorithm was a perfect fit for our construct, and we went ahead with this.
+- **Upper Confidence Bound**- As this algorithm doesn't require any prior assumptions on the rewards distribution, we thought this algorithm was a perfect fit for our construct, and we went ahead with this.
 
 ## Simulation Study
 Business stakeholders were not very comfortable with the policy change and wanted to validate our hypothesis through a simulation study. So, we have done a simulation study to check/compare the following things - 
@@ -44,7 +44,7 @@ I have tested with multiple combinations -
 
 ### Regret Plot
 
-In the Multi-Arm Bandit problem, the maximum possible reward would be obtained if the best arm/banner was chosen at every step. Every time a non-optimal banner is selected, the total potential reward that can be obtained reduces further from this theoretical maximum. As a result, you **_regret_** choosing this bandit and wish instead that you’d chosen the best one. As the term _regret_ implies, you may have no way to know in advance that you’re making a non-optimal choice, only in hindsight do you realize your mistake.
+In the Multi-Arm Bandit problem, the maximum possible reward would be obtained if the best arm/banner was chosen at every step. Every time a non-optimal banner is selected, the total potential compensation that can be obtained reduces further from this theoretical maximum. As a result, you **_regret_** choosing this bandit and wish instead that you’d chosen the best one. As the term _regret_ implies, you may have no way to know in advance that you’re making a non-optimal choice; only in hindsight do you realize your mistake.
 
 The regret $\mathcal{L}$ is calculated by taking the difference between the reward obtained by the implemented policy and the reward that would have been obtained if instead the optimal policy had been followed, over a total of $T$ time steps:
 $$
@@ -56,9 +56,9 @@ Theoretically, regrets for all the standard algorithms are asymptotically conver
 
 
 ##### Observations
-1. The best policy and environment combination are Thompson Sampling in Bernoulli Environment, after a long 10k iterations the total regret is close to 25, which is very promising when we look at the rest of the plots.
-2. The Worst among all is Upper Confidence Bound in Bernoulli Environment, its performance is worse than UCB in the fractional reward environment. We have hypothesized that UCB in Fractional Reward will perform better, and simulation results also show similar trends.
-3. Thompson Sampling in Fractional Reward environment also performs pretty well, though it's not the best in terms of regret values, still it is way better than UCB in any situation. So we can conclude that Thompson Sampling in the Fractional Reward environment also performs descent, we can't expect the performance as good as the Thompson Sampling in Bernoulli Environment, but is 10 times better than any UCB algorithms.
+1. The best policy and environment combination is Thompson Sampling in Bernoulli Environment; after a long 10k iterations, the real regret is close to 25, which is very promising when looking at the rest of the plots.
+2. The Worst among all is Upper Confidence Bound in Bernoulli Environment; its performance is worse than UCB in the fractional reward environment. We have hypothesized that UCB in Fractional Reward will perform better, and simulation results also show similar trends.
+3. Thompson Sampling in Fractional Reward environment also performs pretty well; though it's not the best in terms of regret values, still it is way better than UCB in any situation. So we can conclude that Thompson Sampling in the Fractional Reward environment also performs descent, we can't expect the performance as good as the Thompson Sampling in Bernoulli Environment, but is 10 times better than any UCB algorithms.
 
 
 ### Average Reward Plot(Convergence Test)

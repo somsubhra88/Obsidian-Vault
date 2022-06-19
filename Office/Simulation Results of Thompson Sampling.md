@@ -16,16 +16,16 @@ Now, we have to figure out which algorithm fits into this construct and start ou
 - **Thompson Beta Sampling**- We hypothesized that there is a possibility that Thompson Beta Sampling will not converge because it is primarily meant for integer rewards.
 - **Thompson Normal Sampling**- This may fit into our construct, but we found several drawbacks with this algorithm - 
 	- First, rewards are mainly not normally distributed; the closest distribution is Uniform distribution.
-	- Second, it has never been tested with accurate data, and we didn't do much simulation study as well for this; we're a little skeptical about it
-- **Upper Confidence Bound**- As this algorithm doesn't require any prior assumptions on the rewards distribution, so we thought this algorithm is a perfect fit for our construct and we went ahead with this
+	- Second, it has never been tested with accurate data, and we didn't do much simulation study as well for this; we're a little skeptical about it.
+- **Upper Confidence Bound**- As this algorithm doesn't require any prior assumptions on the rewards distribution, so we thought this algorithm was a perfect fit for our construct, and we went ahead with this
 
 ## Simulation Study
-As business stakeholders were not very comfortable with the policy change, and they want to validate our hypothesis through a simulation study. So, we have done a simulation study to check/compare the following things - 
+Business stakeholders were not very comfortable with the policy change and wanted to validate our hypothesis through a simulation study. So, we have done a simulation study to check/compare the following things - 
 - Convergence Rate
 - Regret Bound
 - Estimation of the Bandit Arms Mean
 
-For simulation we have used two different policies and two different environments, with this setup we have conducted multiple simulations, all possible permutation and combinations we have tried and most of the cases trend is same. As there isn't any significant differences or trends in all those simulation, hence I have provided the plots for one of the simulations.
+For simulation, we have used two different policies and two different environments; with this setup, we have conducted multiple simulations, all possible permutation and combinations we have tried, and most of the cases trend is same. As there isn't any significant differences or trends in all those simulation, hence I have provided the plots for one of the simulations.
 
 #### Polices Used
 - Upper Confidence Bound 

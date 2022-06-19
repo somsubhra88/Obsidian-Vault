@@ -58,12 +58,12 @@ Theoretically, regrets for all the standard algorithms are asymptotically conver
 ##### Observations
 1. The best policy and environment combination is Thompson Sampling in Bernoulli Environment; after a long 10k iterations, the real regret is close to 25, which is very promising when looking at the rest of the plots.
 2. The Worst among all is Upper Confidence Bound in Bernoulli Environment; its performance is worse than UCB in the fractional reward environment. We have hypothesized that UCB in Fractional Reward will perform better, and simulation results also show similar trends.
-3. Thompson Sampling in Fractional Reward environment also performs pretty well; though it's not the best in terms of regret values, still it is way better than UCB in any situation. So we can conclude that Thompson Sampling in the Fractional Reward environment also performs descent, we can't expect the performance as good as the Thompson Sampling in Bernoulli Environment, but is 10 times better than any UCB algorithms.
+3. Thompson Sampling in the Fractional Reward environment also performs pretty well; though it's not the best in regret values, it is still way better than UCB in any situation. So we can conclude that Thompson Sampling in the Fractional Reward environment also performs descent; we can't expect the performance as good as the Thompson Sampling in Bernoulli Environment but is ten times better than any UCB algorithms.
 
 
 ### Average Reward Plot(Convergence Test)
 
-The regret plot indicates how the potential loss of opportunity we gonna occur over time or during the campaigns, but it doesn't give any indication about the rate of convergence. We'll be only able to reduce the loss of opportunity the moment we'll stop exploration, and we can have the luxury to halt the exploration when we're confident about the best-performing banner. So, as soon as we can estimate the mean of the arms, the more we can exploit the best arm/banner.
+The regret plot indicates how the potential loss of opportunity will occur over time or during the campaigns, but it doesn't indicate the convergence rate. We'll only be able to reduce the loss of opportunity the moment we stop exploration, and we can have the luxury of halting the exploration when we're confident about the best-performing banner. So, as soon as we can estimate the mean of the arms, the more we can exploit the best arm/banner.
 
 To test the convergence rate, we plotted the average cumulative rewards against the episodes. As regret is converged in all the scenarios, convergence is guaranteed, but we wanted to see how soon each of the combinations converges to the mean of the best-performing arm.
 

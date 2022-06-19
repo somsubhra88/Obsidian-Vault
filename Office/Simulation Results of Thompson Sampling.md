@@ -15,8 +15,8 @@ Now, we have to figure out which algorithm fits into this construct and start ou
 
 - **Thompson Beta Sampling**- We hypothesized that there is a possibility that Thompson Beta Sampling will not converge because it is primarily meant for integer rewards.
 - **Thompson Normal Sampling**- This may fit into our construct, but we found several drawbacks with this algorithm - 
-	- First, rewards are mainly not normally distributed, the closest distribution is Uniform distribution
-	- Second, it was never been tested with real data and we didn't do much simulation study as well for this, we're a little skeptical about it
+	- First, rewards are mainly not normally distributed; the closest distribution is Uniform distribution.
+	- Second, it has never been tested with accurate data, and we didn't do much simulation study as well for this; we're a little skeptical about it
 - **Upper Confidence Bound**- As this algorithm doesn't require any prior assumptions on the rewards distribution, so we thought this algorithm is a perfect fit for our construct and we went ahead with this
 
 ## Simulation Study

@@ -58,7 +58,7 @@ Theoretically, regrets for all the standard algorithms are asymptotically conver
 ##### Observations
 1. The best policy and environment combination is Thompson Sampling in Bernoulli Environment; after a long 10k iterations, the real regret is close to 25, which is very promising when looking at the rest of the plots.
 2. The Worst among all is Upper Confidence Bound in Bernoulli Environment; its performance is worse than UCB in the fractional reward environment. We have hypothesized that UCB in Fractional Reward will perform better, and simulation results also show similar trends.
-3. Thompson Sampling in the Fractional Reward environment also performs pretty well; though it's not the best in regret values, it is still way better than UCB in any situation. So we can conclude that Thompson Sampling in the Fractional Reward environment also performs descent; we can't expect the performance as good as the Thompson Sampling in Bernoulli Environment but is ten times better than any UCB algorithms.
+3. Thompson Sampling in the Fractional Reward environment also performs pretty well; though it's not the best in regret values, it is still way better than UCB in any situation. So we can conclude that Thompson Sampling in the Fractional Reward environment also performs descent; we can't expect the performance as good as the Thompson Sampling in Bernoulli Environment but it is ten times better than any UCB algorithms.
 
 
 ### Average Reward Plot(Convergence Test)
@@ -80,4 +80,4 @@ We plotted the average cumulative rewards against the episodes to test the conve
 Above simulation study shows that Thompson Sampling can also be used for Fractional Reward as well, though it's performance is degraded in compare to Thompson Sampling with Integer Reward, but still it's way better than Upper Confidence Bound algorithm. So, we can go ahead implement the same we did for UCB1. If we decide to make changes in the code of Thompson Sampling we need be very cautious, because of the following reasons - 
 - Currently Thompson Sampling is predominantly used by the Product team(PITARI) and touching this means we need to be very careful.
 - After incorporating the new feature, i.e. widget values, we need to make sure that existing features remain unchanged and the API calls will be unchanged
-- Rigorous testing is very much essential, current testing script can be used but it does just few used cases. To make things in proper way we should design proper test cases and examples. Integration testing is another piece, for this we need to work with the Pitari team closely.
+- Rigorous testing is very much essential, current testing script can be used but it does just few used cases. To make things in proper way we should design proper test cases and examples. Integration testing is another piece; for this we need to work with the Pitari team closely.

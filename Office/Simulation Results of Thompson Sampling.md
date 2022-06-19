@@ -1,7 +1,7 @@
 # Background
-Earlier Click Through Rate(CTR) was the metric we optimized using Bandit Algorithm and predominantly we're using [[Thompson Beta Sampling]]. This time we wanted to Optimize Conversion Rate(CVR), while we were trying to optimize this we faced several challenges - 
+Earlier Click Through Rate(CTR) was the metric we optimized using Bandit Algorithm, and predominantly we're using [[Thompson Beta Sampling]]. This time we wanted to Optimize Conversion Rate(CVR); while we were trying to optimize this, we faced several challenges - 
 
-- **Delayed Feedback** - Conversion feedback is delayed and so an immediate reward was not available, hence updation of the Bandit was not possible even after taking an action
+- **Delayed Feedback** - Conversion feedback is delayed, and so an immediate reward was not available hence updation of the Bandit was not possible even after taking an action.
 - **Anonymous Feedback** - It is quite possible that before a conversion a customer has experienced/seen several different banners and at the time of the conversion, it is challenging to attribute this conversion to all the banners he has seen previously, moreover it will be entirely illogical to give the entire credit to the last seen banner.
 - **Aggregated Feedback** - It is observed that a customer has purchased multiple products at the same time, in such a scenario the effect of multiple banners is confounded among themselves and it's hard to segregate them.
 

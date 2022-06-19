@@ -8,14 +8,14 @@ Earlier Click Through Rate(CTR) was the metric we optimized using Bandit Algorit
 Because of all these challenges, we decided to go with an Algorithm Named "_Bandit Algorithm for Delayed, Aggregated and Anonymous Feedback_" this algorithm has complexity, and its worthiness is yet to be proven. Initial simulation results show promising results, but we must validate this with accurate data and rigorous simulation. So, we have decided to go with a simple implementation and slowly move towards a more complex algorithm. We decided to go ahead with minimal code changes.
 
 ## Method We have adopted
-We hypothesized that the Probability of conversion given there is a click is invariant to time for a particular banner, i.e. $Pr(Conversion \vert Click)$ is invariant to time and can be estimated from historical data. So, the Probability of a click given an impression depends upon the campaign, i.e. $Pr(Click \vert Impression)$ is campaign specific. We are already optimizing CTR, which is nothing but finding the banner having the best odds of a click, i.e. we'll exploit the banner which is having maximum CTR we have estimated through the Bandit Experimentation. Our idea was very simple, we'll calculate the $Pr(Conversion \vert Click)$ from the historical data and feed into the algorithm as pre-calculated weights, and the positive rewards(number of clicks) will be multiplied by these weights to get the approximate conversions, this can be considered as the feedback from the environment.
+We hypothesized that the Probability of conversion given there is a click is invariant to time for a particular banner, i.e. $Pr(Conversion \vert Click)$ is invariant to time and can be estimated from historical data. So, the Probability of a click given an impression depends upon the campaign, i.e. $Pr(Click \vert Impression)$ is campaign specific. We are already optimizing CTR, which is nothing but finding the banner having the best odds of a click, i.e., we'll exploit the banner with the maximum CTR we have estimated through the Bandit Experimentation. Our idea was elementary; we'll calculate the $Pr(Conversion \vert Click)$ from the historical data and feed into the algorithm as pre-calculated weights, and the positive rewards(number of clicks) will be multiplied by these weights to get the approximate conversions; this can be considered as feedback from the environment.
 
 
-Now, we have to figure out which algorithm fits into this construct and started our feasibility checking with all the plausible algorithms - 
+Now, we have to figure out which algorithm fits into this construct and start our feasibility checking with all the plausible algorithms - 
 
 - **Thompson Beta Sampling**- We hypothesized that there is a possibility that Thompson Beta Sampling will not converge because it is primarily meant for integer rewards.
-- **Thompson Normal Sampling**- This may fit into our construct but we found several drawbacks with this algorithm - 
-	- First, rewards are particularly not normally distributed, the closest distribution is Uniform distribution
+- **Thompson Normal Sampling**- This may fit into our construct, but we found several drawbacks with this algorithm - 
+	- First, rewards are mainly not normally distributed, the closest distribution is Uniform distribution
 	- Second, it was never been tested with real data and we didn't do much simulation study as well for this, we're a little skeptical about it
 - **Upper Confidence Bound**- As this algorithm doesn't require any prior assumptions on the rewards distribution, so we thought this algorithm is a perfect fit for our construct and we went ahead with this
 

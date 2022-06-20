@@ -59,9 +59,9 @@ Order Validation and transformation process is a little complex, so with the hel
 ![[Blank diagram.jpeg]]
 
 
-If any lines of the input JSON fail to meet the criterion mentioned in the schema, then it will be considered failed data. The rest will be regarded as transformation. First, we will discard all the rows where we're observing average selling price and sales are less than equal to zero(though this scenario will not arise as we already took out all such cases in the validation part). Then we'll do case by case checks - 
-- If there is absolutely no variation in the price for a particular SKU, the we'll discard the entire data for that particular SKU and append it to the failed data.
-- If we observe that the number of distinct prices for a particular SKU is less than some threshold(currently 5), in such cases it will dificult to estimate the elasticty of the product, hence we append this data to the failed data.
+If any lines of the input JSON fail to meet the criterion mentioned in the schema, then it will be considered failed data. The rest will be regarded as transformations. First, we will discard all the rows where we're observing average selling price and sales are less than equal to zero(though this scenario will not arise as we already took out all such cases in the validation part). Then we'll do matter-by-case checks - 
+- If there is no variation in the price for a particular SKU, we'll discard the entire data for that specific SKU and append it to the failed data.
+- If we observe that the number of different prices for a particular SKU is less than some threshold(currently 5), in such cases, it will difficult to estimate the elasticity of the product, hence we append this data to the failed data.
 - If total number of data points is less than some pre-defined threshold, then also we discard this data and append it to the failed data.
 - After doing all the above checks, whatever remains is good data and worthy of estimating the elasticity.
 

@@ -10,5 +10,5 @@ $$
 
 
 $$
-\frac{Q_t}{Q_()}
+log\frac{Q_t}{Q_{t-1}} = \gamma log \frac{P_t}{P_{t-1}}
 $$

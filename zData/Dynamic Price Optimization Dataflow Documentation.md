@@ -63,7 +63,7 @@ If any lines of the input JSON fail to meet the criterion mentioned in the schem
 - If there is no variation in the price for a particular SKU, we'll discard the entire data for that specific SKU and append it to the failed data.
 - Suppose we observe that the number of different prices for a particular SKU is less than some threshold(currently 5) in such cases. In that case, estimating the product's elasticity won't be easy. Hence we append this data to the failed data.
 - If the total number of data points is less than some pre-defined threshold, then also we discard this data and append it to the failed data.
-- After all the above checks, whatever remains is good data and worth estimating the elasticity.
+- After all the above checks, whatever remains is good data worth estimating the elasticity.
 
 # Pricing
 Pricing of the products is done two ways - for good data, we'll do dynamic pricing, and for bad data, we'll do ruled-based pricing.
@@ -97,4 +97,4 @@ Price recommendations are generated through solving a Optimisation problem, obje
 $$
 max_{\mathcal{P}_t} \; \mathcal{R} = \sum_{i \in \Omega} Q_{i,t} \cdot P_{i,t} = \big( \gamma\frac{Q_{i,t-1}}{P_{i,t-1}} \big) P_{i,t}^2 + \big( (1-\gamma) Q_{i,t-1} \big) P_{i,t}
 $$
-Where $\mathcal{P}_t = \{P_{1,t}, P_{2,t}, \cdots P_{n,t} \}$ is the price of the of the products at time point $t$
+Where $\mathcal{P}_t = \{P_{1,t}, P_{2,t}, \cdots P_{n,t} \}$ is the price of the of the products at time point $t$ and $\Omega$ is the product set.

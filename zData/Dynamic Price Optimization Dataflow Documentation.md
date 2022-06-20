@@ -27,13 +27,13 @@ schema = {
 ```
 
 ## Order Validator Service
-The sales data also comes in JSON format and is passed through a validator and then transformed. The schema of the incoming JSON is as follows - 
+The sales data comes in JSON format and is passed through a validator, and then transformed. The schema of the incoming JSON is as follows - 
 ```JSON
 schema = {  
     "ReportDate": {  
         'type': 'integer',  
-        'min': _min_epoch,  
-        'max': _max_epoch  
+        'min': 1577817000000,  
+        'max': 1655843622000  
     },  
     "ASIN": {  
         'type': 'string',  
@@ -54,6 +54,7 @@ schema = {
     }  
 }
 ```
+
 
 ## Dynamic Pricing
 The elasticity of a product is defined as $\gamma = \frac{\partial Q / Q}{\partial P / P}$, where $Q$ is the sales quantity and $P$ is the sales price of the product. To simplify the differential equation, we'll take the denominator in the other side and doing integration and little bit of manipulation we can express this equation this way - $Q=CP^\gamma$, where $C$ is the integration constant. Now, let's assume that at $t$-th time point/day sales quantity is $Q_t$ and average selling price is $P_t$. So, $Q_t =  P_t^\gamma$ and $Q_{t-1} =  P_{t-1}^\gamma$, by taking the ration of these two, we can express $Q_t$ as a function of $P_t$, i.e., $Q_t = Q_{t-1} \big( \frac{P_t}{P_{t-1}}\big)^\gamma$. This equation can be used for elasticity estimation.

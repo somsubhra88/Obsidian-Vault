@@ -93,4 +93,11 @@ Q_t &= Q_{t-1} \big( \frac{P_t}{P_{t-1}}\big)^\gamma \\
 $$
 
 ### Optimisation
-The Optimisation is
+The Optimisation is formulated in the following way - 
+$$
+\begin{aligned}
+
+
+
+\end{aligned}
+$$

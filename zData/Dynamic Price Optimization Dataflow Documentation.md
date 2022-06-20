@@ -95,5 +95,6 @@ $$
 ### Optimisation
 Price recommendations are generated through solving a Optimisation problem, objective of the optimisation is to maximize the Revenue($\mathcal{R}$)
 $$
-max \; \mathcal{R} = \sum_{i \in \Ome} Q_{i,t} \cdot P_{i,t} = \big( \gamma\frac{Q_{i,t-1}}{P_{i,t-1}} \big) P_{i,t}^2 + \big( (1-\gamma) Q_{i,t-1} \big) P_{i,t}
+max_\mathcal{P} \; \mathcal{R} = \sum_{i \in \Omega} Q_{i,t} \cdot P_{i,t} = \big( \gamma\frac{Q_{i,t-1}}{P_{i,t-1}} \big) P_{i,t}^2 + \big( (1-\gamma) Q_{i,t-1} \big) P_{i,t}
 $$
+Where $\mathcal{P} = 

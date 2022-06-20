@@ -66,7 +66,8 @@ If any lines of the input JSON fail to meet the criterion mentioned in the schem
 - After all the above checks, whatever remains is good data and worth estimating the elasticity.
 
 # Pricing
-Pricing of the products is done two ways - 
+Pricing of the products is done two ways - for good data, we'll do the dynamic pricing and for bad data, we'll do ruled-based pricing.
+
 ## Dynamic Pricing
 The elasticity of a product is defined as $\gamma = \frac{\partial Q / Q}{\partial P / P}$, where $Q$ is the sales quantity and $P$ is the sales price of the product. To simplify the differential equation, we'll take the denominator in the other side and doing integration and little bit of manipulation we can express this equation this way - $Q=CP^\gamma$, where $C$ is the integration constant. Now, let's assume that at $t$-th time point/day sales quantity is $Q_t$ and average selling price is $P_t$. So, $Q_t =  P_t^\gamma$ and $Q_{t-1} =  P_{t-1}^\gamma$, by taking the ration of these two, we can express $Q_t$ as a function of $P_t$, i.e., $Q_t = Q_{t-1} \big( \frac{P_t}{P_{t-1}}\big)^\gamma$. This equation can be used for elasticity estimation.
 

@@ -7,3 +7,8 @@ The elasticity of a product is defined as $\gamma = \frac{\partial Q / Q}{\parti
 $$
 Q_t(P_t) = (1-\gamma) Q_{t-1} + \gamma Q_{t-1}\frac{P_t}{P_{t-1}}
 $$
+
+
+$$
+\frac{Q_t}{Q_()}
+$$

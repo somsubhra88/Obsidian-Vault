@@ -3,7 +3,27 @@ In this document, we'll try to explain the end-to-end process to get the price r
 Input data is raw JSON data, one comprises Product details, and the other is sales-related. On each JSON file, we will run a validation check to ensure there isn't any discrepancy in the data and then transform and store it in a usable format(comma-separated file).
 
 ## Product Validator Service
-```JSO
+The input data is a list of JSON and each JSON contains four primary keys - ASI
+```JSON
+schema = {  
+    'ASIN': {  
+        'type': 'string',  
+        'required': True,  
+        'maxlength': 10  
+    },  
+    "ProductTitle": {  
+        'type': 'string',  
+        'maxlength': 1000  
+    },  
+    "ReleaseDate": {  
+        'type': 'string',  
+        'maxlength': 100  
+    },  
+    "ProductGroup": {  
+        'type': 'string',  
+        'maxlength': 100  
+    }  
+}
 ```
 
 ## Dynamic Pricing

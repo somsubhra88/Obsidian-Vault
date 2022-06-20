@@ -3,7 +3,7 @@ In this document, we'll try to explain the end-to-end process to get the price r
 Input data is raw JSON data, one comprises Product details, and the other is sales-related. On each JSON file, we will run a validation check to ensure there isn't any discrepancy in the data and then transform and store it in a usable format(comma-separated file).
 
 ## Product Validator Service
-The input data is a list of JSON and each JSON contains four primary keys - ASI
+The input data is a list of JSON and each JSON contains four primary keys - ASIN, ProductTitle, ReleaseDate, and ProductGroup. ASIN is a mandatory field and rest of the all fields are string. We're 
 ```JSON
 schema = {  
     'ASIN': {  

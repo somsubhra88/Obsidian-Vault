@@ -20,7 +20,7 @@ For demand forecasting we're looking for something in linear form as this will b
 $$
 \begin{aligned}
 Q_t &= Q_{t-1} \big( \frac{P_t}{P_{t-1}}\big)^\gamma \\
-&=
+&=Q_{t-1} \big( 1 + \frac{P_t - P_{t-1}}{P_t}\big)
 
 
 Q_t(P_t) = (1-\gamma) Q_{t-1} + \gamma Q_{t-1}\frac{P_t}{P_{t-1}}

@@ -22,7 +22,7 @@ $$
 Q_t &= Q_{t-1} \big( \frac{P_t}{P_{t-1}}\big)^\gamma \\
 &=Q_{t-1} \big( 1 + \frac{P_t - P_{t-1}}{P_{t-1}}\big) ^ \gamma \\
 &=Q_{t-1}\big(1 + \gamma \frac{P_t - P_{t-1}}{P_{t-1}} \big) \\
-&= (1-\gamma) Q_{t-1} + \gamma\frac{P_t}{P_{t-1}}
+&= (1-\gamma) Q_{t-1} + \gamma\frac{Q_{t-1}}{P_{t-1}} P_t
 \end{aligned}
 $$
 

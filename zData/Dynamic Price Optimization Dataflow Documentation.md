@@ -55,7 +55,9 @@ schema = {
 }
 ```
 
-Order Validation and transformation process is little complex, so with the help of a tree diagram we'll try to explain the process - 
+Order Validation and transformation process is a little complex, so with the help of a tree diagram, we'll try to explain the process - 
+![[Blank diagram.jpeg]]
+
 
 
 ## Dynamic Pricing

@@ -93,7 +93,7 @@ Q_t &= Q_{t-1} \big( \frac{P_t}{P_{t-1}}\big)^\gamma \\
 $$
 
 ### Optimisation
-The Optimisation is formulated in the following way - 
+Price recommendations are generated through solving a Optimization 
 $$
 \begin{aligned}
 

@@ -93,12 +93,7 @@ Q_t &= Q_{t-1} \big( \frac{P_t}{P_{t-1}}\big)^\gamma \\
 $$
 
 ### Optimisation
-Price recommendations are generated through solving a Optimisation problem, objective of the optimiation is to maximize the Revenue($\mathcal{R}$)
+Price recommendations are generated through solving a Optimisation problem, objective of the optimisation is to maximize the Revenue($\mathcal{R}$)
 $$
-\begin{aligned}
-
-max \; Revenue = Q_{i,t} \cdot P_{i,t} = \big( \gamma\frac{Q_{i,t-1}}{P_{i,t-1}} \big) P_{i,t}^2 + \big( (1-\gamma) Q_{i,t-1} \big) P_{i,t}
-
-
-\end{aligned}
+max \; \mathcal{R} = \sum_{i \in \Ome} Q_{i,t} \cdot P_{i,t} = \big( \gamma\frac{Q_{i,t-1}}{P_{i,t-1}} \big) P_{i,t}^2 + \big( (1-\gamma) Q_{i,t-1} \big) P_{i,t}
 $$

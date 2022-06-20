@@ -27,8 +27,7 @@ schema = {
 ```
 
 ## Order Validator Service
-
-
+The sales data also comes in JSON format and is passed through a validator and then transformed. Schema of the incoming JSON is 
 
 
 ## Dynamic Pricing

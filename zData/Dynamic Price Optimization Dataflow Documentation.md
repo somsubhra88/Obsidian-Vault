@@ -97,6 +97,7 @@ The Optimisation is formulated in the following way -
 $$
 \begin{aligned}
 
+max \; Revenue = 
 
 
 \end{aligned}

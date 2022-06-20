@@ -97,7 +97,7 @@ The Optimisation is formulated in the following way -
 $$
 \begin{aligned}
 
-max \; Revenue = Q_{i,t} \cdot P_t = \big( \gamma\frac{Q_{t-1}}{P_{t-1}} \big) P_t^2 + \big( (1-\gamma) Q_{t-1} \big) P_t
+max \; Revenue = Q_{i,t} \cdot P_{i,t} = \big( \gamma\frac{Q_{i,t-1}}{P_{i,t-1}} \big) P_{i,t}^2 + \big( (1-\gamma) Q_{i,t-1} \big) P_{i,t}
 
 
 \end{aligned}

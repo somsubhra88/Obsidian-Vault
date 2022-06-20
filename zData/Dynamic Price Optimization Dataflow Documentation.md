@@ -97,4 +97,4 @@ Price recommendations are generated through solving a Optimisation problem, obje
 $$
 max_\mathcal{P} \; \mathcal{R} = \sum_{i \in \Omega} Q_{i,t} \cdot P_{i,t} = \big( \gamma\frac{Q_{i,t-1}}{P_{i,t-1}} \big) P_{i,t}^2 + \big( (1-\gamma) Q_{i,t-1} \big) P_{i,t}
 $$
-Where $\mathcal{P} = 
+Where $\mathcal{P} = \{P_{1,t}, P_{2,t}, \cdots P_{n,t}}$ 

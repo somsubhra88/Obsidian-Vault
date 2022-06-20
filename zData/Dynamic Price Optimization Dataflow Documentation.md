@@ -9,7 +9,7 @@ The elasticity of a product is defined as $\gamma = \frac{\partial Q / Q}{\parti
 We have historical data to estimate the elasticity of the SKU/product. For ease of the estimation, we'll take log both side of this equation $Q_t = Q_{t-1} \big( \frac{P_t}{P_{t-1}}\big)^\gamma$ and the equation will look like this $log(Q_t/Q_{t-1}) = \gamma \cdot (P_t/P_{t-1})$, this equation is analogous to the linear equation $Y=α X$, which can easily be calculated from the data - 
 $$
 begin{aligned}
-Y = {}
+Y = {Q_i/Q_{i-1}}_{i = 2 to t-1}
 end{aligned}
 $$
 $$

@@ -15,7 +15,7 @@ Y &= \{Q_i/Q_{i-1}\}_{i = 2}^{t-1}\\
 \end{aligned}
 $$
 ### Demand Forecasting
-For demand forecasting we're looking for something in linear form as this will be used to calculate the revenue and eventually it'll be used in Optimisation. We took help of Taylor Series Expansion to linearize the Demand Forecasting Eqation, steps are mentioned below - 
+For demand forecasting we're looking for something in linear form as this will be used to calculate the revenue and eventually it'll be used in Optimisation. We took help of Taylor Series Expansion to linearize the Demand Forecasting Equation, steps are mentioned below - 
 
 $$
 \begin{aligned}
@@ -26,7 +26,3 @@ Q_t &= Q_{t-1} \big( \frac{P_t}{P_{t-1}}\big)^\gamma \\
 \end{aligned}
 $$
 
-
-$$
-log\frac{Q_t}{Q_{t-1}} = \gamma log \frac{P_t}{P_{t-1}}
-$$

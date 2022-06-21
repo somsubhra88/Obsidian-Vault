@@ -99,4 +99,28 @@ max_{\mathcal{P}_t} \; \mathcal{R} = \sum_{i \in \Omega} Q_{i,t} \cdot P_{i,t} =
 $$
 Where $\mathcal{P}_t = \{P_{1,t}, P_{2,t}, \cdots P_{n,t} \}$ is the price of the of the products at time point $t$ and $\Omega$ is the product set. The Constraints are - 
 - Price of each product should not go beyond 10% of the base price and below 5%, i.e. $P_{i,t} \le 1.10 \cdot B_i \; \; \& \; \; P_{i,t} \ge 0.95 B_i \; \; \forall i \in \Omega$, where $B_i$ is the base price of the product which can be calculated as the average price of the product till date.
-- Total Profit should be ranging from 95% of total cost to 1.10% of total cost, where Profit is differences between the revenue and total cost(i.e. revenue - total cost). As Revenue is a quadratic function of $P_{i,t}$ and we can't use non-linear function in the constraint, so we had to linearise it using first order Taylor Series Expansion - $\mathcal{R}_{approx} = \mathcal{R}(\hat{\mathcal{P}}_t) + \Delta\mathcal{R} \Big\vert _{\mathcal{P}_t = \hat{\mathcal{P}}_t} \Big(\mathcal{P}_t - \hat{\mathcal{P}}_t \Big)$, where $\mathcal{R}_{approx}$ is the approximation at point $\hat{\mathcal{P}}_t$, $\hat{\mathcal{P}}_t = \big[ \hat{\mathcal{P}}_{1,t}, \hat{\mathcal{P}}_{2,t}, \cdots \hat{\mathcal{P}}_{n,t} \big]$, and gradient of $\mathcal{R}$ at point $\hat{\mathcal{P}}_t$ is defined as $\Delta\mathcal{R} \Big\vert _{\mathcal{P}_t} = \big[ \frac{\partial \mathcal{R}}{\partial P_{1,t}} \vert_{\hat{P}_{1,t}}, \frac{\partial \mathcal{R}}{\partial P_{2,t}} \vert_{\hat{P}_{2,t}}, \cdots \frac{\partial \mathcal{R}}{\partial P_{n,t}} \vert_{\hat{P}_{n,t}} \big]^T$. Using this approximation function of revenue we can construct the constraint for multiple points - $\mathcal{R}_{approx} \ge 0.95 \cdot \sum_{i \in \Omega} Q_{i,t} \cdot P_{i,t} \; \;  \& \; \; \mathcal{R}_{approx} \le 1.10 \cdot\sum_{i \in \Omega} Q_{i,t} \cdot P_{i,t}$ 
+- Total Profit should be ranging from 95% of total cost to 1.10% of total cost, where Profit is differences between the revenue and total cost(i.e. revenue - total cost). As Revenue is a quadratic function of $P_{i,t}$ and we can't use non-linear function in the constraint, so we had to linearise it using first order Taylor Series Expansion - $\mathcal{R}_{approx} = \mathcal{R}(\hat{\mathcal{P}}_t) + \Delta\mathcal{R} \Big\vert _{\mathcal{P}_t = \hat{\mathcal{P}}_t} \Big(\mathcal{P}_t - \hat{\mathcal{P}}_t \Big)$, where $\mathcal{R}_{approx}$ is the approximation at point $\hat{\mathcal{P}}_t$, $\hat{\mathcal{P}}_t = \big[ \hat{\mathcal{P}}_{1,t}, \hat{\mathcal{P}}_{2,t}, \cdots \hat{\mathcal{P}}_{n,t} \big]$, and gradient of $\mathcal{R}$ at point $\hat{\mathcal{P}}_t$ is defined as $\Delta\mathcal{R} \Big\vert _{\mathcal{P}_t} = \big[ \frac{\partial \mathcal{R}}{\partial P_{1,t}} \vert_{\hat{P}_{1,t}}, \frac{\partial \mathcal{R}}{\partial P_{2,t}} \vert_{\hat{P}_{2,t}}, \cdots \frac{\partial \mathcal{R}}{\partial P_{n,t}} \vert_{\hat{P}_{n,t}} \big]^T$. Using this approximation function of revenue we can construct the constraint for multiple points - $\mathcal{R}_{approx} \ge 0.95 \cdot \sum_{i \in \Omega} Q_{i,t} \cdot P_{i,t} \; \;  \& \; \; \mathcal{R}_{approx} \le 1.10 \cdot\sum_{i \in \Omega} Q_{i,t} \cdot P_{i,t}$. 
+
+
+RuledPricingService
+    
+
+Inputs: data, a pandas dataframe for data points that failed the checks.
+
+Outputs: optimzed_price, a JSON object contains the optimized price of each unique ID 
+
+  
+
+Contains the following methods:
+
+-   Constructor: Calls the ElasticityService and saves the elasticities in self.elasticity_estimates, then call the __solve__() method 
+    
+
+  
+
+-   optimize(): For each unique ID, this functions decide what price the product should take based on sets of decisions. If the price is zero all the time, then the new price is 0 as well. If the price is having a constant price each time, then we set the price +/- 1% variation from its constant price. If the price is varying less than 5 price points historically, then select the price of the most generated revenue by far. If the price point are roughly 10 then predict the price based on a time series ARIMA model. Similarly, for -ve revenue/ volume data. 
+    
+
+  
+
+-   merge(): merge the recommended prices from the dynamic pricing service with the new obtained prices from the rule based service.**

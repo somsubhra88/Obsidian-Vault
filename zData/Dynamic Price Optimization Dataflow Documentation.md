@@ -26,6 +26,7 @@ schema = {
 }
 ```
 
+For the time being we're not doing any transformation, but going forward we can use the title of the products
 ## Order Validator Service
 The sales data comes in JSON format, is passed through a validator, and then transformed. The schema of the incoming JSON is as follows - 
 ```JSON

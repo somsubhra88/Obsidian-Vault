@@ -1,6 +1,6 @@
 # Commands
-- ****
-- **Build a docker images** - docker build -t hello-docker *path*
+- **Docker Version** - docker --version
+- **Build a docker image** - docker build -t hello-docker *path*
 - **See all the available images** - docker image ls
 - **Run** - docker run hello-docker
 - **Running a Container in interactive mode** - docker run -it ubuntu

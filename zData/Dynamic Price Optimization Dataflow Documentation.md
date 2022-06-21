@@ -6,14 +6,14 @@ Input data is raw JSON data, one comprises Product details, and the other is sal
 The input data is a list of JSON, and each JSON contains four primary keys - ASIN, ProductTitle, ReleaseDate, and ProductGroup. ASIN is a mandatory field, and the rest of the areas are strings. We're following the schema to validate the incoming JSON. We don't require any transformation on this data, we convert the data into a pandas data frame, and from there, we store it as a comma-separated file.
 ```JSON
 schema = {  
-    'ASIN': {  
-        'type': 'string',  
-        'required': True,  
-        'maxlength': 10  
+    "ASIN": {  
+        "type": "string",
+        "required": True,  
+        "maxlength": 10  
     },  
     "ProductTitle": {  
-        'type': 'string',  
-        'maxlength': 1000  
+        "type": "string",
+        "maxlength": 1000  
     },  
     "ReleaseDate": {  
         'type': 'string',  

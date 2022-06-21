@@ -38,21 +38,21 @@ schema = {
         "max": 1655843622000  
     },  
     "ASIN": {  
-        'type': 'string',  
-        'required': True,  
-        'maxlength': 10  
+        "type": "string",  
+        "required": True,  
+        "maxlength": 10  
     },  
     "OrderedRevenue": {  
-        'type': 'float',  
-        'min': 0  
+        "type": "float",  
+        "min": 0  
     },  
     "OrderedUnits": {  
-        'type': 'integer',  
-        'min': 0  
+        "type": "integer",  
+        "min": 0  
     },  
     "AvgSalesPrice": {  
-        'type': 'float',  
-        'min': 1  
+        "type": "float",  
+        "min": 1  
     }  
 }
 ```

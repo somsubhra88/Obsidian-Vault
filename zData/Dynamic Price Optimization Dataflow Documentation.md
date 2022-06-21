@@ -26,7 +26,7 @@ schema = {
 }
 ```
 
-For the time being, we're not doing any transformation. Still, going forward, we can use the title of the products for similar group products, which will eventually help us recommend prices.
+For the time being, we're not doing any transformation. Still, in the future, we can use the title of the products to cluster similar products, which will eventually help us recommend prices.
 
 ## Order Validator Service
 The sales data comes in JSON format, is passed through a validator, and then transformed. The schema of the incoming JSON is as follows - 

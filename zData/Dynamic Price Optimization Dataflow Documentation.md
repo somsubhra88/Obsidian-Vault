@@ -16,12 +16,12 @@ schema = {
         "maxlength": 1000  
     },  
     "ReleaseDate": {  
-        'type': 'string',  
-        'maxlength': 100  
+        "type": "string",  
+        "maxlength": 100  
     },  
     "ProductGroup": {  
-        'type': 'string',  
-        'maxlength': 100  
+        "type": "string",  
+        "maxlength": 100  
     }  
 }
 ```
@@ -33,9 +33,9 @@ The sales data comes in JSON format, is passed through a validator, and then tra
 ```JSON
 schema = {  
     "ReportDate": {  
-        'type': 'integer',  
-        'min': 1577817000000,  
-        'max': 1655843622000  
+        "type": integer",  
+        "min": 1577817000000,  
+        "max": 1655843622000  
     },  
     "ASIN": {  
         'type': 'string',  

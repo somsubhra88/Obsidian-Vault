@@ -103,13 +103,7 @@ Where $\mathcal{P}_t = \{P_{1,t}, P_{2,t}, \cdots P_{n,t} \}$ is the price of th
 
 
 ## Rule Based Pricing
-    
-
-If the price is zero all the time, then the new price is 0 as well. 
-If the price is having a constant price each time, then we set the price +/- 1% variation from its constant price. 
-If the price is varying less than 5 price points historically, then select the price of the most generated revenue by far. If the price point are roughly 10 then predict the price based on a time series ARIMA model. Similarly, for -ve revenue/ volume data. 
-    
-
-  
-
--   merge(): merge the recommended prices from the dynamic pricing service with the new obtained prices from the rule based service.**
+- If the price is zero all the time, then the new price is 0 as well. 
+- If the price is having a constant price each time, then we set the price +/- 1% variation from its constant price. 
+- If the price is varying less than 5 price points historically, then select the price of the most generated average revenue by far. 
+- If the price point are roughly 10 then predict the price based on a time series ARIMA model. Similarly, for negative revenue/ volume data. 

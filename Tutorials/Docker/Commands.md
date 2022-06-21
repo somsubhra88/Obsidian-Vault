@@ -1,4 +1,5 @@
 # Commands
+- ****
 - **Build a docker images** - docker build -t hello-docker *path*
 - **See all the available images** - docker image ls
 - **Run** - docker run hello-docker

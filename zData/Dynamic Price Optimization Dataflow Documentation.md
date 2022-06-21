@@ -103,7 +103,7 @@ Where $\mathcal{P}_t = \{P_{1,t}, P_{2,t}, \cdots P_{n,t} \}$ is the price of th
 
 
 ## Rule Based Pricing
-We have following rules to work on the 
+We have following rules to work on the rest of SKUs, i.e. the bad data
 - If the price is zero all the time, then the new price is 0 as well. 
 - If the price is having a constant price each time, then we set the price +/- 1% variation from its constant price. 
 - If the price is varying less than 5 price points historically, then select the price of the most generated average revenue by far. 

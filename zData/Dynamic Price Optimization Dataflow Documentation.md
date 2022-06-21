@@ -8,7 +8,7 @@ The input data is a list of JSON, and each JSON contains four primary keys - ASI
 schema = {  
     "ASIN": {  
         "type": "string",
-        "required": True,  
+        "required": true,  
         "maxlength": 10  
     },  
     "ProductTitle": {  
@@ -39,7 +39,7 @@ schema = {
     },  
     "ASIN": {  
         "type": "string",  
-        "required": True,  
+        "required": true,  
         "maxlength": 10  
     },  
     "OrderedRevenue": {  

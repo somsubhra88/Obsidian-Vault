@@ -95,7 +95,7 @@ $$
 ### Optimisation
 Price recommendations are generated through solving a Optimisation problem, objective of the optimisation is to maximize the Revenue($\mathcal{R}$)
 $$
-max_{\mathcal{P}_t} \; \mathcal{R} = \sum_{i \in \Omega} Q_{i,t} \cdot P_{i,t} = \big( \gamma\frac{Q_{i,t-1}}{P_{i,t-1}} \big) P_{i,t}^2 + \big( (1-\gamma) Q_{i,t-1} \big) P_{i,t}
+max_{\mathcal{P}_t} \; \mathcal{R} = \sum_{i \in \Omega} Q_{i,t} \cdot P_{i,t} = \sum_{i \in \Omega} \Big[\big( \gamma\frac{Q_{i,t-1}}{P_{i,t-1}} \big) P_{i,t}^2 + \big( (1-\gamma) Q_{i,t-1} \big) P_{i,t} \Big]
 $$
 Where $\mathcal{P}_t = \{P_{1,t}, P_{2,t}, \cdots P_{n,t} \}$ is the price of the of the products at time point $t$ and $\Omega$ is the product set. The Constraints are - 
 - Price of each product should not go beyond 10% of the base price and below 5%, i.e. $P_{i,t} \le 1.10 \cdot B_i \; \; \& \; \; P_{i,t} \ge 0.95 B_i \; \; \forall i \in \Omega$, where $B_i$ is the base price of the product which can be calculated as the average price of the product till date.

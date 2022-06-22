@@ -5,5 +5,6 @@
 - **Run** - docker run hello-docker
 - **Running a Container in interactive mode** - docker run -it ubuntu
 - **Pull an Images from docker hub** - docker pull ubuntu
-- **Running Containers** - docker ps -a
+- **Running Containers** - docker container ls
+- **Images** - docker ps -a  
 - **Stopping** - docker stop <docker id>

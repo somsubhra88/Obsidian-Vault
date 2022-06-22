@@ -6,6 +6,5 @@
 - **Running a Container in interactive mode** - docker run -it ubuntu
 - **Pull an Images from docker hub** - docker pull ubuntu
 - **Running Containers** - docker container ls / docker ps -a
-- **Delete Container** - 
-- **Stopping** - docker stop <docker id>
--  - 
+- **Delete Container** - docker rm docker-id
+- **Stopping** - docker stop docker-id

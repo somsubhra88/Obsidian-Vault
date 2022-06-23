@@ -1,6 +1,6 @@
 # Commands
 - **Docker Version** - docker --version
-- **Pull an Images from docker hub** - docker pull ubuntu
+- **Pull an Image from docker hub** - docker pull ubuntu
 - **Build a docker image** - docker build -t hello-docker *path*
 - **See all the available images** - docker image ls
 - **Run** - docker run --name any_name -d -p 8080:80 -p 3000:80 hello-docker

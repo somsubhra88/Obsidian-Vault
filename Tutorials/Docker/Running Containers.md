@@ -1,3 +1,3 @@
 docker ps --all
 
-this will pro
+this will print all the containers running or stopped

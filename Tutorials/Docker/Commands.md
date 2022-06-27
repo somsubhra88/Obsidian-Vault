@@ -7,8 +7,9 @@
 - **Running a Container in interactive mode** - docker run -it ubuntu
 - **Docker Container Terminal** - docker exec -it _name of the container_ bash
 - **[[Running Containers]]** - docker container ls __or__ docker ps -a
-- **Stopping** - docker stop docker-id
-- **Delete Container** - docker rm docker-id
+- **Stopping** - docker stop _docker-id_
+- **Delete Container** - docker rm _docker-id_
 - **Every Container** - docker rm -f $(docker ps -aq)
 - **Clean Up** - docker system prune
 - **Getting Logs** - docker logs _container id_
+- 

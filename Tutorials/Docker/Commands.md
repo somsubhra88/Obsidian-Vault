@@ -9,5 +9,5 @@
 - **Running Containers** - docker container ls __or__ docker ps -a
 - **Stopping** - docker stop docker-id
 - **Delete Container** - docker rm docker-id
-- **Every Container** - docker rm -f $(docker ps -a)
+- **Every Container** - docker rm -f $(docker ps -aq)
 - 

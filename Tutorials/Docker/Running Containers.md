@@ -11,7 +11,7 @@ CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                 
 ea3c5e57f212   busybox       "ls"       18 minutes ago   Exited (0) 17 minutes ago             sweet_easley
 ```
 
-If we want to run any of the exited container - 
+If we want to run any of the exited containers - 
 
 ```shell
 docker start -a ea3c5e57f212
@@ -27,3 +27,4 @@ tmp
 usr
 var
 ```
+

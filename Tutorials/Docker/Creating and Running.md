@@ -29,3 +29,4 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 
+-d flag means detached mode

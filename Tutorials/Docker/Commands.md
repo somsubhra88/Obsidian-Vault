@@ -10,4 +10,4 @@
 - **Stopping** - docker stop docker-id
 - **Delete Container** - docker rm docker-id
 - **Every Container** - docker rm -f $(docker ps -aq)
-- **Clean U
+- **Clean Up** - docker system prune

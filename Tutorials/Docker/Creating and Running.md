@@ -30,3 +30,4 @@ For more examples and ideas, visit:
 ```
 
 -d flag means detached mode
+-it flag to make it as a interactive mode

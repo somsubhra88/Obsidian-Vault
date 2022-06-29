@@ -1,7 +1,7 @@
 # Commands
 - **Docker Version** - docker --version
 - **Pull an Image from docker hub** - docker pull ubuntu
-- **Build a docker image** - docker build -t hello-docker *path*
+- **[[Build a docker image]]** - docker build -t hello-docker *path*
 - **See all the available images** - docker image ls
 - **[[Creating and Running]]** - docker run --name any_name -d -p 8080:80 -p 3000:80 hello-docker _override default command_
 - **Running a Container in interactive mode** - docker run -it ubuntu

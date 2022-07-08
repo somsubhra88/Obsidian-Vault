@@ -1,4 +1,4 @@
-All Actor-Critic algorithms have two components, which are learned jointly—an **actor**, which learns a parameterized policy, and a **critic**, which learns a value function to evaluate state-action pairs.
+All Actor-Critic algorithms have two components, learned jointly—an **actor**, which retains a parameterized policy, and a **critic**, which learns a value function to evaluate state-action pairs.
 
 It is common to learn the **advantage function** $A^\pi(s,a) = Q^\pi(s,a) - V^\pi(s)$ as the reinforcing signals in these methods.
 

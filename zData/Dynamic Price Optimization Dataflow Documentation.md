@@ -122,9 +122,9 @@ Because of the above mentioned reasons we wanted to track the following metrics 
 ## Revenue
 Revenue is calculated by multiplying the ordered units with the average sale price and then sum over all the products.
 $$
-M_t = \sum_{i \in \Omega} P_{i,t} \cdot Q_{i, t}
+M_t = \sum_{i \in \Omega} \Big(P_{i,t} - C_{i} \Big) \cdot Q_{i, t}
 $$
-where $P_{i, t}$ is the average price at time-point $t$ and $Q_{i, t}$ is the *actual sale/demand* on the same day.
+where $P_{i, t}$ is the average price at time-point $t$, $C_i$ is the cost of good solda  and $Q_{i, t}$ is the *actual sale/demand* on the same day.
 ## Uplift
 It signifies the amount extra revenue we're able to generate in compare to the base-line revenue, it is defined as 
 $$

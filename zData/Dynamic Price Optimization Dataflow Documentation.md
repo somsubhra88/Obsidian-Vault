@@ -130,6 +130,8 @@ It signifies the amount extra revenue we're able to generate in compare to the b
 $$
 U_t = \sum_{i \in \Omega}P_{i,t} \cdot Q_{i, t} - \sum_{i \in \Omega} B_{i, t} \cdot \bar{Q}_{i, t}
 $$
-where $B_{i, t}$ is the base price, i.e., average sales price of the $i^{th}$ product and $\bar{Q}_{i, t}$ is approximated sales volume of the $i^{th}$ product on the base price, we have calculated the base volume by interpolation of the 
+where $B_{i, t}$ is the base price, i.e., average sales price of the $i^{th}$ product and $\bar{Q}_{i, t}$ is approximated sales volume of the $i^{th}$ product on the base price, we have calculated the base volume by interpolation of the existing data. 
+
 ## Margin Percentage
+Margin percentage is the ratio between the total margin and the cost of 
 ## Uplift Percentage

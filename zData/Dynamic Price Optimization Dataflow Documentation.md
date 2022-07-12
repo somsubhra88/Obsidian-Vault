@@ -125,6 +125,7 @@ $$
 M_t = \sum_{i \in \Omega} \Big(P_{i,t} - C_{i} \Big) \cdot Q_{i, t}
 $$
 where $P_{i, t}$ is the average price at time-point $t$, $C_i$ is the cost of good sold of the $i^{th}$ product and $Q_{i, t}$ is the *actual sale/demand* of $i^{th}$ product on the same day.
+
 ## Uplift
 It signifies the amount extra revenue we're able to generate in compare to the base-line revenue, it is defined as 
 $$
@@ -133,5 +134,6 @@ $$
 where $B_{i, t}$ is the base price, i.e., average sales price of the $i^{th}$ product and $\bar{Q}_{i, t}$ is approximated sales volume of the $i^{th}$ product on the base price, we have calculated the base volume by interpolation of the existing data. 
 
 ## Margin Percentage
-Margin percentage is the ratio between the total margin and the cost of good sold, i.e. $M_t/\sum_{i \in \Omega} C_{i}  \cdot Q_{i, t}$ 
+Margin percentage is the ratio between the total margin($M_t$) and the cost of good sold($\sum_{i \in \Omega} C_{i}  \cdot Q_{i, t}$).
+
 ## Uplift Percentage

@@ -110,3 +110,5 @@ We have following rules to work on the rest of SKUs, i.e. the bad data
 - If the price is having a constant price each time, then we set the price +/- 1% variation from its constant price. 
 - If the price is varying less than 5 price points historically, then select the price of the most generated average revenue by far. 
 - If the price point are roughly 10 then predict the price based on a time series ARIMA model. Similarly, for negative revenue/ volume data. 
+
+# Performance Testing

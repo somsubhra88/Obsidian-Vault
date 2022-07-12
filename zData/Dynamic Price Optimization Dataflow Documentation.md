@@ -126,6 +126,6 @@ M_t = \sum_{i \in \Omega} P_{i,t} \cdot Q_{i, t}
 $$
 where $P_{i, t}$ is the average price at time-point $t$ and $Q_{i, t}$ is the *actual sale/demand* on the same day.
 ## Uplift
-
+It signifies the amount
 ## Margin Percentage
 ## Uplift Percentage

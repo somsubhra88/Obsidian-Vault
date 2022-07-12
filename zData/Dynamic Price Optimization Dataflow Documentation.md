@@ -124,7 +124,7 @@ Revenue is calculated by multiplying the ordered units with the average sale pri
 $$
 M_t = \sum_{i \in \Omega} \Big(P_{i,t} - C_{i} \Big) \cdot Q_{i, t}
 $$
-where $P_{i, t}$ is the average price at time-point $t$, $C_i$ is the cost of good solda  and $Q_{i, t}$ is the *actual sale/demand* on the same day.
+where $P_{i, t}$ is the average price at time-point $t$, $C_i$ is the cost of good sold of the $i^{th}$ product and $Q_{i, t}$ is the *actual sale/demand* on the same day.
 ## Uplift
 It signifies the amount extra revenue we're able to generate in compare to the base-line revenue, it is defined as 
 $$

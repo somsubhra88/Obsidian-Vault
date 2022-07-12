@@ -134,6 +134,7 @@ $$
 where $B_{i, t}$ is the base price, i.e., average sales price of the $i^{th}$ product and $\bar{Q}_{i, t}$ is approximated sales volume of the $i^{th}$ product on the base price, we have calculated the base volume by interpolation of the existing data. 
 
 ## Margin Percentage
-Margin percentage is the ratio between the total margin($M_t$) and the cost of good sold($\sum_{i \in \Omega} C_{i}  \cdot Q_{i, t}$).
+Margin percentage is the ratio between the total margin($M_t$) and the total cost of good sold($\sum_{i \in \Omega} C_{i}  \cdot Q_{i, t}$).
 
 ## Uplift Percentage
+Uplift Percentage is nothing but the ratio of Total Uplift($U_t$)and 

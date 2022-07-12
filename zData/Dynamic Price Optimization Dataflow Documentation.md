@@ -128,7 +128,8 @@ where $P_{i, t}$ is the average price at time-point $t$, $C_i$ is the cost of go
 ## Uplift
 It signifies the amount extra revenue we're able to generate in compare to the base-line revenue, it is defined as 
 $$
-U_t = \sum_{i \in \Omega}P_{i,t} \cdot Q_{i, t} - \sum_{i \in \Omega} B_{i, t} \cdot 
+U_t = \sum_{i \in \Omega}P_{i,t} \cdot Q_{i, t} - \sum_{i \in \Omega} B_{i, t} \cdot \bar{Q}_{i, t}
 $$
+
 ## Margin Percentage
 ## Uplift Percentage

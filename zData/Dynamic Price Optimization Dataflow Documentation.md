@@ -130,6 +130,6 @@ It signifies the amount extra revenue we're able to generate in compare to the b
 $$
 U_t = \sum_{i \in \Omega}P_{i,t} \cdot Q_{i, t} - \sum_{i \in \Omega} B_{i, t} \cdot \bar{Q}_{i, t}
 $$
-
+where $B_{i, t}$ is average sales price of the $i
 ## Margin Percentage
 ## Uplift Percentage

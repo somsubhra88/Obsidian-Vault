@@ -120,7 +120,10 @@ Performance testing a much necessary component of a dynamic pricing engine, any 
 Because of the above mentioned reasons we wanted to track the following metrics - 
 
 ## Revenue
-
+Revenue is calculated by multiplying the ordered units with the average sale price and then sum over all the products.
+$$
+\text{Margin} = \
+$$
 ## Uplift
 ## Margin Percentage
 ## Uplift Percentage

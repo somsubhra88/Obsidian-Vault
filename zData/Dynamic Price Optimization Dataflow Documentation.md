@@ -137,4 +137,4 @@ where $B_{i, t}$ is the base price, i.e., average sales price of the $i^{th}$ pr
 Margin percentage is the ratio between the total margin($M_t$) and the total cost of good sold($\sum_{i \in \Omega} C_{i}  \cdot Q_{i, t}$).
 
 ## Uplift Percentage
-Uplift Percentage is nothing but the ratio of Total Uplift($U_t$)and 
+Uplift Percentage is nothing but the ratio of Total Uplift($U_t$) and the total cost of good sold($\sum_{i \in \Omega} C_{i}  \cdot Q_{i, t}$).

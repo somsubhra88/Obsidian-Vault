@@ -124,7 +124,7 @@ Revenue is calculated by multiplying the ordered units with the average sale pri
 $$
 M_t = \sum_{i \in \Omega} P_{i,t} \cdot Q_{i, t}
 $$
-where $P_{i, t}
+where $P_{i, t}$ is the average price at time-point $t$ and $Q_{i, t}$ is the actual sale/demand on the same day.
 ## Uplift
 ## Margin Percentage
 ## Uplift Percentage

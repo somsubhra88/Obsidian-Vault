@@ -112,10 +112,10 @@ We have following rules to work on the rest of SKUs, i.e. the bad data
 - If the price point are roughly 10 then predict the price based on a time series ARIMA model. Similarly, for negative revenue/ volume data. 
 
 # Performance Testing
-Performance testing a much necessary component of a dynamic pricing engine, any dynamic pricing engine primarily comprises of two things - Elasticity Estimation and Price Optimization. Both of these components undergo several estimation process, which might raise concern regarding bias towards some high revenue products, and so on. There three major reason we want to track historical performance testing - 
-- Lack of Transparency - though elasticity estimation is very straight forward, still optimization part may seem like a blackbox.
-- Robustness - how the entire engine is performing over the days without any human interaction, that needs to be validated.
-- Success - the biggest question is that whether we're at all benefited from the Dynamic Pricing Engine.
+Performance testing is a necessary component of a dynamic pricing engine; any dynamic pricing engine primarily comprises Elasticity Estimation and Price Optimization. Both of these components undergo several estimation processes, which might raise concern regarding bias toward some high-revenue products, and so on. There are three primary reasons we want to track historical performance testing - 
+- Lack of Transparency - Although elasticity estimation is very straightforward, the optimization part may seem like a BlackBox.
+- Robustness - how the entire engine performs over the days without any human interaction that needs to be validated.
+- Success - the biggest question is whether we're at all benefited from the Dynamic Pricing Engine.
 
 Because of the above mentioned reasons we wanted to track the following metrics - 
 

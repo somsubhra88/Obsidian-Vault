@@ -122,8 +122,9 @@ Because of the above mentioned reasons we wanted to track the following metrics 
 ## Revenue
 Revenue is calculated by multiplying the ordered units with the average sale price and then sum over all the products.
 $$
-\text{Margin}_t_ = \sum_{i \in \Omega} P_i \cdot 
+M_t = \sum_{i \in \Omega} P_{i,t} \cdot Q_{i, t}
 $$
+where $P_{i, t}
 ## Uplift
 ## Margin Percentage
 ## Uplift Percentage

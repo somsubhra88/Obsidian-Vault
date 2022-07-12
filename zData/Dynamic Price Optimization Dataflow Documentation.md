@@ -117,4 +117,10 @@ Performance testing a much necessary component of a dynamic pricing engine, any 
 - Robustness - how the entire engine is performing over the days without any human interaction, that needs to be validated.
 - Success - the biggest question is that whether we're at all benefited from the Dynamic Pricing Engine.
 
-Because of the above mentioned reasons we wanted to track 
+Because of the above mentioned reasons we wanted to track the following metrics - 
+
+## Revenue
+
+## Uplift
+## Margin Percentage
+## Uplift Percentage

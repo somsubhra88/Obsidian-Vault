@@ -112,4 +112,4 @@ We have following rules to work on the rest of SKUs, i.e. the bad data
 - If the price point are roughly 10 then predict the price based on a time series ARIMA model. Similarly, for negative revenue/ volume data. 
 
 # Performance Testing
-Performance testing a much necessary component of a dynamic pricing engine, any dynamic pricing engine primarily comprises of two things - Elast
+Performance testing a much necessary component of a dynamic pricing engine, any dynamic pricing engine primarily comprises of two things - Elasticity Estimation and Price Optimization. Both of these components undergo se

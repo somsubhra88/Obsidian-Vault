@@ -83,7 +83,7 @@ Y &= \{log(Q_i/Q_{i-1})\}_{i = 2}^{t-1}\\
 \end{aligned}
 $$
 ### Demand Forecasting
-For demand forecasting we were looking for something in linear form as this will be used to calculate the revenue and eventually it'll be used in Optimisation. We took help of Taylor Series Expansion to linearise the Demand Forecasting Equation; steps are mentioned below - 
+For demand forecasting we were looking for something in linear form as this will be used to calculate the revenue and eventually it'll be used in Optimisation. We took the help of Taylor Series Expansion to linearise the Demand Forecasting Equation; steps are mentioned below - 
 
 $$
 \begin{aligned}
@@ -113,9 +113,9 @@ We have following rules to work on the rest of SKUs, i.e. the bad data
 
 # Performance Testing
 Performance testing is a necessary component of a dynamic pricing engine; any dynamic pricing engine primarily comprises Elasticity Estimation and Price Optimization. Both of these components undergo several estimation processes, which might raise concern regarding bias toward some high-revenue products, and so on. There are three primary reasons we want to track historical performance testing - 
-- Lack of Transparency - Although elasticity estimation is very straightforward, the optimization part may seem like a BlackBox.
-- Robustness - how the entire engine performs over the days without any human interaction that needs to be validated.
-- Success - the biggest question is whether we're at all benefited from the Dynamic Pricing Engine.
+- _Lack of Transparency_ - Although elasticity estimation is very straightforward, the optimization part may seem like a BlackBox.
+- _Robustness_ - how the entire engine performs over the days without any human interaction that needs to be validated.
+- _Success_ - the biggest question is whether we're at all benefited from the Dynamic Pricing Engine.
 
 Because of the above mentioned reasons we wanted to track the following metrics - 
 

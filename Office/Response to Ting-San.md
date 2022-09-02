@@ -11,7 +11,7 @@ If the model can identify "Persuadables" and "Sleeping Dogs" accurately, markete
 A bunch of customers are very sensitive to ads; we can profile such customers based on their return visits and the number of ads they see (impression).
 
 #### Are they persuadable and, therefore, the right target to advertise? Or they have already made up their mind not to purchase. 
-
+Here 
 
 #### How do we learn the best action to take that optimizes the final purchase, not the local optimization action?
 Final Purchase means we have successfully acquired that customer, and our approach will change from that point in time. Our focus will move towards the retention of that customer by engaging them, e.g., through pop-up messages, email campaigns, etc.

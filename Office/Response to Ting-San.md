@@ -3,6 +3,7 @@ Uplift modeling is a prescriptive technique that predicts how each customer will
 
 #### Are users already happy and going to purchase anyway, so we should waste advertising dollars?
 
+![[Pasted image 20220902142744.png]]
 
 #### Will our ads annoy users and, therefore, negatively impact their probability of purchasing?
 

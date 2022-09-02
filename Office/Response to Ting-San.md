@@ -20,7 +20,7 @@ Customer acquisition will be more focused on return visit and click-through rate
 
 When we are in customer acquisition phase we should more focused discoverability of our products - this can be done through ranking all the products based on purchase probability, but if we have to many products this approach fails to provide good results, to overcome this issue we are recommending A2C Uplift Modeling which can tackle a large number of actions(here which product to recommend).
 
-During the retention phase we will be 
+During the retention phase we will be concentrate on providing appropriate discounts, Offers etc. We have two options here - we can 
 
 #### How does the contextual bandit or an efficient algorithm to balance explore and exploit fit here? Is it for learning the best action at each step?
 This is the learning to maximize overall rewards, so as you know, the initial stage model will explore, and it’s not optimal. For example, Thompson sampling will solve the trade-off between exploring and exploiting by choosing an arm based on the posterior distribution.

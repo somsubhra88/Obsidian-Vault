@@ -1,6 +1,6 @@
-I think uplift mode is to access what action will improve the probability that users will purchase right?
+### I think the uplift mode is to access what action will improve the probability that users will purchase right?
 
-Are users already happy and going to purchase anyway so we should waste advertising dollars?
+#### Are users already happy and going to purchase anyway, so we should waste advertising dollars?
 
 Will our ads annoy users and therefore negatively impact their probability to purchase?
 

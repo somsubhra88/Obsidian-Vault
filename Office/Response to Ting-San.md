@@ -16,7 +16,7 @@ A bunch of customers are very sensitive to ads; we can profile such customers ba
 #### How do we learn the best action to take that optimizes the final purchase, not the local optimization action?
 Final Purchase means we have successfully acquired that customer, and from that point in time, our approach will change. Our focus will move towards the retention of that customer by engaging them, e.g., through pop-up messages, email campaigns, etc.
 
-Customer acquisition will be more focused on return visit and click-through rate, whereas retention will be focused on nudging the customer to explore other services and all, like asking for writing a review, signing up for different services(cross-selling). When we are in customer acquisition phase we should more focused 
+Customer acquisition will be more focused on return visit and click-through rate, whereas retention will be focused on nudging the customer to explore other services and all, like asking for writing a review, signing up for different services(cross-selling). When we are in customer acquisition phase we should more focused discoverability of our products - 
 
 #### How does the contextual bandit or an efficient algorithm to balance explore and exploit fit here? Is it for learning the best action at each step?
 This is the learning to maximize overall rewards, so as you know, the initial stage model will explore, and it’s not optimal. For example, Thompson sampling will solve the trade-off between exploring and exploiting by choosing an arm based on the posterior distribution.

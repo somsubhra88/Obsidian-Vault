@@ -83,7 +83,7 @@ Y &= \{log(Q_i/Q_{i-1})\}_{i = 2}^{t-1}\\
 \end{aligned}
 $$
 ### Demand Forecasting
-For demand forecasting we were looking for something in linear form as this will be used to calculate the revenue and eventually it'll be used in Optimisation. We took help of Taylor Series Expansion to linearise the Demand Forecasting Equation; steps are mentioned below - 
+For demand forecasting we were looking for something in linear form as this will be used to calculate the revenue and eventually it'll be used in Optimisation. We took the help of Taylor Series Expansion to linearise the Demand Forecasting Equation; steps are mentioned below - 
 
 $$
 \begin{aligned}
@@ -101,7 +101,7 @@ max_{\mathcal{P}_t} \; \mathcal{R} = \sum_{i \in \Omega} Q_{i,t} \cdot P_{i,t} =
 $$
 Where $\mathcal{P}_t = \{P_{1,t}, P_{2,t}, \cdots P_{n,t} \}$ is the price of the products at time point $t$ and $\Omega$ is the product set. The Constraints are - 
 - Price of each product should not go beyond 110% of the base price and below 95%, i.e. $P_{i,t} \le 1.10 \cdot B_i \; \; \& \; \; P_{i,t} \ge 0.95 \cdot B_i \; \; \forall i \in \Omega$, where $B_i$ is the base price of the product which can be calculated as the average price of the product till date.
-- Total Profit should be ranging from 95% of total cost to 1.10% of total cost, where Profit is differences between the revenue and total cost(i.e. revenue - total cost). As Revenue is a quadratic function of $P_{i,t}$ and we can't use non-linear function in the constraint, so we had to linearise it using first order Taylor Series Expansion - $\mathcal{R}_{approx} = \mathcal{R}(\hat{\mathcal{P}}_t) + \Big[ \Delta\mathcal{R} \Big\vert_{\mathcal{P}_t = \hat{\mathcal{P}}_t} \Big]^T \Big(\mathcal{P}_t - \hat{\mathcal{P}}_t \Big)$, where Approx is the approximation at point $\hat{\mathcal{P}}_t$, $\hat{\mathcal{P}}_t = \big[ \hat{\mathcal{P}}_{1,t}, \hat{\mathcal{P}}_{2,t}, \cdots \hat{\mathcal{P}}_{n,t} \big]$, and gradient of $\mathcal{R}$ at point $\hat{\mathcal{P}}_t$ is defined as $\Big[ \Delta\mathcal{R} \Big\vert_{\mathcal{P}_t} \Big] = \big[ \frac{\partial \mathcal{R}}{\partial P_{1,t}} \vert_{\hat{P}_{1,t}}, \frac{\partial \mathcal{R}}{\partial P_{2,t}} \vert_{\hat{P}_{2,t}}, \cdots \frac{\partial \mathcal{R}}{\partial P_{n,t}} \vert_{\hat{P}_{n,t}} \big]^T$. Using this approximation function of revenue we can construct the constraint for multiple points - $\mathcal{R}_{approx} \ge 1.00 \cdot \sum_{i \in \Omega} Q_{i,t} \cdot C_{i,t} \; \;  \& \; \; \mathcal{R}_{approx} \le 1.04 \cdot\sum_{i \in \Omega} Q_{i,t} \cdot C_{i,t}$, where $C_{i,t}$ is the cost of good sold(COGS), if cost is not available as a proxy we can use the base price.
+- Total Profit should be ranging from 95% of total cost to 1.10% of total cost, where Profit is differences between the revenue and total cost(i.e. revenue - total cost). As Revenue is a quadratic function of $P_{i,t}$ and we can't use non-linear function in the constraint, so we had to linearise it using first order Taylor Series Expansion - $\mathcal{R}_{approx} = \mathcal{R}(\hat{\mathcal{P}}_t) + \Big[ \Delta\mathcal{R} \Big\vert_{\mathcal{P}_t = \hat{\mathcal{P}}_t} \Big]^T \Big(\mathcal{P}_t - \hat{\mathcal{P}}_t \Big)$, where $\mathcal{R}_{approx}$ is the approximation at point $\hat{\mathcal{P}}_t$, $\hat{\mathcal{P}}_t = \big[ \hat{\mathcal{P}}_{1,t}, \hat{\mathcal{P}}_{2,t}, \cdots \hat{\mathcal{P}}_{n,t} \big]$, and gradient of $\mathcal{R}$ at point $\hat{\mathcal{P}}_t$ is defined as $\Big[ \Delta\mathcal{R} \Big\vert_{\mathcal{P}_t} \Big] = \big[ \frac{\partial \mathcal{R}}{\partial P_{1,t}} \vert_{\hat{P}_{1,t}}, \frac{\partial \mathcal{R}}{\partial P_{2,t}} \vert_{\hat{P}_{2,t}}, \cdots \frac{\partial \mathcal{R}}{\partial P_{n,t}} \vert_{\hat{P}_{n,t}} \big]^T$. Using this approximation function of revenue we can construct the constraint for multiple points - $\mathcal{R}_{approx} \ge 1.00 \cdot \sum_{i \in \Omega} Q_{i,t} \cdot C_{i,t} \; \;  \& \; \; \mathcal{R}_{approx} \le 1.04 \cdot\sum_{i \in \Omega} Q_{i,t} \cdot C_{i,t}$, where $C_{i,t}$ is the cost of good sold(COGS), if cost is not available as a proxy we can use the base price.
 
 
 ## Rule Based Pricing
@@ -113,9 +113,9 @@ We have following rules to work on the rest of SKUs, i.e. the bad data
 
 # Performance Testing
 Performance testing is a necessary component of a dynamic pricing engine; any dynamic pricing engine primarily comprises Elasticity Estimation and Price Optimization. Both of these components undergo several estimation processes, which might raise concern regarding bias toward some high-revenue products, and so on. There are three primary reasons we want to track historical performance testing - 
-- Lack of Transparency - Although elasticity estimation is very straightforward, the optimization part may seem like a BlackBox.
-- Robustness - how the entire engine performs over the days without any human interaction that needs to be validated.
-- Success - the biggest question is whether we're at all benefited from the Dynamic Pricing Engine.
+- _Lack of Transparency_ - Although elasticity estimation is very straightforward, the optimization part may seem like a BlackBox.
+- _Robustness_ - how the entire engine performs over the days without any human interaction that needs to be validated.
+- _Success_ - the biggest question is whether we're at all benefited from the Dynamic Pricing Engine.
 
 Because of the above mentioned reasons we wanted to track the following metrics - 
 
@@ -134,7 +134,7 @@ $$
 where $B_{i, t}$ is the base price, i.e., average sales price of the $i^{th}$ product and $\bar{Q}_{i, t}$ is approximated sales volume of the $i^{th}$ product on the base price, we have calculated the base volume by interpolation of the existing data. 
 
 ## Margin Percentage
-Margin percentage is the ratio between the total margin($M_t$) and the total __Cost of Good Sold__($CoGS = \sum_{i \in \Omega} C_{i}  \cdot Q_{i, t}$).
+Margin percentage is the ratio of the total margin($M_t$) and the total __Cost of Good Sold__($CoGS = \sum_{i \in \Omega} C_{i}  \cdot Q_{i, t}$).
 
 ## Uplift Percentage
 Uplift Percentage is nothing but the ratio of Total Uplift($U_t$) and the total __Cost of Good Sold__($\sum_{i \in \Omega} C_{i}  \cdot Q_{i, t}$).

@@ -10,11 +10,11 @@ If the model can identify "Persuadables" and "Sleeping Dogs" accurately, markete
 #### Will our ads annoy users and, therefore, negatively impact their probability of purchasing?
 A bunch of customers are very sensitive to ads; we can profile such customers based on their return visits and the number of ads they see (impression).
 
-#### Are they persuadable and, therefore, the right target to advertise? 
+#### Are they persuadable and, therefore, the right target to advertise? Or they have already made up their mind not to purchase. 
 
-#### Or they have already made up their mind not to purchase. 
 
-#### How do we learn the best action to take that optimizes the final purchase, not the local optimization action?  
+#### How do we learn the best action to take that optimizes the final purchase, not the local optimization action?
+Final Purcha
 
 #### How does the contextual bandit or an efficient algorithm to balance explore and exploit fit here? Is it for learning the best action at each step?
 This is the learning to maximize overall rewards, so as you know, the initial stage model will explore, and it’s not optimal. For example, Thompson sampling will solve the trade-off between exploring and exploiting by choosing an arm based on the posterior distribution.

@@ -14,7 +14,7 @@ A bunch of customers are very sensitive to ads; we can profile such customers ba
 
 
 #### How do we learn the best action to take that optimizes the final purchase, not the local optimization action?
-Final Purcha
+Final Purchase means we have succefully acquired that customer, from that point of time our approach will change. Our focus will more toward
 
 #### How does the contextual bandit or an efficient algorithm to balance explore and exploit fit here? Is it for learning the best action at each step?
 This is the learning to maximize overall rewards, so as you know, the initial stage model will explore, and it’s not optimal. For example, Thompson sampling will solve the trade-off between exploring and exploiting by choosing an arm based on the posterior distribution.

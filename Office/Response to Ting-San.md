@@ -8,7 +8,7 @@ An Uplift A2C model uses historical data to differentiate between four types of 
 If the model can identify "Persuadables" and "Sleeping Dogs" accurately, marketers can determine which customers to target to drive incremental conversions with a marketing campaign. Hence, we should do anything to "Sure Things".
 
 #### Will our ads annoy users and, therefore, negatively impact their probability of purchasing?
-There are bunch customers 
+There are a bunch of customers who are very sensitive to ads, we can segment such customer based on their return visits 
 
 #### Are they persuadable and, therefore, the right target to advertise? 
 

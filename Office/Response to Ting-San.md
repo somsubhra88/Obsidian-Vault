@@ -5,13 +5,14 @@ Uplift modeling is a prescriptive technique that predicts how each customer will
 An Uplift A2C model uses historical data to differentiate between four types of users (see image below).
 
 ![[Pasted image 20220902142744.png]]
+
 If the model can identify "Persuadables" and "Sleeping Dogs" accurately, marketers can determine which customers to target to drive incremental conversions with a marketing campaign. Hence, we should do anything to "Sure Things."
 
 #### Will our ads annoy users and, therefore, negatively impact their probability of purchasing?
 Many customers are susceptible to the number of ads it sees; we can profile such customers based on their return visits and the number of ads they see (impression).
 
 #### Are they persuadable and, therefore, the right target to advertise? Or they have already made up their mind not to purchase. 
-Here, the fundamental challenge is to identify "Persuadables" and "Sleeping Dogs" - both of them are sensitive to advertisements. We'll specifically target "Persuadables" and, in ideal situations, avoid the "Sleeping Dogs", but technically, avoiding is not possible, so our approach will be a minimalistic targeting approach.
+Here, the fundamental challenge is to identify "Persuadables" and "Sleeping Dogs" - both of them are sensitive to advertisements - one is positively one is negatively . We'll specifically target "Persuadables" and, in ideal situations, avoid the "Sleeping Dogs", but technically, avoiding is not possible, so our approach will be a minimalistic targeting approach.
 
 #### How do we learn the best action to take that optimizes the final purchase, not the local optimization action?
 Final Purchase means we have successfully acquired that customer, and our approach will change from that point in time. Our focus will move towards the retention of that customer by engaging them, e.g., through pop-up messages, email campaigns, etc.

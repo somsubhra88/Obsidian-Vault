@@ -1,5 +1,5 @@
 #### Does the Uplift model assess what action will improve users' purchase probability?
-
+Uplift modeling is a prescriptive technique that predicts how each customer will respond to a marketing action and Actor-Critic will help us to explore the actions
 #### Are users already happy and going to purchase anyway, so we should waste advertising dollars?
 
 #### Will our ads annoy users and, therefore, negatively impact their probability of purchasing?

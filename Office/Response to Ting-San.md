@@ -8,7 +8,7 @@ An Uplift A2C model uses historical data to differentiate between four types of 
 If the model can identify "Persuadables" and "Sleeping Dogs" accurately, marketers can determine which customers to target to drive incremental conversions with a marketing campaign. Hence, we should do anything to "Sure Things."
 
 #### Will our ads annoy users and, therefore, negatively impact their probability of purchasing?
-A bunch of customers are very sensitive to ads; we can profile such customers based on their return visits and the number of ads they see (impression).
+Many customers are susceptible to the number of ads it sees; we can profile such customers based on their return visits and the number of ads they see (impression).
 
 #### Are they persuadable and, therefore, the right target to advertise? Or they have already made up their mind not to purchase. 
 Here, the fundamental challenge is to identify "Persuadables" and "Sleeping Dogs" - both of them are sensitive to advertisements. We'll specifically target "Persuadables" and, in ideal situations, avoid the "Sleeping Dogs", but technically, avoiding is not possible, so our approach will be a minimalistic targeting approach.
@@ -23,3 +23,5 @@ When we are in the customer acquisition phase, we should focus on the discoverab
 During the retention phase, we will concentrate on providing appropriate discounts, Offers, etc. We have two options here - we can give uniform discounts to every or personalize the deals based on the customer profile and our historical interaction with the customer(e.g., number of ads shown, number of email campaigns, etc.).
 
 #### How does the contextual bandit or an efficient algorithm to balance explore and exploit fit here? Is it for learning the best action at each step?
+This is the learning to maximize overall rewards, so as you know, the initial stage model will explore, and it's not optimal. At the beginning of the experiment, exploration will be high and less exploitation; as we gather more knowledge, we'll reduce the exploration and slowly increase the exploitation. For example, Thompson sampling will solve the trade-off between exploring and exploiting by choosing an arm based on the posterior distribution.
+Contextual Bandit adds another layer to it; it leverages the user and bandit information to narrow down the options for a customer, hence, less exploration.

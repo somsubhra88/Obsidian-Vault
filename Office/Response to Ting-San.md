@@ -11,7 +11,7 @@ If the model can identify "Persuadables" and "Sleeping Dogs" accurately, markete
 A bunch of customers are very sensitive to ads; we can profile such customers based on their return visits and the number of ads they see (impression).
 
 #### Are they persuadable and, therefore, the right target to advertise? Or they have already made up their mind not to purchase. 
-Here 
+Here, the fundamental challenge is to identify "Persuadables" and "Sleeping Dogs" - both of them are sensitive to advertisements. We'll specifically target "Persuadables" and, in ideal situations, avoid the "Sleeping Dogs", but technically, avoiding is not possible, so our approach will be a minimalistic targeting approach.
 
 #### How do we learn the best action to take that optimizes the final purchase, not the local optimization action?
 Final Purchase means we have successfully acquired that customer, and our approach will change from that point in time. Our focus will move towards the retention of that customer by engaging them, e.g., through pop-up messages, email campaigns, etc.
@@ -23,4 +23,4 @@ When we are in the customer acquisition phase, we should focus on the discoverab
 During the retention phase, we will concentrate on providing appropriate discounts, Offers, etc. We have two options here - we can give uniform discounts to every or personalize the deals based on the customer profile and our historical interaction with the customer(e.g., number of ads shown, number of email campaigns, etc.).
 
 #### How does the contextual bandit or an efficient algorithm to balance explore and exploit fit here? Is it for learning the best action at each step?
-This is the learning to maximize overall rewards, so as you know, the initial stage model will explore, and it’s not optimal. For example, Thompson sampling will solve the trade-off between exploring and exploiting by choosing an arm based on the posterior distribution.
+This is the learning to maximize overall rewards, so as you know, the initial stage model will explore, and it’s not optimal. In the begining of the experiment exploration wilFor example, Thompson sampling will solve the trade-off between exploring and exploiting by choosing an arm based on the posterior distribution.

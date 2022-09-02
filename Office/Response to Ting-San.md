@@ -23,5 +23,3 @@ When we are in the customer acquisition phase, we should focus on the discoverab
 During the retention phase, we will concentrate on providing appropriate discounts, Offers, etc. We have two options here - we can give uniform discounts to every or personalize the deals based on the customer profile and our historical interaction with the customer(e.g., number of ads shown, number of email campaigns, etc.).
 
 #### How does the contextual bandit or an efficient algorithm to balance explore and exploit fit here? Is it for learning the best action at each step?
-This is the learning to maximize overall rewards, so as you know, the initial stage model will explore, and it’s not optimal. In the begining of the experiment exploration will be high and less explotation, as we gather more knowledge, we'll reduce the exploration and slowly increase the exploitation. For example, Thompson sampling will solve the trade-off between exploring and exploiting by choosing an arm based on the posterior distribution.
-Contextual Bandit adds another layer to it, it leverages the user information and the bandit information to narrow down the options for a customer hence

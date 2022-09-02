@@ -5,6 +5,8 @@ Uplift modeling is a prescriptive technique that predicts how each customer will
 An Uplift A2C model uses historical data to differentiate between four types of users (see image below).
 
 ![[Pasted image 20220902142744.png]]
+If the model can identify Persuadables and Sleeping Dogs accurately, marketers can determine which customers to target to drive incremental conversions with a marketing campaign.Hence, we should do anything to "Sleeping Do"
+
 
 #### Will our ads annoy users and, therefore, negatively impact their probability of purchasing?
 

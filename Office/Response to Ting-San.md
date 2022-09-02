@@ -1,4 +1,4 @@
-#### Uplift model is to access what action will improve users' purchase probability, right?
+#### Does the Uplift model assess what action will improve users' purchase probability?
 
 #### Are users already happy and going to purchase anyway, so we should waste advertising dollars?
 

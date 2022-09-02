@@ -2,6 +2,7 @@
 Uplift modeling is a prescriptive technique that predicts how each customer will respond to a marketing action. Actor-Critic will help us recommend actions based on the previous history of recommendations and customer profiles. If we club these together, we can iteratively recommend a sequence of steps to maximize conversion.
 
 #### Are users already happy and going to purchase anyway, so we should waste advertising dollars?
+An Uplift A2C model uses historical data to differentiate between four types of users (see image below).
 
 ![[Pasted image 20220902142744.png]]
 

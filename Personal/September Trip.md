@@ -41,3 +41,7 @@ Distance: 321 KM
 Approximate Time to travel: 6hr 44min
 
 ## Home
+Date: 5-October to 6-October
+Starting Point: Devanagere
+Distance: 282 KM
+Approximate Time to travel: 5hr 5min

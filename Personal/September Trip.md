@@ -27,7 +27,7 @@ Approximate Time to travel:
 
 ## Goa
 Date: 2-October to 5-October
-Place: Kenilworth Hotels & Resorts
+Place: [Kenilworth Hotels & Resorts](https://goo.gl/maps/j1X88vaCZYS8pD3r7)
 Starting Point: Murudeshwar
 Distance: 
 Approximate Time to travel:

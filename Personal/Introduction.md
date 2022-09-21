@@ -14,4 +14,4 @@ Currently, I'm working as Staff Data Scientist in the Customer Program. I have b
 I have done my master's in Statistics and Operations Research from Indian Statistical Institute, Kolkata. 
 
 # Step 6
-I have done multiple online courses, like 
+I have done multiple online certification courses, like Golang Certification, and Python Developer Certification. Currently, I'm doing GCP Certificatio

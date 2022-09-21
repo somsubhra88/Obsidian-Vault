@@ -13,9 +13,9 @@ My name is Som Subhra Ghosh
 - When I joined Rakuten, I started with GeoScience Team and worked on various projects - 
 	- Time Windowed Vehicle Routing Problem, 
 	- Dispatching Framework, etc. 
-During this time, I started researching a Graph-based Neural Network, the algorithm we had developed currently in production, and we found that it has the potential for publication. Next week we'll be submitting our paper ACM conference.
+During this time, I started researching a Graph-based Neural Network, the algorithm we had developed currently in production, and we found that it has the potential for publication. Next week we'll be submitting our paper for the ACM conference.
 - After that, I joined the Policy optimization team in September of last year. Till then, I have worked on many projects - major projects are 
-	- Conversion Rate Optimization through Bandit Algorithm, 
+	- Conversion Rate Optimization through Bandit Algorithm, and another one is
 	- Discounting/Coupon allocation through Batch Constrained Q-Learning. 
 - Before Rakuten, I worked for the Global Paid Search Ads team on Amazon. I have worked primarily on identifying customer engagement on different platforms; we have applied - 
 	- Hidden Markov Model and 

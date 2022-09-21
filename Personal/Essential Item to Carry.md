@@ -12,9 +12,9 @@
 4. Powerbanks
 5. Laptop
 6. Laptop Chargers
-7. 
+7. Camera
 
 # Medicines
-
+## Adult
 
 # Utilities

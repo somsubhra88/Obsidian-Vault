@@ -20,7 +20,7 @@ During this time, I started researching a Graph-based Neural Network, the algori
 - Before Rakuten, I worked for the Global Paid Search Ads team on Amazon. I have worked primarily on identifying customer engagement on different platforms; we have applied two significant techniques - 
 	- Hidden Markov Model and another one is
 	- Long Short-Term Memory models. 
-- Before that, I worked for Walmart, Flipkart, and Tesco as a consultant from Wipro - all major eCommerce companies worldwide.
+- Before that, I worked for Walmart, Flipkart, and Tesco as a consultant from Wipro - I have worked for all major eCommerce companies worldwide.
 
 # Step 5
 I have done my master's in Statistics and Operations Research from Indian Statistical Institute, Kolkata. 

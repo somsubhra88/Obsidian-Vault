@@ -16,3 +16,5 @@ Approximate Time to travel:
 ### Places to Visit
 1. Malpe Beach
 2. Panambur Beach
+
+## Murudes

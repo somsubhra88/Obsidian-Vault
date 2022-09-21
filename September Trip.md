@@ -17,4 +17,10 @@ Approximate Time to travel:
 1. Malpe Beach
 2. Panambur Beach
 
-## Murudes
+## Murudeshwar
+Date: 30-September to 2-October
+Place: RNS 
+Starting Point: Jog Falls
+Distance:
+Approximate Time to travel:
+### Places to Visit

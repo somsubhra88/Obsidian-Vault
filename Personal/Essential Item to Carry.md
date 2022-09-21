@@ -15,6 +15,15 @@
 7. Camera
 
 # Medicines
-## Adult
+## Adults
+1. Dolo 650
+2. Pan-D
+3. Unienzyme
+4. Saridon
+5. 
+
+
+## Kid
+
 
 # Utilities

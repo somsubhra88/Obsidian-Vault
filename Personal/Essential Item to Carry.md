@@ -24,6 +24,12 @@
 
 
 ## Kid
-
+1. 
 
 # Utilities
+1. Hair Comb
+2. Tooth Brush & Tooth Paste
+3. Soap
+4. Hand Santizier
+5. Mask
+6. 

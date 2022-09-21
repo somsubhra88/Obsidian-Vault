@@ -30,6 +30,6 @@
 1. Hair Comb
 2. Tooth Brush & Tooth Paste
 3. Soap
-4. Hand Santizier
+4. Hand Sanitizer
 5. Mask
 6. 

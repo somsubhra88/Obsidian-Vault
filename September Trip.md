@@ -19,8 +19,16 @@ Approximate Time to travel:
 
 ## Murudeshwar
 Date: 30-September to 2-October
-Place: RNS 
-Starting Point: Jog Falls
-Distance:
+Place: RNS Residency
+Starting Point: Mangalore
+Distance: 
+Approximate Time to travel:
+### Places to Visit
+
+## Goa
+Date: 2-October to 5-October
+Place: Kenil
+Starting Point: Mangalore
+Distance: 
 Approximate Time to travel:
 ### Places to Visit

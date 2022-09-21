@@ -3,7 +3,8 @@
 2. Coffe Pouches
 3. Tea Bag and Tea Leaves
 4. Chips and Biscuits
-5. 
+5. Polo
+6. Chocolates
 
 # Electronics
 1. Mobile Chargers
@@ -44,4 +45,4 @@
 13. Dustbin Pouch
 14. Hand Liquid Soap
 15. Tissue
-16. News Paper
+16. NewsPaper

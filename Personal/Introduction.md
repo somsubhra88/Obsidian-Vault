@@ -8,4 +8,4 @@ Thank you for this opportunity to talk about myself
 My name is Som Subhra Ghosh
 
 # Step 4
-Currently, I'm working as Staff Data Scientist in the Customer Program. I have been with Rakuten for more than two years. I started with GeoScience Team and worked on various projects, e.g., Time Windowed Vehicle Routing Problem, Dispatching Framework, etc. 
+Currently, I'm working as Staff Data Scientist in the Customer Program. I have been with Rakuten for more than two years. I started with GeoScience Team and worked on various projects, e.g., Time Windowed Vehicle Routing Problem, Dispatching Framework, etc. Post that, I joined Policy optimization team in Septem

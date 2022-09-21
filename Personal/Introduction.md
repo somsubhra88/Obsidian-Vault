@@ -26,7 +26,7 @@ During this time, I started researching a Graph-based Neural Network, the algori
 I have done my master's in Statistics and Operations Research from Indian Statistical Institute, Kolkata. 
 
 # Step 6
-To keep me up to date and puI have done multiple online certification courses, like 
+To keep me up to date and pursue my interests, I have done multiple online certification courses, like 
 - Golang & Python Certification, 
 - Docker and Kubernetes Certification. 
 - Currently, I'm doing GCP Certification courses, and probably in the next couple of months, I'll appear for the Fundamental and ML Engineering Certification Exam.

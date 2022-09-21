@@ -35,3 +35,6 @@ Approximate Time to travel: 4hr 13min
 
 https://goo.gl/maps/BsPru8ccEiFquSK89
 
+## Davanagere
+Date: 5-October to 6-October
+Place: 

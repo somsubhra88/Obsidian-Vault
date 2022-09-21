@@ -10,7 +10,10 @@ My name is Som Subhra Ghosh
 # Step 4
 - Currently, I'm working as Staff Data Scientist in the Customer Program. 
 - I have been with Rakuten for more than two years. 
-- When I joined Rakuten, I started with GeoScience Team and worked on various projects, e.g., Time Windowed Vehicle Routing Problem, Dispatching Framework, etc. During this time, I started researching a Graph-based Neural Network, and we found that it has the potential for publication.
+- When I joined Rakuten, I started with GeoScience Team and worked on various projects - 
+	- Time Windowed Vehicle Routing Problem, 
+	- Dispatching Framework, etc. 
+During this time, I started researching a Graph-based Neural Network, and we found that it has the potential for publication.
 - After that, I joined the Policy optimization team in September of last year. Till then, I have worked on many projects - major projects are 
 	- Conversion Rate Optimization through Bandit Algorithm, 
 	- Discounting/Coupon allocation through Batch Constrained Q-Learning. 

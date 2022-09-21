@@ -26,7 +26,7 @@
 ## Kid
 1. Mosquito Repellent
 2. Wet Wipes
-3. T
+3. 
 
 # Utilities
 1. Hair Comb
@@ -42,3 +42,5 @@
 11. Sunglasses
 12. Cash
 13. Dustbin Pouch
+14. Hand Liquid Soap
+15. Tissue

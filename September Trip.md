@@ -27,8 +27,8 @@ Approximate Time to travel:
 
 ## Goa
 Date: 2-October to 5-October
-Place: Kenil
-Starting Point: Mangalore
+Place: Kenilworth Hotels & Resorts
+Starting Point: Murudeshwar
 Distance: 
 Approximate Time to travel:
 ### Places to Visit

@@ -32,3 +32,6 @@ Starting Point: Murudeshwar
 Distance: 189 KM
 Approximate Time to travel: 4hr 13min
 ### Places to Visit
+
+https://goo.gl/maps/BsPru8ccEiFquSK89
+

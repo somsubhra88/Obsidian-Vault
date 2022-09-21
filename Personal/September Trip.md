@@ -37,3 +37,7 @@ Approximate Time to travel: 4hr 13min
 Date: 5-October to 6-October
 Stay: [Southern Star Davanagere](https://goo.gl/maps/BsPru8ccEiFquSK89)
 Starting Point: Goa
+Distance: 321 KM
+Approximate Time to travel: 6hr 44min
+
+## Home

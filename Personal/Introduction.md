@@ -14,4 +14,6 @@ Currently, I'm working as Staff Data Scientist in the Customer Program. I have b
 I have done my master's in Statistics and Operations Research from Indian Statistical Institute, Kolkata. 
 
 # Step 6
-I have done multiple online certification courses, like Golang Certification and Python Developer Certification. Currently, I'm doing GCP Certification courses, probably in next couple of months I'll appear for the Fundamental Certification Exam and ML Engineering Cert
+I have done multiple online certification courses, like Golang Certification and Python Developer Certification. Currently, I'm doing GCP Certification courses, and probably in the next couple of months, I'll appear for the Fundamental Certification Exam and ML Engineering Certification.
+
+# Step 7

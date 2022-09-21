@@ -9,7 +9,7 @@ Approximate Time to travel: 8hr 12min
 
 ## Mangalore
 Date: 27-September to 30-September
-Place: Raj Sea Front Beach Resort
+Place: [Raj Sea Front Beach Resort](https://goo.gl/maps/PgewouXJS77YqUV47)
 Starting Point: Jog Falls
 Distance: 200KM
 Approximate Time to travel: 4hr 16min
@@ -19,7 +19,7 @@ Approximate Time to travel: 4hr 16min
 
 ## Murudeshwar
 Date: 30-September to 2-October
-Place: RNS Residency
+Place: [RNS Residency](https://goo.gl/maps/kcBkbjisC61SbkxZ7)
 Starting Point: Mangalore
 Distance: 
 Approximate Time to travel:

@@ -3,16 +3,16 @@
 Date: 25-September to 27-September
 Place: Sharavathi Adventure Camp
 Starting Point: Home
-Distance: 
-Approximate Time to travel:
+Distance: 442 KM
+Approximate Time to travel: 8hr 12min
 ### Places to Visit
 
 ## Mangalore
 Date: 27-September to 30-September
 Place: Raj Sea Front Beach Resort
 Starting Point: Jog Falls
-Distance:
-Approximate Time to travel:
+Distance: 200KM
+Approximate Time to travel: 4hr 16min
 ### Places to Visit
 1. Malpe Beach
 2. Panambur Beach

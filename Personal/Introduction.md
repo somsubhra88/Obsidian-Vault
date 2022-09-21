@@ -14,7 +14,10 @@ My name is Som Subhra Ghosh
 - After that, I joined the Policy optimization team in September of last year. Till then, I have worked on many projects - major projects are 
 	- Conversion Rate Optimization through Bandit Algorithm, 
 	- Discounting/Coupon allocation through Batch Constrained Q-Learning. 
-- Before Rakuten, I worked for the Global Paid Search Ads team on Amazon. I have worked primarily on identifying customer engagement on different platforms; we have applied the "Hidden Markov Model" and "Long Short Term Memory" models. Before that, I worked for Walmart, Flipkart, and Tesco as a consultant from Wipro - all major eCommerce companies worldwide.
+- Before Rakuten, I worked for the Global Paid Search Ads team on Amazon. I have worked primarily on identifying customer engagement on different platforms; we have applied - 
+	- Hidden Markov Model and 
+	- Long Short-Term Memory models. 
+- Before that, I worked for Walmart, Flipkart, and Tesco as a consultant from Wipro - all major eCommerce companies worldwide.
 
 # Step 5
 I have done my master's in Statistics and Operations Research from Indian Statistical Institute, Kolkata. 

@@ -32,4 +32,7 @@
 3. Soap
 4. Hand Sanitizer
 5. Mask
-6. 
+6. Swim Suit
+7. Sleepers
+8. Shoes
+9. 

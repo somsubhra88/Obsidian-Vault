@@ -44,3 +44,4 @@
 13. Dustbin Pouch
 14. Hand Liquid Soap
 15. Tissue
+16. News Paper

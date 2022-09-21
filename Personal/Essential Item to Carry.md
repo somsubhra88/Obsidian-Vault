@@ -35,5 +35,8 @@
 6. Swim Suit
 7. Sleepers
 8. Shoes
-9. Sunscream
-10. 
+9. Sunscreem
+10. Extra Pair of Spectacles
+11. Sunglasses
+12. Cash
+13. Dustbin Pouch

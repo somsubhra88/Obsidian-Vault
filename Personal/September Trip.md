@@ -1,7 +1,7 @@
 # Itinerary
 ## Jog Falls
 Date: 25-September to 27-September
-Place: Sharavathi Adventure Camp
+Place: Sharavathi Adventure Camphttps://goo.gl/maps/DeVbccE9H2pWxbiD7
 Starting Point: Home
 Distance: 442 KM
 Approximate Time to travel: 8hr 12min

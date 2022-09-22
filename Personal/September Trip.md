@@ -29,7 +29,7 @@ Distance: 147 KM
 Approximate Time to travel: 2hr 56min
 #### Places to Visit
 1. Murudeshwar Fort
-2. RNS Resturant
+2. RNS Restaurant
 
 ## Goa
 Date: 2-October to 5-October
@@ -38,6 +38,7 @@ Starting Point: Murudeshwar
 Distance: 189 KM
 Approximate Time to travel: 4hr 13min
 ### Places to Visit
+1. [The Garden]() Distance from hotel 6.9 KM (15 min)
 
 ## Davanagere
 Date: 5-October to 6-October

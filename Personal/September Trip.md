@@ -27,7 +27,9 @@ Stay: [RNS Residency](https://goo.gl/maps/kcBkbjisC61SbkxZ7)
 Starting Point: Mangalore
 Distance: 147 KM
 Approximate Time to travel: 2hr 56min
-
+#### Places to Visit
+1. Murudeshwar Fort
+2. RNS Resturant
 
 ## Goa
 Date: 2-October to 5-October

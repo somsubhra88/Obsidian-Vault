@@ -35,6 +35,8 @@ Approximate Time to travel: 2hr 56min
 2. RNS Restaurant
 3. Lord Shiva Temple
 
+On the way to Goa, we can stop for break and lunch at 
+
 ## Goa
 Date: 2-October to 5-October
 Stay: [Kenilworth Hotels & Resorts](https://goo.gl/maps/j1X88vaCZYS8pD3r7)

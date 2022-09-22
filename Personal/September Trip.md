@@ -30,6 +30,7 @@ Approximate Time to travel: 2hr 56min
 #### Places to Visit
 1. Murudeshwar Fort
 2. RNS Restaurant
+3. Shiva Temple
 
 ## Goa
 Date: 2-October to 5-October

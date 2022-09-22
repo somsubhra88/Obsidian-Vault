@@ -6,7 +6,8 @@ Starting Point: Home
 Distance: 442 KM
 Approximate Time to travel: 8hr 12min
 #### Places to Visit
-1. Byndoor: This place will be on the way to go to Mangalore, so we can stop here for lunch and a break. Preferred restaurant is 
+1. Byndoor: This place will be on the way to Mangalore, so we can stop here for lunch and a break. The preferred restaurant is the [Manish family restaurant](https://goo.gl/maps/itSnTsgvzDwyLvai7)
+2. Honnemaradu: 
 
 ## Mangalore
 Date: 27-September to 30-September

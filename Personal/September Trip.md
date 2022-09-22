@@ -5,7 +5,8 @@ Stay: [Sharavathi Adventure Camp](https://goo.gl/maps/DeVbccE9H2pWxbiD7)
 Starting Point: Home
 Distance: 442 KM
 Approximate Time to travel: 8hr 12min
-### Places to Visit
+#### Places to Visit
+
 
 ## Mangalore
 Date: 27-September to 30-September

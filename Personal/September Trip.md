@@ -39,6 +39,8 @@ Distance: 189 KM
 Approximate Time to travel: 4hr 13min
 ### Places to Visit
 1. [The Garden](https://g.page/garden-colva?share) Distance from the hotel is 6.9 KM (15 min)
+2. Colva Beach
+3. 
 
 ## Davanagere
 Date: 5-October to 6-October

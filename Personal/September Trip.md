@@ -35,7 +35,7 @@ Approximate Time to travel: 2hr 56min
 2. RNS Restaurant
 3. Lord Shiva Temple
 
-On the way to Goa, we can stop for a break and lunch at [Drive In Restaurant](https://goo.gl/maps/xEdDNuyJv25m8tiY8) or [Grilled And Fried, Karwar Branch](https://g.page/grilled-and-fried-karwar-branch?share, both the restaurants are close by and distance from hotel is  
+On the way to Goa, we can stop for a break and lunch at [Drive In Restaurant](https://goo.gl/maps/xEdDNuyJv25m8tiY8) or [Grilled And Fried, Karwar Branch](https://g.page/grilled-and-fried-karwar-branch?share); both the restaurants are close by, and the distance from the hotel is 116 KM (2hr 27min)
 
 ## Goa
 Date: 2-October to 5-October

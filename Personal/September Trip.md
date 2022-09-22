@@ -16,12 +16,12 @@ Starting Point: Jog Falls
 Distance: 200 KM
 Approximate Time to travel: 4hr 16min
 #### Places to Visit
-1. Malpe Beach: Distance from hotel is 51.3 KM (1hr). The place to lunch [KALIYUGA Toddy Cafe](https://goo.gl/maps/bKxA5VTUR15nYofp8)
+1. Malpe Beach: Distance from hotel is 51.3 KM (1hr). The place to lunch is [KALIYUGA Toddy Cafe](https://goo.gl/maps/bKxA5VTUR15nYofp8)
 2. Panambur Beach
 3. [Gajalee Sea Food Restaurant](https://goo.gl/maps/XtKYnNycuwVgUE8s5)
 4. [Madhuvan's Village](https://goo.gl/maps/9qQeghx5VhyfTCVg9)
 
-On the way to Murudeshwar we can stop at [Banjara Family Restaurant](https://goo.gl/maps/GAm5EENFTWyATLRw7)
+On the way to Murudeshwar, we can stop at [Banjara Family Restaurant](https://goo.gl/maps/GAm5EENFTWyATLRw7). Distance from the hotel is 81.6 KM (1hr 30min).
 
 ## Murudeshwar
 Date: 30-September to 2-October

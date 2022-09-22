@@ -38,7 +38,7 @@ Starting Point: Murudeshwar
 Distance: 189 KM
 Approximate Time to travel: 4hr 13min
 ### Places to Visit
-1. [The Garden]() Distance from hotel 6.9 KM (15 min)
+1. [The Garden](https://g.page/garden-colva?share) Distance from the hotel is 6.9 KM (15 min)
 
 ## Davanagere
 Date: 5-October to 6-October

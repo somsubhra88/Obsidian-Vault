@@ -21,7 +21,7 @@ Approximate Time to travel: 4hr 16min
 3. [Gajalee Sea Food Restaurant](https://goo.gl/maps/XtKYnNycuwVgUE8s5)
 4. [Madhuvan's Village](https://goo.gl/maps/9qQeghx5VhyfTCVg9)
 
-On the
+On the way to Murudeshwar we can stop at [Banjara Family Restaurant](https://goo.gl/maps/GAm5EENFTWyATLRw7)
 
 ## Murudeshwar
 Date: 30-September to 2-October

@@ -6,7 +6,7 @@ Starting Point: Home
 Distance: 442 KM
 Approximate Time to travel: 8hr 12min
 #### Places to Visit
-1. Byndoor: 
+1. Byndoor: This place will be on the way to go to Mangalore, so we can stop here
 
 ## Mangalore
 Date: 27-September to 30-September

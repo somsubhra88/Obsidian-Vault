@@ -15,7 +15,7 @@ Stay: [Raj Sea Front Beach Resort](https://goo.gl/maps/PgewouXJS77YqUV47)
 Starting Point: Jog Falls
 Distance: 200 KM
 Approximate Time to travel: 4hr 16min
-### Places to Visit
+#### Places to Visit
 1. Malpe Beach
 2. Panambur Beach
 

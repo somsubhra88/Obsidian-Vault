@@ -18,6 +18,7 @@ Approximate Time to travel: 4hr 16min
 #### Places to Visit
 1. Malpe Beach
 2. Panambur Beach
+3. [Gajalee Sea Food Restaurant](https://goo.gl/maps/XtKYnNycuwVgUE8s5)
 
 ## Murudeshwar
 Date: 30-September to 2-October

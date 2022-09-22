@@ -21,6 +21,8 @@ Approximate Time to travel: 4hr 16min
 3. [Gajalee Sea Food Restaurant](https://goo.gl/maps/XtKYnNycuwVgUE8s5)
 4. [Madhuvan's Village](https://goo.gl/maps/9qQeghx5VhyfTCVg9)
 
+On the
+
 ## Murudeshwar
 Date: 30-September to 2-October
 Stay: [RNS Residency](https://goo.gl/maps/kcBkbjisC61SbkxZ7)

@@ -6,8 +6,9 @@ Starting Point: Home
 Distance: 442 KM
 Approximate Time to travel: 8hr 12min
 #### Places to Visit
-1. Byndoor: This place will be on the way to Mangalore, so we can stop here for lunch and a break. The preferred restaurant is the [Manish family restaurant](https://goo.gl/maps/itSnTsgvzDwyLvai7)
-2. Honnemaradu: distance from Jog Falls is 19 km (25 mins)
+1. Honnemaradu: distance from Jog Falls is 19 km (25 mins)
+
+**Byndoor**: This place will be on the way to Mangalore, so we can stop here for lunch and a break. The preferred restaurant is the [Manish family restaurant](https://goo.gl/maps/itSnTsgvzDwyLvai7)
 
 ## Mangalore
 Date: 27-September to 30-September
@@ -32,7 +33,7 @@ Approximate Time to travel: 2hr 56min
 #### Places to Visit
 1. Murudeshwar Fort
 2. RNS Restaurant
-3. Shiva Temple
+3. Lord Shiva Temple
 
 ## Goa
 Date: 2-October to 5-October

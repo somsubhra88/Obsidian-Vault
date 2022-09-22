@@ -19,6 +19,7 @@ Approximate Time to travel: 4hr 16min
 1. Malpe Beach
 2. Panambur Beach
 3. [Gajalee Sea Food Restaurant](https://goo.gl/maps/XtKYnNycuwVgUE8s5)
+4. [Madhuvan's Village](https://goo.gl/maps/9qQeghx5VhyfTCVg9)
 
 ## Murudeshwar
 Date: 30-September to 2-October

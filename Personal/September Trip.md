@@ -7,7 +7,7 @@ Distance: 442 KM
 Approximate Time to travel: 8hr 12min
 #### Places to Visit
 1. Byndoor: This place will be on the way to Mangalore, so we can stop here for lunch and a break. The preferred restaurant is the [Manish family restaurant](https://goo.gl/maps/itSnTsgvzDwyLvai7)
-2. Honnemaradu: 
+2. Honnemaradu: distance from Jog Falls is 19 km (25 mins)
 
 ## Mangalore
 Date: 27-September to 30-September

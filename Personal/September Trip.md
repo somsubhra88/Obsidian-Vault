@@ -35,7 +35,7 @@ Approximate Time to travel: 2hr 56min
 2. RNS Restaurant
 3. Lord Shiva Temple
 
-On the way to Goa, we can stop for a break and lunch at [Planet Dailies](https://goo.gl/maps/YhokY3vCpu8csFFv8) or [The Cornerstone](https://goo.gl/maps/DtF8GZrfz7ELSQAS8), both the restaurants are close by and distance from hotel is  
+On the way to Goa, we can stop for a break and lunch at or , both the restaurants are close by and distance from hotel is  
 
 ## Goa
 Date: 2-October to 5-October

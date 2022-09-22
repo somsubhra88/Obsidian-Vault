@@ -17,7 +17,7 @@ Starting Point: Jog Falls
 Distance: 200 KM
 Approximate Time to travel: 4hr 16min
 #### Places to Visit
-1. Malpe Beach: Distance from hotel is 51.3 KM (1hr). The place to lunch is [KALIYUGA Toddy Cafe](https://goo.gl/maps/bKxA5VTUR15nYofp8)
+1. Malpe Beach: Distance from hotel is 51.3 KM (1hr). The site to lunch is [KALIYUGA Toddy Cafe](https://goo.gl/maps/bKxA5VTUR15nYofp8)
 2. Panambur Beach
 3. [Gajalee Sea Food Restaurant](https://goo.gl/maps/XtKYnNycuwVgUE8s5)
 4. [Madhuvan's Village](https://goo.gl/maps/9qQeghx5VhyfTCVg9)
@@ -30,10 +30,6 @@ Stay: [RNS Residency](https://goo.gl/maps/kcBkbjisC61SbkxZ7)
 Starting Point: Mangalore
 Distance: 147 KM
 Approximate Time to travel: 2hr 56min
-#### Places to Visit
-1. Murudeshwar Fort
-2. RNS Restaurant
-3. Lord Shiva Temple
 
 On the way to Goa, we can stop for a break and lunch at [Drive In Restaurant](https://goo.gl/maps/xEdDNuyJv25m8tiY8) or [Grilled And Fried, Karwar Branch](https://g.page/grilled-and-fried-karwar-branch?share); both the restaurants are close by, and the distance from the hotel is 116 KM (2hr 27min)
 

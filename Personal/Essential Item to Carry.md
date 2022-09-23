@@ -18,7 +18,7 @@
 # Medicines
 ## Adults
 1. Dolo 650
-2. Pan-D
+2. Pan-D - 
 3. Unienzyme
 4. Saridon
 5. Bandaids
@@ -40,6 +40,7 @@
 11. Ascoril D Plus Syrup
 12. Alex Cough Lozenges Lemon Ginger - 1 strip
 13. Zinconia Syrup 100 ml
+14. Enterogermina Oral Suspension - 10
 
 
 # Utilities

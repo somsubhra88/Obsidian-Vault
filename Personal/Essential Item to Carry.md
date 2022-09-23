@@ -36,7 +36,9 @@
 7. ORS 200ml Sachet - 5
 8. Bifilac Sachet - 5
 9. ORS Orange Tetrapack - 6
-10.Duonase Nasal Spray
+10. Duonase Nasal Spray
+11. Ascoril D Plus Syrup
+12. Alex Cough Lozenges Lemon Ginger
 
 
 # Utilities

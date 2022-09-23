@@ -17,13 +17,14 @@
 
 # Medicines
 ## Adults
-1. Dolo 650
-2. Pan-D - 
-3. Unienzyme
-4. Saridon
-5. Bandaids
-6. Azithromycin 250
-7. Electrol Powder Sachet
+1. Dolo 650 - 10
+2. Pan-D - 20
+3. Unienzyme - 20
+4. Saridon - 10
+5. Bandaids - 10
+6. Azithromycin 250 - 2 sachet
+7. Electrol Powder Sachet - 5
+8. # Norflox-TZ RF
 
 
 ## Kid

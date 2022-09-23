@@ -42,6 +42,8 @@
 12. Alex Cough Lozenges Lemon Ginger - 1 strip
 13. Zinconia Syrup 100 ml
 14. Enterogermina Oral Suspension - 10
+15. Calpol 250
+16. # Neopeptine Liquid
 
 
 # Utilities

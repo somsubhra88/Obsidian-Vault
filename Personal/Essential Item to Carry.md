@@ -24,12 +24,12 @@
 5. Bandaids - 10
 6. Azithromycin 250 - 2 sachet
 7. Electrol Powder Sachet - 5
-8. # Norflox-TZ RF
+8. Norflox-TZ RF - 10
 
 
 ## Kid
-1. Mosquito Repellent
-2. Wet Wipes
+1. Odomos Fabric Roll-On Mosquito Repellent 
+2. Wet Wipes - 1 packet
 3. Nextpro Junior Sachet - 24
 4. Livixim 100mg Syrup
 5. Epinorm Syrup

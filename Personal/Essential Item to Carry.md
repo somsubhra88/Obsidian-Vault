@@ -26,6 +26,7 @@
 7. Electrol Powder Sachet - 5
 8. Norflox-TZ RF - 10
 9. Neosporin Skin Ointment 30Gm
+10. Metrogyl 400 Tablet - 10
 
 
 ## Kid

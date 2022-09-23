@@ -38,7 +38,8 @@
 9. ORS Orange Tetrapack - 6
 10. Duonase Nasal Spray
 11. Ascoril D Plus Syrup
-12. Alex Cough Lozenges Lemon Ginger
+12. Alex Cough Lozenges Lemon Ginger - 1 strip
+13. Zinconia Syrup 100 ml
 
 
 # Utilities

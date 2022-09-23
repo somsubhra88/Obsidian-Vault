@@ -28,7 +28,7 @@
 
 
 ## Kid
-1. Odomos Fabric Roll-On Mosquito Repellent 
+1. Odomos Fabric Roll-On Mosquito Repellent - 1
 2. Wet Wipes - 1 packet
 3. Nextpro Junior Sachet - 24
 4. Livixim 100mg Syrup

@@ -35,8 +35,8 @@
 6. Cyclopam Suspension
 7. ORS 200ml Sachet - 5
 8. Bifilac Sachet - 5
-
 9. ORS Orange Tetrapack - 6
+10.Duonase Nasal Spray
 
 
 # Utilities

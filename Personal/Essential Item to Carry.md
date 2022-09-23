@@ -25,6 +25,7 @@
 6. Azithromycin 250 - 2 sachet
 7. Electrol Powder Sachet - 5
 8. Norflox-TZ RF - 10
+9. Neosporin Skin Ointment 30Gm
 
 
 ## Kid

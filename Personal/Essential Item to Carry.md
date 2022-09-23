@@ -22,13 +22,14 @@
 3. Unienzyme
 4. Saridon
 5. Bandaids
-6. Azythro
+6. Azithromycin 250
 
 
 ## Kid
 1. Mosquito Repellent
 2. Wet Wipes
-3. 
+3. Nextpro Junior Sachet - 24
+4. 
 
 # Utilities
 1. Hair Comb

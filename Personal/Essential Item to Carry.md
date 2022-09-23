@@ -32,7 +32,9 @@
 4. Livixim 100mg Syrup
 5. Epinorm Syrup
 6. Cyclopam Suspension
-7. 
+7. ORS 200ml Sachet - 5
+8. Bifilac Sachet - 5
+9. 
 
 # Utilities
 1. Hair Comb

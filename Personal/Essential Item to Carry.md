@@ -43,7 +43,7 @@
 13. Zinconia Syrup 100 ml
 14. Enterogermina Oral Suspension - 10
 15. Calpol 250
-16. # Neopeptine Liquid
+16. Neopeptine Liquid - 2
 
 
 # Utilities

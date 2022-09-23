@@ -29,7 +29,8 @@
 1. Mosquito Repellent
 2. Wet Wipes
 3. Nextpro Junior Sachet - 24
-4. 
+4. Livixim 100mg Syrup
+5. Epinorm Syrup
 
 # Utilities
 1. Hair Comb

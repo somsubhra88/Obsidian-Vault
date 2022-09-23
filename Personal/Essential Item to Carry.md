@@ -23,6 +23,7 @@
 4. Saridon
 5. Bandaids
 6. Azithromycin 250
+7. Electrol Powder Sachet
 
 
 ## Kid
@@ -34,7 +35,9 @@
 6. Cyclopam Suspension
 7. ORS 200ml Sachet - 5
 8. Bifilac Sachet - 5
-9. 
+
+9. ORS Orange Tetrapack - 6
+
 
 # Utilities
 1. Hair Comb

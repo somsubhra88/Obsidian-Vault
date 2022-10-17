@@ -13,4 +13,5 @@
 - **Every Container** - docker rm -f $(docker ps -aq)
 - **Clean Up** - docker system prune
 - **Getting Logs** - docker logs _container id_
+- **Docker **  -  docker rmi image_id
 - 

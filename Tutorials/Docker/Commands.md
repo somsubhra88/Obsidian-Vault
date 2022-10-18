@@ -20,4 +20,4 @@
 - **Docker Usages** - docker stats _container id_
 - **Processes Running Inside the Containers** - docker top _container id_
 - **Docker Image Layers** - docker history _image name_
-- 
+- **Building an Image from Container** - docker commit _container id_ <<a name o

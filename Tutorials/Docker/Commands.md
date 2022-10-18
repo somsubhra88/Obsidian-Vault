@@ -17,4 +17,7 @@
 - **Docker Remove Image**  -  docker rmi image_id
 
 ## Copy file from container to local
-docker cp _container id_:_file location_ 
+docker cp _container id_:_file location_ _current machine location_
+
+## Copy file from local to container
+docker cp _current machine location_ _container id_:_file location_

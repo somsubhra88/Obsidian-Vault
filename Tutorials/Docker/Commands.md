@@ -13,6 +13,6 @@
 - **Delete Container** - docker rm _container id_
 - **Every Container** - docker rm -f $(docker ps -aq)
 - **Clean Up** - docker system prune
-- **Getting Logs** - docker logs _container id_
+- **Getting Logs** - docker logs _container id_ / docker logs -f _container id_ (with follow option)
 - **Docker Remove Image**  -  docker rmi image_id
 - 

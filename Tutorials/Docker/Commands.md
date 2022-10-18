@@ -16,9 +16,9 @@
 - **Getting Logs** - docker logs _container id_ / docker logs -f _container id_ (with follow option)
 - **Docker Remove Image**  -  docker rmi image_id
 - **Copy file from container to local** - docker cp _container id_:_file location_ _current machine location_
-- **Copy file from local to the container** - docker cp _file from current machine location_ _container id_:_location_
+- **Copy file from local to the container** - docker cp file/from/current/machine/location _container id_:conatinerlocation_
 - **Docker Usages** - docker stats _container id_
 - **Processes Running Inside the Containers** - docker top _container id_
 - **Docker Image Layers** - docker history _image name_
-- **Building an Image from Container** - docker commit _container id_ 
+- **Building an Image from Container** - docker commit _container id_ image_name
 - 

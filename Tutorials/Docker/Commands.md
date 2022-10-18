@@ -15,4 +15,6 @@
 - **Clean Up** - docker system prune
 - **Getting Logs** - docker logs _container id_ / docker logs -f _container id_ (with follow option)
 - **Docker Remove Image**  -  docker rmi image_id
-- 
+
+## Copy file from container to local
+docker cp _container _

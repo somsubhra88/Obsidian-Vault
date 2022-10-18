@@ -18,4 +18,4 @@
 - **Copy file from container to local** - docker cp _container id_:_file location_ _current machine location_
 - **Copy file from local to the container** - docker cp _file from current machine location_ _container id_:_location_
 - **Docker Usages** - docker stats _container id_
-- **processes running inside the containers - docker top _container id_
+- **Processes Running Inside the Containers** - docker top _container id_

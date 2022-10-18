@@ -13,10 +13,10 @@
 - **Delete Container** - docker rm _container id_
 - **Every Container** - docker rm -f $(docker ps -aq)
 - **Clean Up** - docker system prune
-- **Getting Logs** - docker logs _container id_ / docker logs -f _container id_ (with follow option)
+- **Getting Logs** - docker logs _container id_ or docker logs -f _container id_ (with follow option)
 - **Docker Remove Image**  -  docker rmi image_id
-- **Copy file from container to local** - docker cp _container id_:_file location_ _current machine location_
-- **Copy file from local to the container** - docker cp file/from/current/machine/location _container id_:conatinerlocation_
+- **Copy file from container to local** - docker cp _container id_:file/location current/machine/location
+- **Copy file from local to the container** - docker cp file/from/current/machine/location _container id_:container/location
 - **Docker Usages** - docker stats _container id_
 - **Processes Running Inside the Containers** - docker top _container id_
 - **Docker Image Layers** - docker history _image name_

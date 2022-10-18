@@ -8,10 +8,11 @@
 - **Docker Container Terminal** - docker exec -it _container id_ bash
 - **[[Running Containers]]** - docker container ls __or__ docker ps -a
 - **Stopping** - docker stop _docker id_
+- **Start** - docker start _docker id_
 - **Killing** - docker kill _docker id_
 - **Delete Container** - docker rm _docker id_
 - **Every Container** - docker rm -f $(docker ps -aq)
 - **Clean Up** - docker system prune
 - **Getting Logs** - docker logs _container id_
-- **Docker **  -  docker rmi image_id
+- **Docker Remove Ima**  -  docker rmi image_id
 - 

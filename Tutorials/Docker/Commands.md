@@ -22,4 +22,5 @@
 - **Docker Image Layers** - docker history _image name_
 - **Building an Image from Container** - docker commit _container id_ image_name
 - **Creating Volume** - docker volume create volume_name (/var/lib/docker/volumes)
+- **See all volumes** - docker volume ls
 - 

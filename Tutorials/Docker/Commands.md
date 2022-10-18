@@ -23,4 +23,4 @@
 - **Building an Image from Container** - docker commit _container id_ image_name
 - **Creating Volume** - docker volume create volume_name (/var/lib/docker/volumes)
 - **See all volumes** - docker volume ls
-- 
+- **Docker Run with Volume Mount** -  docker run -d -p 80:8080 -v jenkinsvolume:/var/jenkins_home jenkins:2.60.3

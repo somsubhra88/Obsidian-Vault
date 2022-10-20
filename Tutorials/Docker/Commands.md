@@ -26,3 +26,5 @@
 - **Docker Run with Volume Mount** -  docker run -d -p 80:8080 -v jenkinsvolume:/var/jenkins_home jenkins:2.60.3
 
 - **Docker Push** - docker tag _image name_ imasomsubhra/apache; docker push imasomsubhra/apache
+
+docker run --env-file envfile env env

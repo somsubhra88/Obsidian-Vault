@@ -24,3 +24,5 @@
 - **Creating Volume** - docker volume create volume_name (/var/lib/docker/volumes)
 - **See all volumes** - docker volume ls
 - **Docker Run with Volume Mount** -  docker run -d -p 80:8080 -v jenkinsvolume:/var/jenkins_home jenkins:2.60.3
+
+- **Docker Push** - docker tag _image name_ imasomsu

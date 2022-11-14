@@ -1,6 +1,6 @@
 ## Questions on the presentation
 
-### What is GSP?
+### What is GSP? How to access GSP?
 ### How are coupons being analysed?
 ### What is coupon media?
 ### What do we mean by "Extraction of Coupons"?

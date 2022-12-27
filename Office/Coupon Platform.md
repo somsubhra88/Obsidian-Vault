@@ -15,5 +15,8 @@ Based on the data availability, we can tweak the algorithms; for the time being,
 ### User/Customer Data
 - Demographic Information
 - Shopping Behavior 
-- Usage of Coupons - 
+- Usage of Coupons
+	- coupons displayed(impression)
+	- coupons clicked
+	- purchased using 
 

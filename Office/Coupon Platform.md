@@ -38,4 +38,4 @@ First, we will talk about the overview of the solution and then the background a
 
 ### Overview
 - At time $t$ a user arrives on our website with some characteristics($u_t$)
-- One or several items with some characteristics($_t$) could be recommended to the user
+- One or several coupons with some characteristics($m_t$) could be recommended to the user

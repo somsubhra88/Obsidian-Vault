@@ -35,3 +35,5 @@ _as per our latest discussion, we believe we have the above data available in th
 
 ## Solution Proposals
 
+
+- At time $t$ a user arrives on our website

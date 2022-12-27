@@ -48,6 +48,8 @@ First, we will talk about the overview of the solution and then the background a
 - By selecting the context $A_t$ , one observes the reward 
  $$Pr[X_t = 1 | A_t] = \mu(A_t^T \theta^*) + \epsilon_t$$ 
 - Assumption on the noise: $\epsilon_t$ are supposed to be i.i.d and normally distributed $\epsilon_t ∼ \mathcal{N} (0, 1)$ 
-- Bounded Actions Bounded θ ?
+
+**Best Action at time $t$**
+
 
 ### Conceptual Background

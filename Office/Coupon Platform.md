@@ -17,6 +17,7 @@ Based on the data availability, we can tweak the algorithms; for the time being,
 - Shopping Behavior 
 - Usage of Coupons
 	- coupons displayed(impression)
-	- coupons clicked
-	- purchased using 
+	- coupons clicked(click-through rate)
+	- purchases using coupons(conversion)
 
+### Coupons Data

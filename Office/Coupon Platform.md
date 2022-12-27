@@ -53,3 +53,4 @@ First, we will talk about the overview of the solution and then the background a
 $$ A_t^* = arg \; max_{a \in \mathcal{A}_t} a^T \theta^*$$
 
 ### Conceptual Background
+#### Estimation of $\theta$

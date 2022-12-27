@@ -34,7 +34,8 @@ _as per our latest discussion, we believe we have the above data available in th
 
 
 ## Solution Proposals
-First we will talk about the overview of the solution and then the background and maths behind the solution - 
+First, we will talk about the overview of the solution and then the background and maths behind the solution - 
 
 ### Overview
-- At time $t$ a user arrives on our website
+- At time $t$ a user arrives on our website with some characteristics($u_t$)
+- One or several items could be recommended to the user

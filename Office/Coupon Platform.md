@@ -54,7 +54,7 @@ $$ A_t^* = arg \; max_{a \in \mathcal{A}_t} a^T \theta^*$$
 
 ### Conceptual Background
 #### Goal
-Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mathbb{E}[\sum_{t=1}^T X_t]$. This is essentially choosing the best arm every time, hence maximizing number of clicks is equivalent to minimization of this expression $\mathbb{E} [\sum_{t=1}^T max_{a \in \mathcal{A}_t} \; a^T \theta^* - \sum_{t=1}^T X_t]$
+Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mathbb{E}[\sum_{t=1}^T X_t]$. This is essentially choosing the best arm every time, hence maximizing number of clicks is equivalent to minimization of this expression $\mathbb{E} [\sum_{t=1}^T max_{a \in \mathcal{A}_t} \; a^T \theta^* - \sum_{t=1}^T X_t]$. This is equivalent to reduce the regret, hence in comparison with the stochastic bandits
 
 #### Estimating the unknown parameter $\theta^*$
 

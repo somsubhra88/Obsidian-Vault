@@ -46,6 +46,7 @@ First, we will talk about the overview of the solution and then the background a
 ### Generalized Bandit Setting
 - In round $t$ a set of $K$ actions $\mathcal{A}_t = \{A_{t,1}, ..., A_{t,K}\}$  is available 
 - By selecting the context $A_t$ , one observes the reward 
-  Xt = A > t θ ? + t Assumption on the noise: t are supposed to be i.i.d and normally distributed t ∼ N (0, 1) Bounded Actions Bounded θ ?
+ $Pr[X_t = 1 | A_t] = \mu(A_t^T \theta^*) + \epsilon_t$ 
+- Assumption on the noise: t are supposed to be i.i.d and normally distributed t ∼ N (0, 1) Bounded Actions Bounded θ ?
 
 ### Conceptual Background

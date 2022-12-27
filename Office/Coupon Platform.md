@@ -8,7 +8,7 @@ Display of coupons based on the following conditions -
 We must display and rank coupons to increase user click-through rate (CTR)**. 
 
 # Solution Proposal
-Prior to talking about the solutions we want to propose
+Prior to talking about the solutions we want to propose, we want to make some certain assumptions on data. 
 
 ## Data Availability
 Based on the data availability, we can tweak the algorithms; for the time being, we are assuming the following data is available and use this data for an innovative and efficient display of the coupons.

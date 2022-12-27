@@ -20,7 +20,7 @@ Based on the data availability, we can tweak the algorithms; for the time being,
 	- coupons clicked(click-through rate)
 	- purchases using coupons(conversion)
 
-_we are under the impressop_
+_we are under the impression that all the above data is available in the CDNA database and can be used for this purpose_
 
 ### Coupons Data
-As of now, we are not certain about the coupons
+As of now, we are not sure about the kind of dcoupons

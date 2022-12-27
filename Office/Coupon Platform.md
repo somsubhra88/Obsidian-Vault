@@ -7,3 +7,8 @@ Display of coupons based on the following conditions -
 
 # Objective
 We must display and rank coupons to increase user click-through rate (CTR)**. 
+
+# Solution Proposal
+
+## Data Availability
+

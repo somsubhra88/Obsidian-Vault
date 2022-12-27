@@ -43,7 +43,7 @@ First, we will talk about the overview of the solution and then the background a
 - By choosing a context $A$ the associated product is displayed to the user
 - Click will be consider as a positive reward and non-click as a negative reward, our model predict the probability of a click of a given context. A reward $X_t$ depending on $A_t$ is then observed $Pr[X_t = 1 | A_t] = \mu(A_t^T \theta^*) + \epsilon_t$, where $\mu$ is called inverse link function.
 
-### Generalized Bandit Setting
+### Generalized Linear Bandit Setting
 - In round $t$ a set of $K$ actions $\mathcal{A}_t = \{A_{t,1}, ..., A_{t,K}\}$  is available 
 - By selecting the context $A_t$ , one observes the reward 
  $$Pr[X_t = 1 | A_t] = \mu(A_t^T \theta^*) + \epsilon_t$$ 
@@ -54,7 +54,7 @@ $$ A_t^* = arg \; max_{a \in \mathcal{A}_t} a^T \theta^*$$
 
 ### Conceptual Background
 #### Goal
-Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mathbb{E}[\sum_{t=1}^T X_t]$. This is essentially choosing the best arm every time, hence maximizing number of clicks is equivalent to minimization of this expression $\mathbb{E} [\sum_{t=1}^T max_{a \in \mathcal{A}_t} \; a^T \theta^* - \sum_{t=1}^T X_t]$. This is equivalent to reduce the regret, hence in comparison with the stochastic bandits
+Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mathbb{E}[\sum_{t=1}^T X_t]$. This is essentially choosing the best arm every time, hence maximizing number of clicks is equivalent to minimization of this expression $\mathbb{E} [\sum_{t=1}^T max_{a \in \mathcal{A}_t} \; a^T \theta^* - \sum_{t=1}^T X_t]$. This is equivalent to reduce the regret, hence in comparison with the *Stochastic Bandits*, Generalized Linear Bandit has the same objective.
 
 #### Estimating the unknown parameter $\theta^*$
 

@@ -27,4 +27,6 @@ As of now, we are still determining the kind of data available for coupons. We a
 - Coupons Visual Attributes
 - Coupons Value Proposition
 - Coupons Display Period(lifetime)
-- Coupons ImpressionClick-through Rate, Conversion
+- Coupons Impression, Click-through Rate and Conversion Rate
+
+_as per our latest discussion we believe we have_

@@ -41,4 +41,4 @@ First, we will talk about the overview of the solution and then the background a
 - One or several coupons with some characteristics($m_t$) could be recommended to the user
 - For each coupons a context $A \in \mathbb{R}^d$ will be built based on user features and coupon features, i.e. concatenation of $u_t$ and $m_t$
 - By choosing a context $A$ the associated product is displayed to the user
-- 
+- A reward $X_t$ depending on $A_t$ is then observed $Xt = f(At) + t

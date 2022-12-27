@@ -43,4 +43,7 @@ First, we will talk about the overview of the solution and then the background a
 - By choosing a context $A$ the associated product is displayed to the user
 - Click will be consider as a positive reward and non-click as a negative reward, our model predict the probability of a click of a given context. A reward $X_t$ depending on $A_t$ is then observed $Pr[X_t = 1 | A_t] = \mu(A_t^T \theta^*) + \epsilon_t$, where $\mu$ is called inverse link function.
 
+### Generalized Bandit Setting
+- 
+
 ### Conceptual Background

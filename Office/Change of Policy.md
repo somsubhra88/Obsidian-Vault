@@ -27,15 +27,15 @@ As weights are fixed for every bandit(banner), so the update formula we can use 
 But this may have convergence issue as _Regret Bound_ and the _Convergence Rate_ is not well-defined. By doing rigorous simulation study we can achieve some confidence, but there is no guarantee.
 
 # Have we done any study in offline mode for change in results?
-We haven't done any specific simulation study for this purpose, but in general TS works better in compare to UCB.
+We haven't done any specific simulation study for this purpose, but in general, TS works better in comparison to UCB.
 
 
 # What are the potential benefits of using UCB vs TS?
 When we made this decision to go with UCB for Conversion Rate Optimization, there were a couple of reasons —
-- We have decided to go with minimal code changes and if we want to modify the Thompson-Beta Sampling Algorithm code it will create multiple issues—
-	- As TS code was in production we don't want to touch the existing workflow
-	- Even if we accommodate the changes in TS code, then we need to make sure that without weights it should work as before it was. From a coding perspective, it's a challenge. 
-	- For CTR used case, rewards are integer whereas in the case of CVR it'll be a fraction as we are multiplying with some precalculated weights, so no longer it'll be a Beta-Bernoulli conjugate prior. In such cases, we are not very sure about the convergence of such conjugate prior.
+- We have decided to go with minimal code changes, and if we want to modify the Thompson-Beta Sampling Algorithm code, it will create multiple issues—
+	- As TS code was in production, we didn't want to touch the existing workflow
+	- Even if we accommodate the changes in the TS code, then we need to make sure that without weights it should work as before it was. From a coding perspective, it's a challenge. 
+	- For CTR used case, rewards are integer, whereas in the case of CVR it'll be a fraction as we are multiplying with some pre-calculated weights, so no longer it'll be a Beta-Bernoulli conjugate prior. In such cases, we are not very sure about the convergence of such conjugate prior.
 - The reason we chose UCB —
 	- There aren't any assumptions regarding the rewards, as we're not presuming any prior distribution.
 	- Easy to implement, minimal code change.

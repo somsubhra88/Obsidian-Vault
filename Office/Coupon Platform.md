@@ -54,7 +54,7 @@ $$ A_t^* = arg \; max_{a \in \mathcal{A}_t} a^T \theta^*$$
 
 ### Conceptual Background
 #### Goal
-Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mathbb{E}[\sum_{t=1}^T X_t\]$
+Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mathbb{E}[\sum_{t=1}^T X_t]$. This is essentially choosing the best arm every time, hence 
 
 #### Estimating the unknown parameter $\theta^*$
 

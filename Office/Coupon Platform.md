@@ -21,3 +21,4 @@ Based on the data availability, we can tweak the algorithms; for the time being,
 	- purchases using coupons(conversion)
 
 ### Coupons Data
+As of now, we are not certain

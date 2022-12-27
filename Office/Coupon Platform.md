@@ -20,7 +20,7 @@ Based on the data availability, we can tweak the algorithms; for the time being,
 	- coupons clicked(click-through rate)
 	- purchases using coupons(conversion)
 
-_we are under the _
+_we are under the impressop_
 
 ### Coupons Data
 As of now, we are not certain about the coupons

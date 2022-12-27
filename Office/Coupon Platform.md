@@ -23,6 +23,8 @@ Based on the data availability, we can tweak the algorithms; for the time being,
 _we are under the impression that all the above data is available in the CDNA database and can be used for this purpose_
 
 ### Coupons Data
-As of now, we are not sure about the kind of data available for coupons. We are making some assumptions to propose, but we can tweak the algorithm based on the data availability.
+As of now, we are still determining the kind of data available for coupons. We are making some assumptions to propose, but we can tweak the algorithm based on the data availability.
 - Coupons Visual Attributes
 - Coupons Value Proposition
+- Coupons Display Period(lifetime)
+- Coupons ImpressionClick-through Rate, Conversion

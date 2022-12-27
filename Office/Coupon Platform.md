@@ -8,7 +8,7 @@ Display of coupons based on the following conditions -
 We must display and rank coupons to increase user click-through rate (CTR)**. 
 
 # Solution Proposal
-Prior to talking about the solutions we want to propose, we want to make some certain assumptions on data. 
+Prior to talking about the solutions we want to propose, we want to make certain assumptions about the data. 
 
 ## Data Availability
 Based on the data availability, we can tweak the algorithms; for the time being, we are assuming the following data is available and use this data for an innovative and efficient display of the coupons.
@@ -30,6 +30,6 @@ As of now, we are still determining the kind of data available for coupons. We a
 - Coupons Display Period(lifetime)
 - Coupons Impression, Click-through Rate and Conversion Rate
 
-_as per our latest discussion we believe we have the above data available in the GSP database_
+_as per our latest discussion, we believe we have the above data available in the GSP database_
 
 

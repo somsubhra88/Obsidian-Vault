@@ -1,5 +1,4 @@
 # Business Problem
-
 Display of coupons based on the following conditions - 
 - user segment (demography (e.g. gender, age, area) x Attributes (e.g. occupation, family, preference))
 - user preference and usage of coupons
@@ -11,4 +10,5 @@ We must display and rank coupons to increase user click-through rate (CTR)**.
 # Solution Proposal
 
 ## Data Availability
-
+Based on the availibility of data we can tweak the algorithms
+### User Data - 

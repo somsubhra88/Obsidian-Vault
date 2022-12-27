@@ -5,4 +5,5 @@ Display of coupons based on the following conditions -
 - user preference and usage of coupons
 - user shopping behaviour (e.g. purchase/browsing/favourite items, service usage history)
 
-# 
+# Objective
+We need to display and rank coupons based on user CTR respon

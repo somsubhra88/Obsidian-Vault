@@ -33,3 +33,4 @@ As of now, we are still determining the kind of data available for coupons. We a
 _as per our latest discussion, we believe we have the above data available in the GSP database_
 
 
+## Solution Proposals

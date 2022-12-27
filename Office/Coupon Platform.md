@@ -41,12 +41,12 @@ First, we will talk about the overview of the solution and then the background a
 - One or several coupons with some characteristics($m_t$) could be recommended to the user
 - For each coupons a context $A \in \mathbb{R}^d$ will be built based on user features and coupon features, i.e. concatenation of $u_t$ and $m_t$
 - By choosing a context $A$ the associated product is displayed to the user
-- Click will be consider as a positive reward and non-click as a negative reward, our model predict the probability of a click of a given context. A reward $X_t$ depending on $A_t$ is then observed $Pr[X_t = 1 | A_t] = \mu(A_t^T \theta^*) + \epsilon_t$, where $\mu$ is called inverse link function.
+- Click will be consider as a positive reward and non-click as a negative reward, our model predict the probability of a click of a given context. A reward $X_t$ depending on $A_t$ is then observed $X_t = \mu(A_t^T \theta^*) + \epsilon_t$, where $\mu$ is called inverse link function.
 
 ### Generalized Linear Bandit Setting
 - In round $t$ a set of $K$ actions $\mathcal{A}_t = \{A_{t,1}, ..., A_{t,K}\}$  is available 
 - By selecting the context $A_t$ , one observes the reward 
- $$Pr[X_t = 1 | A_t] = \mu(A_t^T \theta^*) + \epsilon_t$$ 
+ $$X_t = \mu(A_t^T \theta^*) + \epsilon_t$$ 
 - Assumption on the noise: $\epsilon_t$ are supposed to be i.i.d and normally distributed $\epsilon_t ∼ \mathcal{N} (0, 1)$ 
 
 **Best Action at time $t$**

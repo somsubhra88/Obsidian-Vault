@@ -39,4 +39,4 @@ First, we will talk about the overview of the solution and then the background a
 ### Overview
 - At time $t$ a user arrives on our website with some characteristics($u_t$)
 - One or several coupons with some characteristics($m_t$) could be recommended to the user
-- For each coupons a context $A \in \mathbb{R}^d$ will be built based on user features and coupon features, i.e. conca
+- For each coupons a context $A \in \mathbb{R}^d$ will be built based on user features and coupon features, i.e. concatination of 

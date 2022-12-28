@@ -70,4 +70,6 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 
 #### Discussion on the Algorithm
 - At the initialization stage, we randomly choose actions to ensure a unique solution of MLE equation.
-- Variance of every prediction is $||A_t||_{V_t^{-1}}$, i.e. $\sqrt{A_t^T V_t^{-1} A_t}$  
+- Variance of every prediction is $||A_t||_{V_t^{-1}}$, i.e. $\sqrt{A_t^T V_t^{-1} A_t}$ 
+- The input value $\tau$ can be used based on the use case
+- The input value $\alpha$ is typically set as 2

@@ -55,7 +55,6 @@ $$ A_t^* = arg \; max_{a \in \mathcal{A}_t} \; \mu ( A^T \hat{\theta})$$
 _Best Action means the action which gives the maximum probability of click, hence we can rank order the actions or coupons as well based on the probability_
 
 ### Conceptual Background
-
 #### Goal
 Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mathbb{E}[\sum_{t=1}^T X_t]$. This is essentially choosing the best arm every time, hence maximizing number of clicks is equivalent to minimization of this expression $\mathbb{E} [\sum_{t=1}^T max_{A \in \mathcal{A}_t} \; \mu (A^T \theta^*) - \sum_{t=1}^T X_t]$. This is equivalent to reduce the regret, hence in comparison with the *Stochastic Bandits*, Generalized Linear Bandit has the same objective.
 
@@ -74,8 +73,10 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 - The input value $\tau$ can be used based on the use case
 - The input value $\alpha$ is typically set as 2
 
-
-## Open Questions
+### Open Questions
 - Computational Efficiency: As in every step we have to calculate inverse of a $d \times d$ matrix, it might slow down the process
 - Theoretical Proof of the MLE estimation normal equations
-- 
+- For different choices of actions, estimation might vary, so convergence is a big question
+
+
+

@@ -52,7 +52,7 @@ First, we will talk about the overview of the solution and then the background a
 **Best Action at time $t$**
 $$ A_t^* = arg \; max_{a \in \mathcal{A}_t} \; \mu ( A^T \theta^* )$$
 
-_Best Action means the action which gives the maximum probability of click, hence we can rank order the actions or coupons as well 
+_Best Action means the action which gives the maximum probability of click, hence we can rank order the actions or coupons as well based on the probability_
 
 ### Conceptual Background
 
@@ -67,3 +67,4 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 	Choose $A_t = arg \; max_{A_t \in \mathcal{A}_t} (A_t^T \hat{\theta}_t + α ||A_t||_{V_t^{-1}})$
 	Observe $X_t$, and set $V_{t+1} = V_t + A_t A_t^T$ 
 **End For**
+

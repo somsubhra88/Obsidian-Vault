@@ -50,18 +50,18 @@ First, we will talk about the overview of the solution and then the background a
 - Assumption on the noise: $\epsilon_t$ are supposed to be i.i.d and normally distributed $\epsilon_t ∼ \mathcal{N} (0, 1)$ 
 
 **Best Action at time $t$**
-$$ A_t^* = arg \; max_{a \in \mathcal{A}_t} \; \mu ( a^T \theta^* )$$
+$$ A_t^* = arg \; max_{a \in \mathcal{A}_t} \; \mu ( A^T \theta^* )$$
 
 ### Conceptual Background
 
 #### Goal
-Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mathbb{E}[\sum_{t=1}^T X_t]$. This is essentially choosing the best arm every time, hence maximizing number of clicks is equivalent to minimization of this expression $\mathbb{E} [\sum_{t=1}^T max_{a \in \mathcal{A}_t} \; \mu (a^T \theta^*) - \sum_{t=1}^T X_t]$. This is equivalent to reduce the regret, hence in comparison with the *Stochastic Bandits*, Generalized Linear Bandit has the same objective.
+Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mathbb{E}[\sum_{t=1}^T X_t]$. This is essentially choosing the best arm every time, hence maximizing number of clicks is equivalent to minimization of this expression $\mathbb{E} [\sum_{t=1}^T max_{A \in \mathcal{A}_t} \; \mu (a^T \theta^*) - \sum_{t=1}^T X_t]$. This is equivalent to reduce the regret, hence in comparison with the *Stochastic Bandits*, Generalized Linear Bandit has the same objective.
 
 #### Algorithm
 **Input**: Total Rounds $T$, tuning parameter $\tau$ and $\alpha$
 **Initialization**: Randomly chose $A_t \in \mathcal{A}_t$ for $t \in \{ 1,2, \cdots \tau \}$, set $V_{\tau + 1} = \sum_{t=1}^{\tau} A_t A_t^T$
 **For** $t = \tau + 1, \tau + 2, \cdots T$ **do**
-	Calculate maximum-likelihood estimator $\hat{\theta}_t$ by solving the equation $$ \sum_{}
+	Calculate maximum-likelihood estimator $\hat{\theta}_t$ by solving the equation $$ \sum_{i = 1}^{t-1} (X_i - \mu ())
 
 
 #### Estimating the unknown parameter $\theta^*$

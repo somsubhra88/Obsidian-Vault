@@ -79,4 +79,5 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 - For different choices of actions, estimation might vary, so convergence is a big question
 
 
-
+# Conclusion
+We tried to address the problem in most simplistic and solvable manner

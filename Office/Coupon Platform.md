@@ -61,7 +61,8 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 **Input**: Total Rounds $T$, tuning parameter $\tau$ and $\alpha$
 **Initialization**: Randomly chose $A_t \in \mathcal{A}_t$ for $t \in \{ 1,2, \cdots \tau \}$, set $V_{\tau + 1} = \sum_{t=1}^{\tau} A_t A_t^T$
 **For** $t = \tau + 1, \tau + 2, \cdots T$ **do**
-	Calculate maximum-likelihood estimator $\hat{\theta}_t$ by solving the equation $$ \sum_{i = 1}^{t-1} (X_i - \mu (A_t^T \theta)) A_t$$
+	Calculate maximum-likelihood estimator $\hat{\theta}_t$ by solving the equation $$ \sum_{i = 1}^{t-1} (X_i - \mu (A_t^T \theta)) A_t = 0$$
+	Choose $A_t = arg \; max_{A} 
 
 
 #### Estimating the unknown parameter $\theta^*$

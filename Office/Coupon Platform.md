@@ -73,3 +73,6 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 - Variance of every prediction is $||A_t||_{V_t^{-1}}$, i.e. $\sqrt{A_t^T V_t^{-1} A_t}$ 
 - The input value $\tau$ can be used based on the use case
 - The input value $\alpha$ is typically set as 2
+
+
+## Conclusion

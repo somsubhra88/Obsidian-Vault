@@ -60,6 +60,8 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 #### Algorithm
 **Input**: Total Rounds $T$, tuning parameter $\tau$ and $\alpha$
 **Initialization**: Randomly chose $A_t \in \mathcal{A}_t$ for $t \in \{ 1,2, \cdots \tau \}$, set $V_{\tau + 1} = \sum_{t=1}^{\tau} A_t A_t^T$
+**For** $t = \tau + 1, \tau + 2, \cdots  
+
 
 #### Estimating the unknown parameter $\theta^*$
 - Say we already played $t − 1$ rounds where the actions $A_1, ...., A_{t−1}$ have been selected and the rewards $X_1, ..., X_{t−1}$ have been collected

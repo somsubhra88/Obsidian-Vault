@@ -68,3 +68,6 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 	Observe $X_t$, and set $V_{t+1} = V_t + A_t A_t^T$ 
 **End For**
 
+#### Discussion on the Algorithm
+- At the initialization stage, we randomly choose actions to ensure a unique solution of MLE equation.
+- 

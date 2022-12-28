@@ -75,4 +75,5 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 - The input value $\alpha$ is typically set as 2
 
 
-## Conclusion
+## Open Questions
+- Computational Efficiency: As in every step we have to calculate a 

@@ -76,4 +76,6 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 
 
 ## Open Questions
-- Computational Efficiency: As in every step we have to calculate inverse of a $d \times d$ matrix
+- Computational Efficiency: As in every step we have to calculate inverse of a $d \times d$ matrix, it might slow down the process
+- Theoretical Proof of the MLE estimation normal equations
+- 

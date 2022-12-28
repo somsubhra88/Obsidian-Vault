@@ -39,8 +39,8 @@ First, we will talk about the overview of the solution and then the background a
 ### Overview
 - At time $t$ a user arrives on our website with some characteristics($u_t$)
 - One or several coupons with some characteristics($m_t$) could be recommended to the user
-- For each coupons a context $A \in \mathbb{R}^d$ will be built based on user features and coupon features, i.e. concatenation of $u_t$ and $m_t$
-- By choosing a context $A$ the associated product is displayed to the user
+- For each coupons a context $A_t \in \mathbb{R}^d$ will be built based on user features and coupon features, i.e. concatenation of $u_t$ and $m_t$
+- By choosing a context $A_t$ the associated product is displayed to the user
 - Click will be consider as a positive reward and non-click as a negative reward, our model predict the probability of a click of a given context. A reward $X_t$ depending on $A_t$ is then observed $X_t = \mu(A_t^T \theta^*) + \epsilon_t$, where $\mu$ is called inverse link function.
 
 ### Generalized Linear Bandit Setting

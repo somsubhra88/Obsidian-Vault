@@ -62,7 +62,8 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 **Initialization**: Randomly chose $A_t \in \mathcal{A}_t$ for $t \in \{ 1,2, \cdots \tau \}$, set $V_{\tau + 1} = \sum_{t=1}^{\tau} A_t A_t^T$
 **For** $t = \tau + 1, \tau + 2, \cdots T$ **do**
 	Calculate maximum-likelihood estimator $\hat{\theta}_t$ by solving the equation $$ \sum_{i = 1}^{t-1} (X_i - \mu (A_t^T \theta)) A_t = 0$$
-	Choose $A_t = arg \; max_{A_t \in \mathcal } (A_t^T \hat{\theta}_t + α ||A_t||_{V_t^{-1}})$
+	Choose $A_t = arg \; max_{A_t \in \mathcal{A}_t} (A_t^T \hat{\theta}_t + α ||A_t||_{V_t^{-1}})$
+	Observe $X_t$, and set $V_
 
 
 #### Estimating the unknown parameter $\theta^*$

@@ -52,7 +52,7 @@ First, we will talk about the overview of the solution and then the background a
 **Best Action at time $t$**
 $$ A_t^* = arg \; max_{a \in \mathcal{A}_t} \; \mu ( A^T \theta^* )$$
 
-
+_Best Action means the action which gives the maximum probability of click, hence we can rank order the actions or coupons as well 
 
 ### Conceptual Background
 

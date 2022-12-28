@@ -50,7 +50,7 @@ First, we will talk about the overview of the solution and then the background a
 - Assumption on the noise: $\epsilon_t$ are supposed to be i.i.d and normally distributed $\epsilon_t ∼ \mathcal{N} (0, 1)$ 
 
 **Best Action at time $t$**
-$$ A_t^* = arg \; max_{a \in \mathcal{A}_t} a^T \theta^*$$
+$$ A_t^* = arg \; max_{a \in \mathcal{A}_t} \mu ( a^T \theta^* )$$
 
 ### Conceptual Background
 #### Goal

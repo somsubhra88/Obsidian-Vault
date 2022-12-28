@@ -63,8 +63,8 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 **For** $t = \tau + 1, \tau + 2, \cdots T$ **do**
 	Calculate maximum-likelihood estimator $\hat{\theta}_t$ by solving the equation $$ \sum_{i = 1}^{t-1} (X_i - \mu (A_t^T \theta)) A_t = 0$$
 	Choose $A_t = arg \; max_{A_t \in \mathcal{A}_t} (A_t^T \hat{\theta}_t + α ||A_t||_{V_t^{-1}})$
-	Observe $X_t$, and set $V_
-
+	Observe $X_t$, and set $V_{t+1} = V_t + A_t A_t^T$ 
+**End For**
 
 #### Estimating the unknown parameter $\theta^*$
 - Say we already played $t − 1$ rounds where the actions $A_1, ...., A_{t−1}$ have been selected and the rewards $X_1, ..., X_{t−1}$ have been collected

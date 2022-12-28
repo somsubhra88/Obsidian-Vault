@@ -70,4 +70,4 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 
 #### Discussion on the Algorithm
 - At the initialization stage, we randomly choose actions to ensure a unique solution of MLE equation.
-- 
+- Variance of every prediction is $||A_t||_{V_t^{-1}}$, 

@@ -80,4 +80,4 @@ Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mat
 
 
 # Conclusion
-We tried to address the problem in most simplistic and solvable manner, in reality it may not fit into our problem setting. In that case, we have a plan for more generic approach of Reinforcement Learning A
+We tried to address the problem in most simplistic and solvable manner, in reality it may not fit into our problem setting. In that case, we have a plan for more generic approach of Reinforcement Learning Alogrithms.

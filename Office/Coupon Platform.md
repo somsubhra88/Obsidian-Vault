@@ -60,9 +60,9 @@ _Best Action means the action which gives the maximum probability of click, henc
 Our sole purpose is to maximize the CTR or number of clicks, i.e. maximize $\mathbb{E}[\sum_{t=1}^T X_t]$. This is essentially choosing the best arm every time, hence maximizing number of clicks is equivalent to minimization of this expression $\mathbb{E} [\sum_{t=1}^T max_{A \in \mathcal{A}_t} \; \mu (A^T \theta^*) - \sum_{t=1}^T X_t]$. This is equivalent to reduce the regret, hence in comparison with the *Stochastic Bandits*, Generalized Linear Bandit has the same objective.
 
 #### Algorithm
-**Input**: Total Rounds $T$, tuning parameter $\tau$ and $\alpha$
+**Input**: Total Rounds $\mathbb{T}$, tuning parameter $\tau$ and $\alpha$
 **Initialization**: Randomly chose $A_t \in \mathcal{A}_t$ for $t \in \{ 1,2, \cdots \tau \}$, set $V_{\tau + 1} = \sum_{t=1}^{\tau} A_t A_t^T$
-**For** $t = \tau + 1, \tau + 2, \cdots T$ **do**
+**For** $t = \tau + 1, \tau + 2, \cdots \mathbb{T}$ **do**
 	Calculate maximum-likelihood estimator $\hat{\theta}_t$ by solving the equation $$ \sum_{i = 1}^{t-1} (X_i - \mu (A_t^T \theta)) A_t = 0$$
 	Choose $A_t = arg \; max_{A_t \in \mathcal{A}_t} (A_t^T \hat{\theta}_t + α ||A_t||_{V_t^{-1}})$
 	Observe $X_t$, and set $V_{t+1} = V_t + A_t A_t^T$ 

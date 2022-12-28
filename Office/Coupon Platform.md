@@ -46,7 +46,7 @@ First, we will talk about the overview of the solution and then the background a
 ### Generalized Linear Bandit Setting
 - In round $t$ a set of $K$ actions $\mathcal{A}_t = \{A_{t,1}, ..., A_{t,K}\}$  is available 
 - By selecting the context $A_t$ which is equivalent to say that by selecting an action, one observes the reward 
- $$\mu^{-1} (\mathbb{E} [ X_t | A_t]) = A_t^T \theta^* + \epsilon_t$$ 
+ $$\mu^{-1} (\mathbb{E} [ X_t | A_t]) = A_t^T \theta^*$$ 
 - Assumption on the noise: $\epsilon_t$ are supposed to be i.i.d and normally distributed $\epsilon_t ∼ \mathcal{N} (0, 1)$ 
 
 **Best Action at time $t$**

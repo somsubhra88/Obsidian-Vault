@@ -1,4 +1,5 @@
-Click Through
+# Click Through Rate
+$$ CTR = \frac{\text{Number of Sessions with at least a click}}{\text{Total Number of Sessions}} $$
 
 # Conversion
 We call it a conversion if it satisfies any of these two conditions - 

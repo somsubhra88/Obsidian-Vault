@@ -5,5 +5,5 @@ We call it a conversion if it satisfies any of these two conditions -
 
 # Conversion Rate
 $$
-CVR = \frac{Number \; of \; Conversions}{Total \; number \; of }
+CVR = \frac{\text{Number of Conversions}}{\text{Total Number of Sessions}}
 $$

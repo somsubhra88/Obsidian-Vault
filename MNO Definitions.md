@@ -14,5 +14,5 @@ We call a session engaged session if it satisfies both conditions.
 
 # Engagement Rate
 $$
-\text
+\text{Engagement Rate = \frac{\text{# Engaged Sessions}}{1}
 $$

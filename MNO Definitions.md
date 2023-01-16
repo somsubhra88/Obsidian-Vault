@@ -1,3 +1,5 @@
+Click Through
+
 # Conversion
 We call it a conversion if it satisfies any of these two conditions - 
 - URL is like "order-confirmation".
@@ -14,5 +16,5 @@ We call a session engaged session if it satisfies both conditions.
 
 # Engagement Rate
 $$
-\text{Engagement Rate = \frac{\text{# Engaged Sessions}}{1}
+\text{Engagement Rate} = \frac{\text{Number of Engaged Sessions}}{\text{Total Number of Sessions}}
 $$

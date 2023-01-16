@@ -5,5 +5,5 @@ We call it a conversion if it satisfies any of these two conditions -
 
 # Conversion Rate
 $$
-CVR = \frac{Number of conver}{}
+CVR = \frac{Number \; of \; Conversions}{Total \; number \; of }
 $$

@@ -8,5 +8,11 @@ $$
 CVR = \frac{\text{Number of Conversions}}{\text{Total Number of Sessions}}
 $$
 # Engaged Session
-We call a session engaged session if satisfies both the conditions
-- Spend more than 10sec
+We call a session engaged session if it satisfies both conditions.
+- Spend more than 10 sec(or some other cutoff)
+- A click
+
+# Engagement Rate
+$$
+\text
+$$

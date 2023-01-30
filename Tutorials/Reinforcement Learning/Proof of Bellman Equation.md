@@ -10,6 +10,7 @@ $$
 ## Part 1
 $$
 \begin{align}
-	\mathbb{E} \left[ R_t \vert S_t = s\right] &= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) r(s,a,s{})
+	\mathbb{E} \left[ R_t \vert S_t = s\right] &= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) r(s,a,s^{\prime})
 \end{align}
 $$
+## Part 2

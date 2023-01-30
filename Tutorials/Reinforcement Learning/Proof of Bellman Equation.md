@@ -31,3 +31,9 @@ $$
 \end{align}
 $$
 
+## Writing the Equation in Expectation form
+$$
+\begin{align}
+	V^{\pi}(s) &= \mathbb{E}_{a }
+\end{align}
+$$

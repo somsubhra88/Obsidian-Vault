@@ -34,6 +34,6 @@ $$
 ## Writing the Equation in Expectation form
 $$
 \begin{align}
-	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s)} \left[ \right]
+	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s), } \left[  \right]
 \end{align}
 $$

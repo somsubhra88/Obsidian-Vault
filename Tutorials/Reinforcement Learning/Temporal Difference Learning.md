@@ -6,6 +6,8 @@ The workflow for learning the value network parameters goes as follows -
 - Finally, we minimize the distance between $\hat{Q}$ and $Q_{tar}$ using a standard regression loss such as _MSE_ (mean squared error).
 We repeat this process many times.
 
+The key insight in TD learning is that $Q$-values for the current time step can be defined in terms of $Q$-values of the next time step. That is, $Q^{\pi}(s, a)$ is defined recursively, as shown in the below equation
+
 $$
 \begin{align}
 	Q^{\pi}(s, a) &= \mathbb{E}_{s^{\prime} \sim \mathcal{T}_a(s, s^{\prime}), \; R_t \sim \mathcal{R}_a(s, s^{\prime})} \left[ R_t + \gamma \mathbb{E}_{a^{\prime} \sim \pi(s^{\prime})} \left[ Q^{\pi}(s^{\prime}, a^{\prime}) \right]\right]

@@ -27,7 +27,7 @@ $$
 $$
 \begin{align}
 	V^{\pi}(s) &= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) \mathcal{R}_a(s,s^{\prime}) + \gamma \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}} \pi(a \vert s)T_a(s, s^{\prime}) V^{\pi}(s^{\prime}) \\
-	&= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) \left[ r_a(s,s^{\prime} + \gamma V^{\pi}(s^{\prime})  \right]
+	&= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) \left[ \mathcal{R}_a(s,s^{\prime}) + \gamma V^{\pi}(s^{\prime})  \right]
 \end{align}
 $$
 
@@ -35,6 +35,6 @@ $$
 $$
 \begin{align}
 	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s)} \left[ Q(s, a) \right] \\
-	Q(s, a) &= \mathbb{E}_{s^{\prime} \sim T_a(s, s^{\prime}), R \sim \mathcal{R}_a(s, s^{\prime})}
+	Q(s, a) &= \mathbb{E}_{s^{\prime} \sim T_a(s, s^{\prime}), R_t \sim \mathcal{R}_a(s, s^{\prime})} \left[ R\right]
 \end{align}
 $$

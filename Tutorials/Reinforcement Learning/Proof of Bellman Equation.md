@@ -1,5 +1,5 @@
 $$
 \begin{equation}
-
-\e
+	V^{\pi}(s) = 
+\end{equation}
 $$

@@ -3,7 +3,7 @@
 ## Random Variables
 - $S_t$: State at time $t$, any realization of $S_t$ is denoted by $s \in \mathcal{S}$, where $\mathcal{S}$ is the state space
 - $A_t$: Action taken at time $t$, any realization of $A_t$ is denoted by $a \in \mathcal{A}$, where $\mathcal{A}$ is the action space
-- $R_t$: Reward at time $t$, it is defined as $\mathcal{R} : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \rightarrow \mathbb{R}$, this is written as $\mathcal{R}_a(s, s^{\prime})$
+- $R_t$: Reward at time $t$ and $R_t \sim \mathcal{R}$, defined as $\mathcal{R} : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \rightarrow \mathbb{R}$, this is written as $\mathcal{R}_a(s, s^{\prime})$
 
 ## Functions
 - $\mathcal{T}$: Transition function, $\mathcal{R} : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \rightarrow [0, 1]$, this is written as $\mathcal{T}_a(s, s^{\prime})$

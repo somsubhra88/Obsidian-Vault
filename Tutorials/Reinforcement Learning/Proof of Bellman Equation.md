@@ -1,6 +1,10 @@
-# Notations
-There are two types of n
+# Variables
+There are two types of variables used - 
 ## Random Variables
+- $S_t$
+- $A_t$
+- $R_t$
+- 
 
 
 # Definition V-function & Q-function

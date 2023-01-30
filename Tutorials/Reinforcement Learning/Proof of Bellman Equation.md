@@ -1,8 +1,11 @@
 # Variables and Functions
+
 ## Random Variables
 - $S_t$: State at time $t$, any realization of $S_t$ is denoted by $s \in \mathcal{S}$, where $\mathcal{S}$ is the state space
 - $A_t$: Action taken at time $t$, any realization of $A_t$ is denoted by $a \in \mathcal{A}$, where $\mathcal{A}$ is the action space
-- $R_t$: 
+
+## Functions
+- $R_t$: Reward function, it is defined as $ \match
 
 
 # Definition V-function & Q-function

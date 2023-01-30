@@ -1,9 +1,8 @@
 # Variables and Functions
 ## Random Variables
-- $S_t$: State at time $t$, any realization of $S_t$ is denoted by $s \in \mathcal{S}$, where $\mathcal{S}$ is the statespace
+- $S_t$: State at time $t$, any realization of $S_t$ is denoted by $s \in \mathcal{S}$, where $\mathcal{S}$ is the state space
 - $A_t$: Action taken at time $t$, any realization of $A_t$ is denoted by $a \in \mathcal{A}$, where $\mathcal{A}$ is the action space
-- $R_t$
-- 
+- $R_t$: 
 
 
 # Definition V-function & Q-function

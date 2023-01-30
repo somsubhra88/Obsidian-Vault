@@ -1,7 +1,7 @@
 # Variables and Functions
 ## Random Variables
-- $S_t$: State at time $t$, 
-- $A_t$
+- $S_t$: State at time $t$, any realization of $S_t$ is denoted by $s \in \mathbb{S}$
+- $A_t$: Action taken at time $t$, an
 - $R_t$
 - 
 

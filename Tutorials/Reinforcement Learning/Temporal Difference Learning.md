@@ -16,4 +16,10 @@ $$
 Assume that we have a neural network to represent the $Q$-function, $Q_{\theta}$. In TD learning, $Q^{\pi}_{tar}(s_t, a_t)$ is derived by estimating the right-hand side of the equation using $Q_{\theta}$. At each training iteration, $\hat{Q}^{\pi}_{tar}(s_t, a_t)$ is updated to bring it closer to $Q^{\pi}_{tar}(s_t, a_t)$.
 
 However, there are two problems with this equation, if it is to be used to construct $Q^{\pi}_{tar}(s_t, a_t)$ — the two expectations.
-- Outer Expectation
+- Outer Expectation: This problem can be overcome by considering only one example—the one that actually happened. This does mean that the Q-value estimate may have high variance if the environment is stochastic, but it helps make the estimation more tractable.
+$$
+\begin{align}
+	Q^{\pi}(s, a) &= R_t + \gamma \mathbb{E}_{a^{\prime} \sim \pi(s^{\prime})} \left[ Q^{\pi}(s^{\prime}, a^{\prime}) \right]\right]
+\end{align}
+$$
+- 

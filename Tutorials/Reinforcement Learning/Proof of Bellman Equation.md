@@ -31,9 +31,9 @@ $$
 \end{align}
 $$
 
-## Writing the Equation in Expectation form
+## Writing the Equation in Expectation Form
 $$
 \begin{align}
-	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s), } \left[  \right]
+	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s), } \left[ Q(s, a) \right]
 \end{align}
 $$

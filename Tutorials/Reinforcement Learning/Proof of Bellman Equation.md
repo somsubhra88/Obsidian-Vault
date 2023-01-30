@@ -16,6 +16,6 @@ $$
 ## Part 2
 $$
 \begin{align}
-	\mathbb{E} \left[ \sum_{i = 0} ^\infty \gamma^i R_{t+i+1} \vert S_t = s \right] = \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}} \mathbb{E} \left[ \sum_{i = 0} ^\infty \gamma^i R_{t+i+1} \vert S_t = s \right, A_t = a, S_{}] 
+	\mathbb{E} \left[ \sum_{i = 0} ^\infty \gamma^i R_{t+i+1} \vert S_t = s \right] = \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}} \mathbb{E} \left[ \sum_{i = 0} ^\infty \gamma^i R_{t+i+1} \vert S_t = s , A_t = a, S_{t+1} = s^{\prime} \right] 
 \end{align}
 $$

@@ -7,4 +7,9 @@ $$
 	&= \underbrace{\mathbb{E} \left[ r_t \vert S_t = s\right]}_\text{Part 1}  + \gamma \underbrace{\mathbb{E} \left[ \sum_{i = 0} ^\infty \gamma^i r_{t+i+1} \vert S_t = s \right]}_\text{Part 2} \\
 \end{align}
 $$
-First we woi
+## Part 1
+$$
+\begin{align}
+	\mathbb{E} \left[ r_t \vert S_t = s\right]
+\end{align}
+$$

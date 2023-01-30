@@ -22,4 +22,4 @@ $$
 	Q^{\pi}(s, a) &= r + \gamma \mathbb{E}_{a^{\prime} \sim \pi(s^{\prime})} \left[ Q^{\pi}(s^{\prime}, a^{\prime}) \right]
 \end{align}
 $$
-- Inner expectation $\mathbb{E}_{a^{\prime} \sim \pi(s^{\prime})} \left[ \cdots \right]\right]$
+- Inner expectation $\mathbb{E}_{a^{\prime} \sim \pi(s^{\prime})} \left[ \cdots \right]$: 

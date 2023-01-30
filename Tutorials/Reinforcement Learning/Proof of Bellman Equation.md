@@ -10,7 +10,7 @@ $$
 ## Part 1
 $$
 \begin{align}
-	\mathbb{E} \left[ R_t \vert S_t = s\right] &= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) r_a(s,s^{\prime})
+	\mathbb{E} \left[ R_t \vert S_t = s\right] &= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) \mathcal{R}_a(s,s^{\prime})
 \end{align}
 $$
 ## Part 2
@@ -35,6 +35,6 @@ $$
 $$
 \begin{align}
 	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s)} \left[ Q(s, a) \right] \\
-	Q(s, a) &= \mathbb{E}_{s^{\prime} \sim T_a(s, s^{\prime}), R \sim \mathcal{R}(s, s)}
+	Q(s, a) &= \mathbb{E}_{s^{\prime} \sim T_a(s, s^{\prime}), R \sim \mathcal{R}_a(s, s^{\prime})}
 \end{align}
 $$

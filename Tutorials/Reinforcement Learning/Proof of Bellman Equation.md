@@ -4,8 +4,9 @@ V^{\pi}(s) = \mathbb{E}_{\tau \sim \pi} \left[ \sum_{i = 0}^{\infty}  \gamma^{i}
 $$
 
 $$
-Q^{\pi}(s, a) = \mathbb{E}_{\tau \sim \pi} \left[ \sum_{i = 0}^{\infty}  \gamma^{i} R_{t + i} \vert S_t = s \right]
+Q^{\pi}(s, a) = \mathbb{E}_{\tau \sim \pi} \left[ \sum_{i = 0}^{\infty}  \gamma^{i} R_{t + i} \vert S_t = s, A_t = a \right]
 $$
+# Proof
 
 $$
 \begin{align}

@@ -3,9 +3,9 @@
 ## Random Variables
 - $S_t$: State at time $t$, any realization of $S_t$ is denoted by $s \in \mathcal{S}$, where $\mathcal{S}$ is the state space
 - $A_t$: Action taken at time $t$, any realization of $A_t$ is denoted by $a \in \mathcal{A}$, where $\mathcal{A}$ is the action space
+- $R_t$: Reward at t, it is defined as $\mathcal{R} : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \rightarrow \mathbb{R}$, this is written as $\mathcal{R}_a(s, s^{\prime})$
 
 ## Functions
-- $R_t$: Reward function, it is defined as $\mathcal{R} : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \rightarrow \mathbb{R}$, this is written as $\mathcal{R}_a(s, s^{\prime})$
 - $\mathcal{T}$: Transition function, $\mathcal{R} : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \rightarrow [0, 1]$, this is written as $\mathcal{T}_a(s, s^{\prime})$
 - $\pi$: Policy, there are two types of policies, deterministic and probabilistic. Deterministic policy one to one mapping from state to action, Probabilistic Policy gives a distribution of different actions, i.e. $\pi(a|s)$
 

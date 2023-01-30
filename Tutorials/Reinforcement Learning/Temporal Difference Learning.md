@@ -1,4 +1,4 @@
-Temporal Difference(TD) learning i
+Temporal Difference(TD) learning is used to learn $Q$-function. The main idea is to use a neural network which produces $Q$-value estimates given $(s,)
 
 $$
 \begin{align}

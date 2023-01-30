@@ -53,7 +53,7 @@ $$
 \begin{align}
 	V^{\pi}(s) &= \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}}\pi(a \vert s)\mathcal{T}_a(s, s^{\prime}) \mathcal{R}_a(s,s^{\prime}) + \gamma \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}} \pi(a \vert s)\mathcal{T}_a(s, s^{\prime}) V^{\pi}(s^{\prime}) \\
 	
-	&= \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}}\pi(a \vert s)T_a(s, s^{\prime}) \left[ \mathcal{R}_a(s,s^{\prime}) + \gamma V^{\pi}(s^{\prime})  \right]
+	&= \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}}\pi(a \vert s)\mathcal{T}_a(s, s^{\prime}) \left[ \mathcal{R}_a(s,s^{\prime}) + \gamma V^{\pi}(s^{\prime})  \right]
 \end{align}
 $$
 
@@ -61,7 +61,7 @@ $$
 $$
 \begin{align}
 	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s)} \left[ Q^{\pi}(s, a) \right] \\
-	Q^{\pi}(s, a) &= \mathbb{E}_{s^{\prime} \sim \mathcal{T}_a(s, s^{\prime})} \left[ R_t + \gamma V^{\pi}(s^{\prime})\right] = \mathbb{E}_{s^{\prime} \sim T_a(s, s^{\prime})} \left[ R_t + \gamma \mathbb{E}_{a \sim \pi(s)} \left[ Q^{\pi}(s, a) \right]\right]
+	Q^{\pi}(s, a) &= \mathbb{E}_{s^{\prime} \sim \mathcal{T}_a(s, s^{\prime})} \left[ R_t + \gamma V^{\pi}(s^{\prime})\right] = \mathbb{E}_{s^{\prime} \sim \mathcal{T}_a(s, s^{\prime})} \left[ R_t + \gamma \mathbb{E}_{a \sim \pi(s)} \left[ Q^{\pi}(s, a) \right]\right]
 \end{align}
 $$
 

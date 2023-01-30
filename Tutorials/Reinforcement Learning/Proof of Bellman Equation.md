@@ -45,6 +45,6 @@ $$
 $$
 \begin{align}
 	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s)} \left[ Q^{\pi}(s, a) \right] \\
-	Q^{\pi}(s, a) &= \mathbb{E}_{s^{\prime} \sim T_a(s, s^{\prime})} \left[ R_t + \gamma V^\right]
+	Q^{\pi}(s, a) &= \mathbb{E}_{s^{\prime} \sim T_a(s, s^{\prime})} \left[ R_t + \gamma V^{\pi}(s^{\prime})\right]
 \end{align}
 $$

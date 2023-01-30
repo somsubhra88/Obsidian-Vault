@@ -23,5 +23,5 @@ $$
 \end{align}
 $$
 - Inner expectation $\mathbb{E}_{a^{\prime} \sim \pi(s^{\prime})} \left[ \cdots \right]$: We don't know the probability distribution over actions which is needed to calculate the expectation. There are two ways to solve this, each corresponding to a different algorithm — 
-	- SARSA: $Q^{\pi}(s, a) &= r + \gamma \mathbb{E}_{a^{\prime} \sim \pi(s^{\prime})} \left[ Q^{\pi}(s^{\prime}, a^{\prime}) \right]$
+	- SARSA: $Q^{\pi}(s, a) \approx r + \gamma Q^{\pi}(s^{\prime}, a^{\prime}) = Q_{tar:SARSA}$
 	- DQN

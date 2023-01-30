@@ -1,4 +1,5 @@
-#m
+# Definition V-function & Q-function
+
 
 $$
 \begin{align}

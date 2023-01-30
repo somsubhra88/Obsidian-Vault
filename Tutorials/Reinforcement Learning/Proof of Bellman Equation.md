@@ -10,6 +10,6 @@ $$
 ## Part 1
 $$
 \begin{align}
-	\mathbb{E} \left[ r_t \vert S_t = s\right] &= \sum_{a } 
+	\mathbb{E} \left[ r_t \vert S_t = s\right] &= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in } 
 \end{align}
 $$

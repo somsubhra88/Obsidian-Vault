@@ -5,7 +5,8 @@
 - $A_t$: Action taken at time $t$, any realization of $A_t$ is denoted by $a \in \mathcal{A}$, where $\mathcal{A}$ is the action space
 
 ## Functions
-- $R_t$: Reward function, it is defined as $\mathcal{R} : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \rightarrow \mathbb{R}$, this is written as $
+- $R_t$: Reward function, it is defined as $\mathcal{R} : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \rightarrow \mathbb{R}$, this is written as $\mathcal{R}_a(s, s^{\prime})$
+- $T$: Transition function, $\mathcal{R} : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \rightarrow \mathbb{R}$, this is written as $\mathcal{R}_a(s, s^{\prime})$
 
 
 # Definition V-function & Q-function

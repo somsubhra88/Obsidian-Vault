@@ -1,5 +1,11 @@
 # Definition V-function & Q-function
+$$
+V^{\pi}(s) = \mathbb{E}_{\tau \sim \pi} \left[ \sum_{i = 0}^{\infty}  \gamma^{i} R_{t + i} \vert S_t = s \right]
+$$
 
+$$
+Q^{\pi}(s, a) = \mathbb{E}_{\tau \sim \pi} \left[ \sum_{i = 0}^{\infty}  \gamma^{i} R_{t + i} \vert S_t = s \right]
+$$
 
 $$
 \begin{align}

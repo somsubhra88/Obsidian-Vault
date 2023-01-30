@@ -14,3 +14,8 @@ $$
 \end{align}
 $$
 ## Part 2
+$$
+\begin{align}
+	\mathbb{E} \left[ \sum_{i = 0} ^\infty \gamma^i R_{t+i+1} \vert S_t = s \right] &=
+\end{align}
+$$

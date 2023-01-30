@@ -1,7 +1,8 @@
 Temporal Difference(TD) learning is used to learn $Q$-function. The main idea is to use a neural network which produces $Q$-value estimates given $(s, a)$ pair as inputs. This is known as _value network_.
 
 The workflow for learning the value network parameters goes as follows - 
-- Generate 
+- Generate trajectories $\tau$s and predict $Q$-value for each $(s, a)$ pair
+- Then, we use the trajectories to generate target Q-values Qtar.
 
 $$
 \begin{align}

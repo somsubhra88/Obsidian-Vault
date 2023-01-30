@@ -19,7 +19,7 @@ However, there are two problems with this equation, if it is to be used to const
 - Outer Expectation: This problem can be overcome by considering only one example—the one that actually happened. This does mean that the Q-value estimate may have high variance if the environment is stochastic, but it helps make the estimation more tractable.
 $$
 \begin{align}
-	Q^{\pi}(s, a) &= R_t + \gamma \mathbb{E}_{a^{\prime} \sim \pi(s^{\prime})} \left[ Q^{\pi}(s^{\prime}, a^{\prime}) \right]\right]
+	Q^{\pi}(s, a) &= r_t + \gamma \mathbb{E}_{a^{\prime} \sim \pi(s^{\prime})} \left[ Q^{\pi}(s^{\prime}, a^{\prime}) \right]
 \end{align}
 $$
 - 

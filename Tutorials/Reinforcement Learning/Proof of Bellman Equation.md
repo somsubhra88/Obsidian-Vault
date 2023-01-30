@@ -35,6 +35,6 @@ $$
 $$
 \begin{align}
 	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s)} \left[ Q(s, a) \right] \\
-	\text{Action value Function can be }
+	Q(s, a) &= \mathbb{E}_{s^{\prime} \sim \pi(s)}
 \end{align}
 $$

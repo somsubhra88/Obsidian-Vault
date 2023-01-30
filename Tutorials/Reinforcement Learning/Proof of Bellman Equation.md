@@ -1,3 +1,8 @@
+# Notations
+There are two types of n
+## Random Variables
+
+
 # Definition V-function & Q-function
 $$
 V^{\pi}(s) = \mathbb{E}_{\tau \sim \pi} \left[ \sum_{i = 0}^{\infty}  \gamma^{i} R_{t + i} \vert S_t = s \right]
@@ -48,3 +53,4 @@ $$
 	Q^{\pi}(s, a) &= \mathbb{E}_{s^{\prime} \sim T_a(s, s^{\prime})} \left[ R_t + \gamma V^{\pi}(s^{\prime})\right] = \mathbb{E}_{s^{\prime} \sim T_a(s, s^{\prime})} \left[ R_t + \gamma \mathbb{E}_{a \sim \pi(s)} \left[ Q^{\pi}(s, a) \right]\right]
 \end{align}
 $$
+

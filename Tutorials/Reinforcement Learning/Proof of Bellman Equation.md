@@ -34,6 +34,7 @@ $$
 ## Writing the Equation in Expectation Form
 $$
 \begin{align}
-	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s), } \left[ Q(s, a) \right]
+	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s)} \left[ Q(s, a) \right] \\
+	\text{Action value Function can be }
 \end{align}
 $$

@@ -51,8 +51,9 @@ $$
 ## Combining Part 1 &  Part 2
 $$
 \begin{align}
-	V^{\pi}(s) &= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) \mathcal{R}_a(s,s^{\prime}) + \gamma \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}} \pi(a \vert s)T_a(s, s^{\prime}) V^{\pi}(s^{\prime}) \\
-	&= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) \left[ \mathcal{R}_a(s,s^{\prime}) + \gamma V^{\pi}(s^{\prime})  \right]
+	V^{\pi}(s) &= \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}}\pi(a \vert s)\mathcal{T}_a(s, s^{\prime}) \mathcal{R}_a(s,s^{\prime}) + \gamma \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathbb{S}} \pi(a \vert s)\mathcal{T}_a(s, s^{\prime}) V^{\pi}(s^{\prime}) \\
+	
+	&= \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}}\pi(a \vert s)T_a(s, s^{\prime}) \left[ \mathcal{R}_a(s,s^{\prime}) + \gamma V^{\pi}(s^{\prime})  \right]
 \end{align}
 $$
 

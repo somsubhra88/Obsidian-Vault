@@ -27,6 +27,7 @@ $$
 $$
 \begin{align}
 	V^{\pi}(s) &= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) r_a(s,s^{\prime}) + \gamma \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}} \pi(a \vert s)T_a(s, s^{\prime}) V^{\pi}(s^{\prime}) \\
-	&= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) \left[ ]
+	&= \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) \left[ r_a(s,s^{\prime} + \gamma V^{\pi}(s^{\prime})  \right]
 \end{align}
 $$
+

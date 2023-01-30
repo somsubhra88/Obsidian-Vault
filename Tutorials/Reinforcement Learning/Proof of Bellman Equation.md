@@ -24,3 +24,8 @@ $$
 $$
 
 ## Combining Part 1 &  Part 2
+$$
+\begin{align}
+	V^{\pi}(s) = \sum_{a \in \mathbb{A}} \sum_{s^{\prime} \in \mathbb{S}}\pi(a \vert s)T_a(s, s^{\prime}) r_a(s,s^{\prime}) + 
+\end{align}
+$$

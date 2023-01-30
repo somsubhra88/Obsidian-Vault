@@ -1,7 +1,6 @@
-# Variables
-There are two types of variables used - 
+# Variables and Functions
 ## Random Variables
-- $S_t$
+- $S_t$: State at time $t$, 
 - $A_t$
 - $R_t$
 - 

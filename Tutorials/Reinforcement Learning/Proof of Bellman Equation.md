@@ -35,6 +35,6 @@ $$
 $$
 \begin{align}
 	V^{\pi}(s) &= \mathbb{E}_{a \sim \pi(s)} \left[ Q(s, a) \right] \\
-	Q(s, a) &= \mathbb{E}_{s^{\prime} \sim T_a(s, s^{\prime}), R \sim }
+	Q(s, a) &= \mathbb{E}_{s^{\prime} \sim T_a(s, s^{\prime}), R \sim \mathcal{R}(s, s)}
 \end{align}
 $$

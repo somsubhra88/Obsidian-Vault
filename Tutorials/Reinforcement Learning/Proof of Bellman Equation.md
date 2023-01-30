@@ -39,9 +39,12 @@ $$
 $$
 \begin{align}
 	& \mathbb{E} \left[ \sum_{i = 0} ^\infty \gamma^i R_{t+i+1} \vert S_t = s \right] \\ 
-	&= \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}} \pi(a \vert s)T_a(s, s^{\prime})  \mathbb{E} \left[ \sum_{i = 0} ^\infty \gamma^i R_{t+i+1} \vert S_t = s , A_t = a, S_{t+1} = s^{\prime} \right] \\
-	&= \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}} \pi(a \vert s)T_a(s, s^{\prime})  \mathbb{E} \left[ \sum_{i = 0} ^\infty \gamma^i R_{t+i+1} \vert S_{t+1} = s^{\prime} \right] \; \; \text{(Using Markov Property)} \\
-	&= \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}} \pi(a \vert s)T_a(s, s^{\prime}) V^{\pi}(s^{\prime})
+	
+	&= \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}} \pi(a \vert s)\mathcal{T}_a(s, s^{\prime})  \mathbb{E} \left[ \sum_{i = 0} ^\infty \gamma^i R_{t+i+1} \vert S_t = s , A_t = a, S_{t+1} = s^{\prime} \right] \\
+	
+	&= \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}} \pi(a \vert s)\mathcal{T}_a(s, s^{\prime})  \mathbb{E} \left[ \sum_{i = 0} ^\infty \gamma^i R_{t+i+1} \vert S_{t+1} = s^{\prime} \right] \; \; \text{(Using Markov Property)} \\
+	
+	&= \sum_{a \in \mathcal{A}} \sum_{s^{\prime} \in \mathcal{S}} \pi(a \vert s)\mathcal{T}_a(s, s^{\prime}) V^{\pi}(s^{\prime})
 \end{align}
 $$
 

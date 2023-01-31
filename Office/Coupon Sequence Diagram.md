@@ -36,3 +36,5 @@ I don't have any idea. Need more clarification.
 6. Does the RL engine have an API that accepts easy_id as input and returns coupons based on the coupon data history inside?
 
 So far, we have yet to test the linear bandit in real life, but our system can accept the easy id as input and returns coupons based on the model predictions.
+
+7. Is it possible for the RIT RL engine to not only sort out the display from the existing but also give potential coupon candidates (kinda like Coupon Advance)?

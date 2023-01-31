@@ -3,3 +3,36 @@ Before answering those questions, I would like to explain the process. When a us
 We are sceptical about the system's throughput and latency, except involving RAT; we can do the rest in the allowable duration. To get the actual throughput, we need to do a PoC.
 ![[Coupon Sequence Diagram (2).jpeg]]
 
+1. Where and when are we going to display the personalized coupon? On the next load? Or right after the page loaded?
+
+It will be displayed right after the page load, and the coupon platform will show these on the personalized coupon sections.
+
+  
+
+2. How fast does this return the personalized coupon?
+
+I don't have any exact number at this moment, but none of our BU has had any issue with throughput. But this time, it involves three more systems - CDNA, RAT and GSP, and throughput may drop slightly.
+
+  
+
+3. Will this impact the load page view? There might be a performance issue. Coupon PF Concern: number of API calls in the Coupon Portal already. Coupon PF Concern: number of API calls in the Coupon Portal already
+
+There may be a delay, but we can do a hardware timing test before estimating the impact.
+
+  
+
+4. If it is not real-time, will RIT adjust the update frequency?
+
+Updation is not real-time; the updation frequency is 1 hour.
+
+  
+
+5. Will the request only go to every page load? No request on the background? Does RIT have a cost model to store the data?
+
+I don't have any idea. Need more clarification.
+
+  
+
+6. Does the RL engine have an API that accepts easy_id as input and returns coupons based on the coupon data history inside?
+
+So far, we have yet to test the linear bandit in real life, but our system can accept the easy id as input and returns coupons based on the model predictions.

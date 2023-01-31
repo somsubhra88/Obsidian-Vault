@@ -11,7 +11,7 @@ It will be displayed right after the page load, and the coupon platform will sho
 
 2. How fast does this return the personalized coupon?
 
-I don't have any exact number at this moment, as we are going to do batch processing of the sortin
+I don't have an exact number at this moment, as we are going to do batch processing of the sorting, and the throughput will be within the stipulated time window.
 
   
 

@@ -3,7 +3,7 @@ $$ CTR = \frac{\text{Number of Sessions with at least One Click}}{\text{Total Nu
 
 # Conversion
 We call it a conversion if it satisfies any of these two conditions - 
-- URL is like "order-confirmation".
+- The URL is like "order-confirmation".
 - cv['purchase_regular'] >= 1
 
 # Conversion Rate

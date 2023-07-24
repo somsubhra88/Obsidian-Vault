@@ -37,6 +37,9 @@ $$ CO_{ik} \ = \ Changeover \ time \ from \ item \ i \ to \ k \\ $$
 $$ TC_{ik} \ = \ Total \ Changeover \ time \ from \ item \ i \ to \ k \\ $$
 
 $$ I_{it} = Inventory \ of \ item \ i \ at \ the \ end \ of \ time \ t $$
+```python
+I = model.addVars(SKU_LIST,LINE,TIME, name ="Inv")
+```
 
 $$ MSA_{i}\ = \ Production \ rate \ per \ hour \ in \ btls \\ $$
 

@@ -60,16 +60,11 @@ $$ \ X_{ijt} \leq \ c_{ij} \; \forall \ i , j $$
   
 3. At most, one item could be produced on a line
 $$ \sum_{i=1}^n X_{ijt} \leq 1 \;  \forall \ j, t $$
-
-$$ \text{Job Start}\\
-
-\displaystyle \ B_{i,j,t} \ = \ max (0, W_{ijt} ) $$
-
-  
-5. SKU Change can be any of these values $[-1,0,1]$
+4. SKU Change can be any of these values $[-1,0,1]$
 $$ W_{ijt} \ = \ X_{i,j,t} \ - \ X_{i,j,t-1} $$
 
-  
+4. Job Start
+$$ B_{i,j,t} \ = \ max (0, W_{ijt} ) $$
 
 $$ \text{Job End}\\
 

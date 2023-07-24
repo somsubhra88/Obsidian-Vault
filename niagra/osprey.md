@@ -22,19 +22,19 @@ $$ L = \{ 1,2 \}\ ,\ two \ stages \ of \ production \ or \ packing\\ $$
 
 $$ Y_{it} = start \ of \ the \ storage \ of \ item \ i\\ at time t $$
 
-$$ R_{it} = end \ of \ the \ storage \ of \ item \ i\\ $
+$$ R_{it} = end \ of \ the \ storage \ of \ item \ i\\ $$
 
-c_{i,j} = \ item \ i \ can \ be \ produced \ on \ line \ j\\
+$$ c_{i,j} = \ item \ i \ can \ be \ produced \ on \ line \ j\\ $$
 
-CIP_{ik} \ = \ CIP \ time \ from \ item \ i \ to \ k \\
+$$ CIP_{ik} \ = \ CIP \ time \ from \ item \ i \ to \ k \\ $$
 
-CO_{ik} \ = \ Changeover \ time \ from \ item \ i \ to \ k \\
+$$ CO_{ik} \ = \ Changeover \ time \ from \ item \ i \ to \ k \\ $$
 
-TC_{ik} \ = \ Total \ Changeover \ time \ from \ item \ i \ to \ k \\
+$$ TC_{ik} \ = \ Total \ Changeover \ time \ from \ item \ i \ to \ k \\ $$
 
-I_{it} = Inventory \ of \ item \ i \ at \ the \ end \ of \ time \ t\\
+$$ I_{it} = Inventory \ of \ item \ i \ at \ the \ end \ of \ time \ t\\ $$
 
-MSA_{i}\ = \ Production \ rate \ per \ hour \ in \ btls \\
+$$ MSA_{i}\ = \ Production \ rate \ per \ hour \ in \ btls \\ $$
 
 CIP_{total} = sum \ of \ CIP \ time\\
 

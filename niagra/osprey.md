@@ -84,15 +84,11 @@ $$I_{t+1} \ = \ I_t + \sum_{i=1}^n Y_{it} \cdot MSA_{i,t} - \sum_{i=1}^n R_{it} 
 
 $$I_t \geq 0\ $$
 
-  
+10. If an item is being produced on L5 or L6, either inventory storage or packing starts at the same time
 
 $$\sum_{j \in [1,2]} X_{ijt} \leq Y_{it} + R_{i,t} \text{, } \forall i \text{, } \forall t $$
 
-  
-
-$$\text{Inventory storage and packing must not incur at the same time in parallel}\\
-
-\displaystyle \ Y_{it} + R_{i,t} \leq 1 \text{, } \forall i \text{, } \forall t $$
+$$Y_{it} + R_{i,t} \leq 1 \text{, } \forall i , t $$
 
   
 

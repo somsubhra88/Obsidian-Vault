@@ -63,18 +63,15 @@ $$ \sum_{i=1}^n X_{ijt} \leq 1 \;  \forall \ j, t $$
 4. SKU Change can be any of these values $[-1,0,1]$
 $$ W_{ijt} \ = \ X_{i,j,t} \ - \ X_{i,j,t-1} $$
 
-4. Job Start
+5. Job Start
 $$ B_{i,j,t} \ = \ max (0, W_{ijt} ) $$
+6. Job End
 
-$$ \text{Job End}\\
+$$E_{i,j,t} \ = \ max (0, -W_{ijt} ) $$
 
-\displaystyle \ E_{i,j,t} \ = \ max (0, -W_{ijt} ) $$
+7. Total End Time
 
-  
-
-$$ \text{Total End Time}\\
-
-\displaystyle \ TE \ = \ max (t * E_{ijt} ) $$
+$$TE \ = \ max (t * E_{ijt} ) $$
 
   
 

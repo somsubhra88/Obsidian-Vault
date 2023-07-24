@@ -91,14 +91,12 @@ $$\sum_{j \in [1,2]} X_{ijt} \leq Y_{it} + R_{i,t} \text{, } \forall i \text{, }
 $$Y_{it} + R_{i,t} \leq 1 \text{, } \forall i , t $$
 
   
-12. CIP must elapse after production of an item on L5/L6 before producing next item}\\
+12. CIP must elapse after production of an item on L5/L6 before producing next item
 $$\sum_{t+1}^{t+CIP_{ik}} X_{kjt} \leq M \cdot (1-X{ijt}) \; \forall i, j, t, \ \& \ i\neq k $$
 
-  
+13. Minimum running time is 48 hours
 
-$$ \text{Minimum running time is 48 hours}\\
-
-\displaystyle \ \sum_{t+1}^{t+MIN_{RTi}} X_{ijt} \ = \ MIN_{RTi} \ \ \ \ X_{ijt}\ =\ 1,X_{ijt-1}\ =\ 0\ \text{, } \forall i, \forall j, \forall t, i\neq k $$
+$$\sum_{t+1}^{t+MIN_{RTi}} X_{ijt} \ = \ MIN_{RTi} \ \ \ \ X_{ijt}\ =\ 1,X_{ijt-1}\ =\ 0\ \text{, } \forall i, \forall j, \forall t, i\neq k $$
 
   
 

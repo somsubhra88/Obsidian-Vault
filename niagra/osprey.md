@@ -50,10 +50,7 @@ $$ TH_f = \text{Threshold hours of 5 step CIP by flavor}$$
 
 
 1. Production is greater than demand
-$$
-\sum_{i=1}^n (X_{ijt} ) \cdot MSA_{i} \geq Demands_{it} \text{; } \forall j \text{, } \forall t 
-
-$$
+$$ \sum_{i=1}^n (X_{ijt} ) \cdot MSA_{i} \geq Demands_{it} \text{; } \forall j \text{, } \forall t  $$
 
   
   

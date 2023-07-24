@@ -60,13 +60,13 @@ $$
 2. Item is produced on a line only if the line has the capability
 $$
 
-\displaystyle \ X_{ijt} \leq \ c_{ij} \ \ \ \forall \ i , j $$
+\displaystyle \ X_{ijt} \leq \ c_{ij} \; \forall \ i , j $$
 
   
 3. At most one item could be produced on a line
 $$
 
-\sum_{i=1}^n X_{ijt} \leq 1 \ \forall \ j, t $$
+\sum_{i=1}^n X_{ijt} \leq 1 \;  \forall \ j, t $$
 
   
 

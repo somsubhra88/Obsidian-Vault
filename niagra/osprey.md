@@ -29,11 +29,14 @@ S_Pro = model.addVars(SKU_LIST, LINE, TIME, vtype=GRB.BINARY, name = "JOB_START_
 ```
 
 $$ E_{ijt} = \text{Job End}\ \in \ \ [0,1]\\ $$
-```
+```python
 E_Pro = model.addVars(SKU_LIST, LINE, TIME, vtype=GRB.BINARY, name = "JOB_END_PRO")
 ```
 
 $$ Demands_{it} \ = \ Demand \ for \ SKU \ i \ at \ time \ t \\ $$
+```python
+DEMAND_DICT = dict(zip(DEMAND_AGG['SKU'], DEMAND_AGG['QTY']))
+```
 
 $$ L = \{ 1,2 \}\ ,\ two \ stages \ of \ production \ or \ packing\\ $$
 

@@ -1,6 +1,6 @@
 **Variables**
 
-$$ X_{ijt} = Produce \ SKU_i \ on \ line \ 5/6 \ at \ time \ t \ \in \ \ [T] $$
+$$ X_{ijt} = Produce \ SKU \ i \ on \ line \ L5 \ or \  L6 \ at \ time \ t \ \in \ \ [T] $$
 
 $$ F_{vt} = Produce \ SKU_v \ on \ line \ 7 \ at \ time \ t \ \in \ \ [T]\\ $$
 
@@ -16,7 +16,7 @@ $$ B_{ijt} = \text{Job Start}\ \in \ \ [0,1]\\ $$
 
 $$ E_{ijt} = \text{Job End}\ \in \ \ [0,1]\\ $$
 
-$$ Demands_{it} \ = \ Demand \ for \ SKU - \ i \ at \ time \ t \\ $$
+$$ Demands_{it} \ = \ Demand \ for \ SKU \ i \ at \ time \ t \\ $$
 
 $$ L = \{1,2\}\ ,\ two \ stages \ production \ or \ packing\\ $$
 

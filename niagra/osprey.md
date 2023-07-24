@@ -75,9 +75,9 @@ $$TE \ = \ max (t * E_{ijt} ) $$
 
   
 
-$$ \text{Inventory at end of t+1}\\
+Inventory at end of $t+1$
 
-\displaystyle \ I_{t+1} \ = \ I_t + \sum_{i=1}^n Y_{it} \cdot MSA_{i,t} - \sum_{i=1}^n R_{it} \cdot CON_{v,i}\ \ \ \forall t $$
+$$I_{t+1} \ = \ I_t + \sum_{i=1}^n Y_{it} \cdot MSA_{i,t} - \sum_{i=1}^n R_{it} \cdot CON_{v,i}\ \ \ \forall t $$
 
   
 

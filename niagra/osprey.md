@@ -100,8 +100,6 @@ $$\sum_{t+1}^{t+MIN_{RTi}} X_{ijt} \ = \ MIN_{RTi}$$
 $$X_{ijt}\ =\ 1$$
 $$X_{ij(t-1)}\ =\ 0$$
 $$\forall i, \ j, \ t \ \& i\neq k $$
+14. Force 5 step CIP every 96 hours of production run
 
-
-$$ \text{Force 5 step CIP every 96 hours of production run}\\
-
-\displaystyle \ \sum_{t+TH}^{t+TH+42} X_{kjt} \leq M \cdot (TH-\sum_{t}^{t+TH} X{ijt}) \ \ \ \forall i, \forall j, \forall t $$
+$$\sum_{t+TH}^{t+TH+42} X_{kjt} \leq M \cdot (TH-\sum_{t}^{t+TH} X{ijt}) \ \ \ \forall i, \forall j, \forall t $$

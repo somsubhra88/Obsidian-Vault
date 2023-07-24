@@ -44,15 +44,16 @@ $$ MIN_{RT} = \text{Minimum run time is 48 hrs}$$
 
 $$ TH_f = \text{Threshold hours of 5 step CIP by flavor}$$
 
-**Constraints**
+## Constraints
 
   
 
-$$
-\math
-\text{Production is greater than demand} \\
 
-\displaystyle \sum_{i=1}^n (X_{ijt} ) \cdot MSA_{i} \geq Demands_{it} \text{; } \forall j \text{, } \forall t $$
+Production is greater than demand
+
+\displaystyle \sum_{i=1}^n (X_{ijt} ) \cdot MSA_{i} \geq Demands_{it} \text{; } \forall j \text{, } \forall t 
+\end{align}
+$$
 
   
   

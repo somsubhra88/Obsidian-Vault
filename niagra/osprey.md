@@ -75,21 +75,18 @@ $$TE \ = \ max (t * E_{ijt} ) $$
 
   
 
-Inventory at end of $t+1$
+8. Inventory at end of $t+1$
 
 $$I_{t+1} \ = \ I_t + \sum_{i=1}^n Y_{it} \cdot MSA_{i,t} - \sum_{i=1}^n R_{it} \cdot CON_{v,i}\ \ \ \forall t $$
 
   
+9. Inventory greater than $0$
 
-$$ \text{Inventory greater than 0}\\
-
-\displaystyle \ I_t \geq 0\ $$
+$$I_t \geq 0\ $$
 
   
 
-$$\text{If an item is being produced on L5/6, either inventory storage or packing starts at the same time}\\
-
-\displaystyle \ \sum_{j \in [1,2]} X_{ijt} \leq Y_{it} + R_{i,t} \text{, } \forall i \text{, } \forall t $$
+$$\sum_{j \in [1,2]} X_{ijt} \leq Y_{it} + R_{i,t} \text{, } \forall i \text{, } \forall t $$
 
   
 

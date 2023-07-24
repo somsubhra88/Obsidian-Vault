@@ -18,11 +18,11 @@ $$ E_{ijt} = \text{Job End}\ \in \ \ [0,1]\\ $$
 
 $$ Demands_{it} \ = \ Demand \ for \ SKU \ i \ at \ time \ t \\ $$
 
-$$ L = \{1,2\}\ ,\ two \ stages \ production \ or \ packing\\ $$
+$$ L = \{ 1,2 \}\ ,\ two \ stages \ of \ production \ or \ packing\\ $$
 
-$$ Y_it = start \ of \ the \ storage \ of \ item \ i\\ $$
+$$ Y_{it} = start \ of \ the \ storage \ of \ item \ i\\ at time t $$
 
-R_it = end \ of \ the \ storage \ of \ item \ i\\
+$$ R_{it} = end \ of \ the \ storage \ of \ item \ i\\ $
 
 c_{i,j} = \ item \ i \ can \ be \ produced \ on \ line \ j\\
 

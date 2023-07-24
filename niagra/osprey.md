@@ -63,10 +63,10 @@ $$
 \displaystyle \ X_{ijt} \leq \ c_{ij} \ \ \ \forall \ i , j $$
 
   
+3. At most one item could be produced on a line
+$$
 
-$$ \text{At most one item could be produced on a line}\\
-
-\displaystyle \sum_{i=1}^n X_{ijt} \leq 1 \ \ \ \forall j \text{,} \forall t $$
+\sum_{i=1}^n X_{ijt} \leq 1 \ \forall \ j, t $$
 
   
 

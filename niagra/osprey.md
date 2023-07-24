@@ -35,6 +35,8 @@ E_Pro = model.addVars(SKU_LIST, LINE, TIME, vtype=GRB.BINARY, name = "JOB_END_PR
 
 $$ Demands_{it} \ = \ Demand \ for \ SKU \ i \ at \ time \ t \\ $$
 ```python
+DEMAND = pd.read_csv ('DEMAND.csv')
+DEMAND_AGG = DEMAND.groupby(['SKU','UOM','SKU_TYPE'])['QTY'].sum().reset_index()
 DEMAND_DICT = dict(zip(DEMAND_AGG['SKU'], DEMAND_AGG['QTY']))
 ```
 

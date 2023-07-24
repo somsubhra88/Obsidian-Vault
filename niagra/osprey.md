@@ -24,8 +24,14 @@ W_Pro_2 = model.addVars(SKU_LIST,LINE,TIME, vtype=GRB.INTEGER, lb=-1, ub =1, nam
 Why are two variables used?
 
 $$ B_{ijt} = \text{Job Start}\ \in \ \ [0,1]\\ $$
+```python
+S_Pro = model.addVars(SKU_LIST, LINE, TIME, vtype=GRB.BINARY, name = "JOB_START_PRO")
+```
 
 $$ E_{ijt} = \text{Job End}\ \in \ \ [0,1]\\ $$
+```
+E_Pro = model.addVars(SKU_LIST, LINE, TIME, vtype=GRB.BINARY, name = "JOB_END_PRO")
+```
 
 $$ Demands_{it} \ = \ Demand \ for \ SKU \ i \ at \ time \ t \\ $$
 

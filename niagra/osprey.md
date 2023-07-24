@@ -50,15 +50,15 @@ $$ TH_f = \text{Threshold hours of 5 step CIP by flavor}$$
 
 
 Production is greater than demand
+$$
+\sum_{i=1}^n (X_{ijt} ) \cdot MSA_{i} \geq Demands_{it} \text{; } \forall j \text{, } \forall t 
 
-\displaystyle \sum_{i=1}^n (X_{ijt} ) \cdot MSA_{i} \geq Demands_{it} \text{; } \forall j \text{, } \forall t 
-\end{align}
 $$
 
   
   
-
-$$ \text{Item is produced on a line only if the line has capability}\\
+Item is produced on a line only if the line has capability
+$$
 
 \displaystyle \ X_{ijt} \leq \ c_{ij} \ \ \ \forall i \text{,} \forall j $$
 

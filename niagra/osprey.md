@@ -4,23 +4,23 @@ $$ X_{ijt} = Produce \ SKU_i \ on \ line \ 5/6 \ at \ time \ t \ \in \ \ [T] $$
 
 $$ F_{vt} = Produce \ SKU_v \ on \ line \ 7 \ at \ time \ t \ \in \ \ [T]\\ $$
 
-$$CON_{v,i} = \text{WIP bottle conversion quantity per assembly }\\ $$
+$$CON_{vi} = \text{WIP bottle conversion quantity per assembly }\\ $$
 
-J_i = production \ line\ J \\
+$$ J_i = production \ line\ J \\ $$
 
-Time \ Interval, \ t = {1,2, ..., T} \ \ \ \forall t \in [1,8640]\\
+$$ Time \ Interval, \ t = {1,2, ..., T} \ \ \ \forall t \in [1,8640]\\ $$
 
-W_{ijt} = \text{SKU Change}\ \in \ \ [-1,0,1]\\
+$$ W_{ijt} = \text{SKU Change}\ \in \ \ [-1,0,1]\\ $$
 
-B_{ijt} = \text{Job Start}\ \in \ \ [0,1]\\
+$$ B_{ijt} = \text{Job Start}\ \in \ \ [0,1]\\ $$
 
-E_{ijt} = \text{Job End}\ \in \ \ [0,1]\\
+$$ E_{ijt} = \text{Job End}\ \in \ \ [0,1]\\ $$
 
-Demands_{it} \ = \ Demand \ for \ SKU \ i \ at \ time \ t \\
+$$ Demands_{it} \ = \ Demand \ for \ SKU - \ i \ at \ time \ t \\ $$
 
-L = \{1,2\}\ ,\ two \ stages \ production \ or \ packing\\
+$$ L = \{1,2\}\ ,\ two \ stages \ production \ or \ packing\\ $$
 
-Y_it = start \ of \ the \ storage \ of \ item \ i\\
+$$ Y_it = start \ of \ the \ storage \ of \ item \ i\\ $$
 
 R_it = end \ of \ the \ storage \ of \ item \ i\\
 

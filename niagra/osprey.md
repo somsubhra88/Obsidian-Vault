@@ -55,9 +55,7 @@ $$ \sum_{i=1}^n (X_{ijt} ) \cdot MSA_{i} \geq Demands_{it} \text{; } \forall j \
   
   
 2. Item is produced on a line only if the line has the capability
-$$
-
-\displaystyle \ X_{ijt} \leq \ c_{ij} \; \forall \ i , j $$
+$$ \ X_{ijt} \leq \ c_{ij} \; \forall \ i , j $$
 
   
 3. At most one item could be produced on a line
@@ -72,10 +70,8 @@ $$ \text{Job Start}\\
 \displaystyle \ B_{i,j,t} \ = \ max (0, W_{ijt} ) $$
 
   
-
-$$ \text{SKU Change [-1,0,1]}\\
-
-\displaystyle \ W_{ijt} \ = \ X_{i,j,t} \ - \ X_{i,j,t-1} $$
+\text{SKU Change [-1,0,1]}\\
+$$ W_{ijt} \ = \ X_{i,j,t} \ - \ X_{i,j,t-1} $$
 
   
 

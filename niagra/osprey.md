@@ -87,14 +87,12 @@ $$I_t \geq 0\ $$
 10. If an item is being produced on L5 or L6, either inventory storage or packing starts at the same time
 
 $$\sum_{j \in [1,2]} X_{ijt} \leq Y_{it} + R_{i,t} \text{, } \forall i \text{, } \forall t $$
-
+11. Inventory storage and packing must not incur at the same time in parallel
 $$Y_{it} + R_{i,t} \leq 1 \text{, } \forall i , t $$
 
   
-
-$$ \text{CIP must elapse after production of an item on L5/L6 before producing next item}\\
-
-\displaystyle \ \sum_{t+1}^{t+CIP_{ik}} X_{kjt} \leq M \cdot (1-X{ijt}) \ \ \ \forall i, \forall j, \forall t, i\neq k $$
+12. CIP must elapse after production of an item on L5/L6 before producing next item}\\
+$$\sum_{t+1}^{t+CIP_{ik}} X_{kjt} \leq M \cdot (1-X{ijt}) \; \forall i, j, t, \ \& \ i\neq k $$
 
   
 

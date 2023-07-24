@@ -58,19 +58,15 @@ $$ \sum_{i=1}^n (X_{ijt} ) \cdot MSA_{i} \geq Demands_{it} \text{; } \forall j \
 $$ \ X_{ijt} \leq \ c_{ij} \; \forall \ i , j $$
 
   
-3. At most one item could be produced on a line
-$$
-
-\sum_{i=1}^n X_{ijt} \leq 1 \;  \forall \ j, t $$
-
-  
+3. At most, one item could be produced on a line
+$$ \sum_{i=1}^n X_{ijt} \leq 1 \;  \forall \ j, t $$
 
 $$ \text{Job Start}\\
 
 \displaystyle \ B_{i,j,t} \ = \ max (0, W_{ijt} ) $$
 
   
-\text{SKU Change [-1,0,1]}\\
+5. SKU Change can be any of these values $[-1,0,1]$
 $$ W_{ijt} \ = \ X_{i,j,t} \ - \ X_{i,j,t-1} $$
 
   

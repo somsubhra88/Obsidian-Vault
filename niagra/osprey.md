@@ -1,4 +1,4 @@
-**Variables**
+## Variables
 
 $$ X_{ijt} = Produce \ SKU \ i \ on \ line \ L5 \ or \  L6 \ at \ time \ t \ \in \ \ [T] $$
 
@@ -38,10 +38,8 @@ $$ MSA_{i}\ = \ Production \ rate \ per \ hour \ in \ btls \\ $$
 
 $$ CIP_{total} = sum \ of \ CIP \ time\ $$
 
-Tray_{cap} = \text{WIP tray capacity in btls}\\
+$$ Tray_{cap} = \text{WIP tray capacity in bottles}$$
 
-MIN_{RT} = \text{Minimum run time is 48 hrs}\\
+$$ MIN_{RT} = \text{Minimum run time is 48 hrs}$$
 
-TH_f = \text{Threshold hours of 5 step CIP by flavor}\\
-
-$
+$$ TH_f = \text{Threshold hours of 5 step CIP by flavor}$$

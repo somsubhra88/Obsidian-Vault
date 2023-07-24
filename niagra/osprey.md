@@ -15,6 +15,13 @@ $$ J_i = production \ line\ J \\ $$
 $$ Time \ Interval, \ t = {1,2, ..., T} \ \ \ \forall t \in [1,8640]\\ $$
 
 $$ W_{ijt} = \text{SKU Change}\ \in \ \ [-1,0,1]\\ $$
+```python
+W_Pro = model.addVars(SKU_LIST,LINE,TIME, vtype=GRB.INTEGER, lb=-1, ub =1, name ="JOB_CHANGE_PRO")
+
+W_Pro_2 = model.addVars(SKU_LIST,LINE,TIME, vtype=GRB.INTEGER, lb=-1, ub =1, name ="JOB_CHANGE_PRO_2")
+```
+
+Why are two variables used?
 
 $$ B_{ijt} = \text{Job Start}\ \in \ \ [0,1]\\ $$
 

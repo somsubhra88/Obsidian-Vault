@@ -1,10 +1,10 @@
 **Variables**
 
-$$ X_{ijt} = Produce \ SKU_i \ on \ line \ 5/6 \ at \ time \ t \ \in \ \ $$
+$$ X_{ijt} = Produce \ SKU_i \ on \ line \ 5/6 \ at \ time \ t \ \in \ \ [T] $$
 
-F_{vt} = Produce \ SKU_v \ on \ line \ 7 \ at \ time \ t \ \in \ \ [T]\\
+$$ F_{vt} = Produce \ SKU_v \ on \ line \ 7 \ at \ time \ t \ \in \ \ [T]\\ $$
 
-CON_{v,i} = \text{WIP btl conversion qty per assembly }\\
+$$CON_{v,i} = \text{WIP bottle conversion quantity per assembly }\\ $$
 
 J_i = production \ line\ J \\
 

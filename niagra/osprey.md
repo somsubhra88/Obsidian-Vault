@@ -1,9 +1,13 @@
 ## Variables
 
 $$ X_{ijt} = Produce \ SKU \ i \ on \ line \ L5 \ or \  L6 \ at \ time \ t \ \in \ \ [T] $$
-
+```python
+X = model.addVars(SKU_LIST,LINE,TIME, vtype=GRB.BINARY, name="PRO_LINE")
+```
 $$ F_{vt} = Produce \ SKU_v \ on \ line \ 7 \ at \ time \ t \ \in \ \ [T]\\ $$
-
+```python
+V = model.addVars(SKU_VP_LIST,TIME, vtype=GRB.BINARY, name="PACK_LINE")
+```
 $$CON_{vi} = \text{WIP bottle conversion quantity per assembly }\\ $$
 
 $$ J_i = production \ line\ J \\ $$

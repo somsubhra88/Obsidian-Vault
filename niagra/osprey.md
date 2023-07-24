@@ -96,7 +96,9 @@ $$\sum_{t+1}^{t+CIP_{ik}} X_{kjt} \leq M \cdot (1-X{ijt}) \; \forall i, j, t, \ 
 
 13. Minimum running time is 48 hours
 
-$$\sum_{t+1}^{t+MIN_{RTi}} X_{ijt} \ = \ MIN_{RTi} \ \ \ \ X_{ijt}\ =\ 1,X_{ijt-1}\ =\ 0\ \text{, } \forall i, \forall j, \forall t, i\neq k $$
+$$\sum_{t+1}^{t+MIN_{RTi}} X_{ijt} \ = \ MIN_{RTi}$$
+$$X_{ijt}\ =\ 1$$
+$$X_{ij(t-1}\ =\ 0\ \text{, } \forall i, \forall j, \forall t, i\neq k $$
 
   
 

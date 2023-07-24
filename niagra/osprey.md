@@ -12,7 +12,7 @@ $$CON_{vi} = \text{WIP bottle conversion quantity per assembly }\\ $$
 
 $$ J_i = production \ line\ J \\ $$
 
-$$ Time \ Interval, \ t = {1,2, \ldot, T} \ \ \ \forall t \in [1,8640]\\ $$
+$$ Time \ Interval, \ t = \{1,2, \cdots, T \} \; \forall t \in [1,8640]\\ $$
 
 $$ W_{ijt} = \text{SKU Change}\ \in \ \ [-1,0,1]\\ $$
 ```python

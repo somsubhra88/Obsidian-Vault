@@ -9,9 +9,9 @@ It will be displayed right after the page load, and the coupon platform will sho
 
   
 
-2. How fast does this return the personalized coupon?
+2. How fast does this return the personalised coupon?
 
-I don't have an exact number at this moment, as we are going to do batch processing of the sorting, and the throughput will be within the stipulated time window.
+I have yet to determine an exact number at this moment, as we are going to do batch processing of the sorting, and the throughput will be within the stipulated time window.
 
   
 
@@ -21,7 +21,7 @@ There may be a delay, but we can do a hardware timing test before estimating the
 
   
 
-4. If it is not real-time, will RIT adjust the update frequency?
+4. will RIT adjust the update frequency if it is not real-time?
 
 Updation is not real-time; the updation frequency is 1 hour.
 
@@ -37,4 +37,4 @@ I don't have any idea. Need more clarification.
 
 So far, we have yet to test the linear bandit in real life, but our system can accept the easy id as input and returns coupons based on the model predictions.
 
-7. Is it possible for the RIT RL engine to not only sort out the display from the existing but also give potential coupon candidates (kinda like Coupon Advance)?
+7. Can the RIT RL engine not only sort out the display from the existing but also give potential coupon candidates (kinda like Coupon Advance)?

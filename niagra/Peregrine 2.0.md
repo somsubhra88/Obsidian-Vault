@@ -29,5 +29,5 @@ $$\sum_{i \in I_{[s]}} X_{i,j} <= D_{s,j} \; \; \;  \forall j \in [1..m], \; s \
 Non-allocation Constraints
 
 - We will implement this constraint only where $K_i = 0$
-- Original Allocations for those cases are 
-$$if \; K_i = 0, \; X_{argmax_m \; U_{i, m}, j} = 1 $$
+- Original Allocations for those indices are $l- = argmax_m \; U_{i, m}$
+$$if \; K_i = 0, \; X_{, j} = 1 $$

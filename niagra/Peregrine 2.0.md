@@ -9,5 +9,4 @@
 $$X_{ij} = 1 \; if \; demand \; at \; i^{th} \; index \; will \; delivered \; from \; j^{th} \; plant \; else \; 0$$
 
 ## Objective Function
-$$ minimize $$
-$$ X_{i,j} \bigotimes C_{i,j} - U$$
+$$ minimize \; X \bigotimes C - U \bigotimes C$$

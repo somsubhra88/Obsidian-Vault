@@ -1,1 +1,1 @@
-- index = concatenation of oreder number
+- index = concatenation of order number, SKU and the date string

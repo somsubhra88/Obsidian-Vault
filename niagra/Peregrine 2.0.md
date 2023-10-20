@@ -1,1 +1,1 @@
-$$index = order \; number \text$$
+- index = concatenation of oreder number

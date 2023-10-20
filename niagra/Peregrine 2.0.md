@@ -1,1 +1,1 @@
-$$index = order \; number $$
+$$index = order \; number \text$$

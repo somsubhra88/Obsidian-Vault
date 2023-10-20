@@ -23,3 +23,4 @@ $$ minimize \; X \otimes C - U \otimes C$$
 Fulfilment Constraint
 $$ \sum_{j=1}^n X_{i, j} = 1 \; \forall \; i \in [1..n]$$
 Capacity Constraints
+$$\sum_{i \in } $$

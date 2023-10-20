@@ -3,7 +3,7 @@
 
 - SKU Set($S$) = Set of all SKUs
 
-- index SKU set($i_{[s]}$) = Set of all indexes which are 
+- index SKU set($i_{[s]}$) = Set of all indexes which contains SKU $s$
 
 - Plant/RORG = Source from where demand will be satisfied; let's assume we have $m$ plants
   

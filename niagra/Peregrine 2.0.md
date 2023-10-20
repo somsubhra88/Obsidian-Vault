@@ -27,5 +27,6 @@ $$ \sum_{j=1}^n X_{i, j} = 1 \; \; \; \forall \; i \in [1..n]$$
 Capacity Constraints
 $$\sum_{i \in I_{[s]}} X_{i,j} <= D_{s,j} \; \; \;  \forall j \in [1..m], \; s \in S $$
 Non-allocation Constraints
-We will implement this constraint only if $K_i = 0$
+
+We will implement this constraint only where $K_i = 0$
 $$if \; K_i = 0, \; X_{argmax_m \; U_{i, m}, j} = 1 $$

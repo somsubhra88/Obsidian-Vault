@@ -6,6 +6,7 @@
 - index SKU set($I_{[s]}$) = Set of all indexes which contain SKU $s$
 
 - Plant/RORG = Source from where demand will be satisfied; let's assume we have $m$ plants
+- Rellocati
   
 - Capacity Matrix($D$) = Capacity Matrix to indicate the capacity of each plant for each SKU, $D_{s,j}$ is the capacity of $s^{th}$ SKU at $j^{th}$ plant, which can be calculated by summing up the CTP and ATP
   

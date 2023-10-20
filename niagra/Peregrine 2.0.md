@@ -7,3 +7,7 @@
 
 ## Decision Variables
 $$X_{ij} = 1 \; if \; demand \; at \; i^{th} \; index \; will \; delivered \; from \; j^{th} \; plant \; else \; 0$$
+
+## Objective Function
+$$ minimize $$
+$$ 

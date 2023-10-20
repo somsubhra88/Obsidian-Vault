@@ -3,7 +3,7 @@
 
 - SKU Set($S$) = Set of all SKUs
 
-- index SKU set($i_{[s]}$) = Set of all indexes which contains SKU $s$
+- index SKU set($I_{[s]}$) = Set of all indexes which contain SKU $s$
 
 - Plant/RORG = Source from where demand will be satisfied; let's assume we have $m$ plants
   
@@ -23,4 +23,4 @@ $$ minimize \; X \otimes C - U \otimes C$$
 Fulfilment Constraint
 $$ \sum_{j=1}^n X_{i, j} = 1 \; \forall \; i \in [1..n]$$
 Capacity Constraints
-$$\sum_{i \in } $$
+$$\sum_{i \in I_{[s]}} X_{i,j} <= D_{j} $$

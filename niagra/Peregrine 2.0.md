@@ -11,4 +11,4 @@ $$X_{ij} = 1 \; if \; demand \; at \; i^{th} \; index \; will \; delivered \; fr
 ## Objective Function
 $$ minimize \; X \otimes C - U \otimes C$$
 ## Constraints
-$$ sum
+$$ sum_{j=1}^n X_{i, j} = 1 \; \forall i \in [1..n]

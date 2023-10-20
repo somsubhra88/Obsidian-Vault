@@ -30,4 +30,4 @@ Non-allocation Constraints
 
 - We will implement this constraint only where $K_i = 0$
 - Original Allocations for those indices are $l_i = argmax_m \; U_{i, m}$
-$$X_{l_i, j} <= 1 \; \; \; \forall i \in $$
+$$X_{l_i, j} <= 1 \; \; \; \forall i \; where \; \;  K_i = 0 \; \; \& \; \; l_i = argmax_m \; U_{i, m}$$

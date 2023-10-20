@@ -1,7 +1,9 @@
 # Variables
 - index = concatenation of order number, SKU and the date string; let's assume we have $n$ such combinations
 
-- Plant/RORG = source from where demand will be satisfied; let's assume we have $m$ plants
+- SKU Set($S$) = 
+
+- Plant/RORG = Source from where demand will be satisfied; let's assume we have $m$ plants
   
 - Capacity Matrix($D$) = Capacity Matrix to indicate the capacity of each plant for each SKU, $D_{s,j}$ is the capacity of $s^{th}$ SKU at $j^{th}$ plant, which can be calculated by summing up the CTP and ATP
   

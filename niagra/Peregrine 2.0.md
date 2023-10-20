@@ -7,7 +7,7 @@
 
 - Plant/RORG = Source from where demand will be satisfied; let's assume we have $m$ plants
   
-- Relocation Indicator($K$) = Indicates whether we can relocate the demand from different plan than the original
+- Relocation Indicator($K$) = Indicates whether we can relocate the demand from a different plant than the original recommendation, $K_i$ is $1$ if relocation is allowed, else $0$
   
 - Capacity Matrix($D$) = Capacity Matrix to indicate the capacity of each plant for each SKU, $D_{s,j}$ is the capacity of $s^{th}$ SKU at $j^{th}$ plant, which can be calculated by summing up the CTP and ATP
   
@@ -27,3 +27,4 @@ $$ \sum_{j=1}^n X_{i, j} = 1 \; \; \; \forall \; i \in [1..n]$$
 Capacity Constraints
 $$\sum_{i \in I_{[s]}} X_{i,j} <= D_{s,j} \; \; \;  \forall j \in [1..m], \; s \in S $$
 Non-allocation Constraints
+$$

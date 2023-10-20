@@ -6,4 +6,4 @@
 # Problem Formulation
 
 ## Decision Variables
-$$X_ij = 1 
+$$X_ij = 1 if \; i^{th} \; index \; will \; delivered \; from j^{th} \; plant \; else \; 0$$

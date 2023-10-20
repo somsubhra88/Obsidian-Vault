@@ -6,4 +6,4 @@
 # Problem Formulation
 
 ## Decision Variables
-$$X_ij = 1 if \; i^{th} \; index \; will \; delivered \; from j^{th} \; plant \; else \; 0$$
+$$X_{ij} = 1 \; if \; demand \; at \; i^{th} \; index \; will \; delivered \; from \; j^{th} \; plant \; else \; 0$$

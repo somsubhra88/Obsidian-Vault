@@ -27,4 +27,4 @@ $$ \sum_{j=1}^n X_{i, j} = 1 \; \; \; \forall \; i \in [1..n]$$
 Capacity Constraints
 $$\sum_{i \in I_{[s]}} X_{i,j} <= D_{s,j} \; \; \;  \forall j \in [1..m], \; s \in S $$
 Non-allocation Constraints
-$$
+$$if \; K_i = 0, \; $$

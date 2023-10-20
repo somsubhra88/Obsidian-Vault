@@ -1,7 +1,9 @@
 # Variables
-- index = concatenation of order number, SKU and the date string; let's assume we have $n$ such combinations
+- index = Concatenation of order number, SKU and the date string; let's assume we have $n$ such combinations
 
-- SKU Set($S$) = 
+- SKU Set($S$) = Set of all SKUs
+
+- index SKU set($i_{[s]}$) = Set of all indexes which are 
 
 - Plant/RORG = Source from where demand will be satisfied; let's assume we have $m$ plants
   

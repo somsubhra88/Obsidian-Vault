@@ -1,10 +1,12 @@
 The objective is to determine the most cost-effective allocation of resources to fulfil orders while adhering to specific constraints, such as resource availability, demand requirements, and operational rules. It uses mathematical modelling to minimize the total costs associated with resource assignments across different orders, ensuring that each order is met with the optimal combination of resources and options. This optimisation process aims to balance meeting demands precisely and efficiently using resources and minimising the overall operational costs while respecting logistical limitations and business rules.
 
 # Decision Variables
+
+
 1. **X - Resource Selection Variables**
     
     - **Type:** Binary
-    - **Description:** 
+    - **Description:** `X` variables are binary, which means each resource allocation decision for the combinations specified by `unique_identifiers` in the `base_data` is a yes (1) or no (0) choice. This alteration simplifies the model by making resource selection a matter of inclusion or exclusion rather than quantity, which could be relevant if the resources are indivisible or if the situation calls for a simple presence/absence decision.
 2. **Y - Option Selection Variables**
     
     - **Type:** Binary

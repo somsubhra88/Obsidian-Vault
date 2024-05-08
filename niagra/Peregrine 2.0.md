@@ -117,4 +117,4 @@ M(\text{ordernum}) &: \text{The set of indices for combinations of order number 
 \end{align*}
 $$
 
-## Option Constraint
+## Option Constraints

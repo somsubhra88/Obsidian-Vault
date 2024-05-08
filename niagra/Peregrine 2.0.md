@@ -1,14 +1,14 @@
-The objective is to determine the most cost-effective allocation of resources to fulfil orders while adhering to specific constraints, such as resource availability, demand requirements, and operational rules. It uses mathematical modelling to minimize the total costs associated with resource assignments across different orders, ensuring that each order is met with the optimal combination of resources and options. This optimization process aims to find a balance between meeting demands precisely and efficiently using resources and minimizing the overall operational costs while respecting logistical limitations and business rules.
+The objective is to determine the most cost-effective allocation of resources to fulfil orders while adhering to specific constraints, such as resource availability, demand requirements, and operational rules. It uses mathematical modelling to minimize the total costs associated with resource assignments across different orders, ensuring that each order is met with the optimal combination of resources and options. This optimisation process aims to balance meeting demands precisely and efficiently using resources and minimising the overall operational costs while respecting logistical limitations and business rules.
 
 # Decision Variables
 1. **X - Resource Selection Variables**
     
-    - **Type:** Continuous
-    - **Description:** These variables represent the quantity of resources allocated to each possible combination of order characteristics defined in the dataset. The characteristics could include order number, SKU, and other relevant attributes. The continuous nature of these variables allows for partial allocations of resources.
+    - **Type:** Binary
+    - **Description:** 
 2. **Y - Option Selection Variables**
     
     - **Type:** Binary
-    - **Description:** These binary variables indicate whether a particular option is selected for an order. Options could be related to different ways of fulfilling the order, such as using alternate SKUs or sourcing strategies. A binary type ensures that an option is either fully selected (1) or not selected (0).
+    - **Description:** These binary variables indicate whether a particular option is selected for an order. Options could be related to different ways of fulfilling the order, such as using alternate SKUs or sourcing strategies. A binary type ensures an option is either fully selected (1) or not selected (0).
 3. **S - Alternate RORG Variables**
     
     - **Type:** Binary

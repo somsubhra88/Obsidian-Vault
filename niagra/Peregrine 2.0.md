@@ -38,7 +38,7 @@ Each set of these variables plays a critical role in the optimisation model by d
 1. **A - Required Cases**
     
     - **Fields Involved:** Based on `unique_identifiers` which include identifiers like order number, SKU, etc.
-    - **Description:** This parameter represents the number of cases required for each unique combination of identifiers in the dataset. It quantifies the demand or need for each configuration, guiding the optimisation of the number of units of resource needed.
+    - **Description:** This parameter represents the number of cases required for each unique combination of identifiers in the dataset.
 2. **C - Available Resources**
     
     - **Fields Involved:** ALTERNATE_SKU, ALTERNATE_DATE, ALTERNATE_OPTION, RESOURCE
@@ -54,4 +54,4 @@ Each set of these variables plays a critical role in the optimisation model by d
 5. **COST - Total Cost**
     
     - **Fields Involved:** Based on `unique_identifiers`
-    - **Description:** This parameter calculates the total cost of each unique identifier combination. It enables the optimization model to incorporate cost efficiency directly into the decision-making process, aiming to minimize this value while meeting all other constraints.
+    - **Description:** This parameter calculates the total cost of each unique identifier combination. 

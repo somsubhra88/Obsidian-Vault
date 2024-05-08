@@ -112,7 +112,7 @@ $$\sum_{\text{idx} \in M(\text{ordernum})} D_{\text{idx}} = 1$$
 $$
 \begin{align*}
 X_{v} &: \text{The decision variable representing the allocation of resources at index } v. \\
-D_{(v[0], v[\text{idx}])} &: \text{The decision variable indicating whether the alternate date at index } (ordernum, \; date) \text{ is selected for the order.} \\
+D_{(ordernum, \; date)} &: \text{The decision variable indicating whether the alternate date at index } (ordernum, \; date) \text{ is selected for the order.} \\
 M(\text{ordernum}) &: \text{The set of indices for combinations of order number and alternate dates for the specific order number } \text{ordernum}.
 \end{align*}
 $$

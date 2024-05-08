@@ -108,3 +108,11 @@ This constraint ensures that if a resource allocation decision variable (`X`) is
 $$X_{v} \leq D_{(ordernum, \; date)}$$
 
 This constraint mandates that exactly one date must be chosen for each order. It restricts each order to having resources allocated on only one specific date, preventing multiple dates from being selected and thus streamlining scheduling and logistical processes.
+$$\sum_{\text{idx} \in M(\text{ordernum})} D_{\text{idx}} = 1$$
+$$
+\begin{align*}
+X_{v} &: \text{The decision variable representing the allocation of resources at index } v. \\
+D_{(v[0], v[\text{idx}])} &: \text{The decision variable indicating whether the alternate date at index } (ordernum, \; date) \text{ is selected for the order.} \\
+M(\text{ordernum}) &: \text{The set of indices for combinations of order number and alternate dates for the specific order number } \text{ordernum}.
+\end{align*}
+$$

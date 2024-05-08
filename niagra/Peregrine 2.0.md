@@ -57,3 +57,4 @@ Each set of these variables plays a critical role in the optimisation model by d
     - **Description:** This parameter calculates the total cost of each unique identifier combination. 
 
 # Constraints
+## Demand Constraints

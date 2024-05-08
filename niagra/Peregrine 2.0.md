@@ -92,6 +92,13 @@ $$
 
 ## RORG Constraints
 This constraint ensures that if a resource allocation decision variable (`X`) is selected (indicating resources are assigned), the corresponding Regional Organizational Unit (RORG) decision variable (`S`) must also be selected. This setup restricts resource allocation to only one RORG chosen explicitly for an `ORDERNUM`.
-$$ X_{v} \leq S_{(ordernum, rorg])} $$
+$$ X_{v} \leq S_{(ordernum, rorg)} $$
 This constraint mandates that exactly one RORG be chosen for each order. It prevents multiple RORGs from being selected for a single order, ensuring each order is linked to one distinct RORG.
 $$\sum_{\text{idx} \in L(\text{ordernum})} S_{\text{idx}} = 1$$
+$$
+\begin{align*}
+X_{v} &: \text{The decision variable representing the allocation of resources at index } v. \\
+S_{(ordernum, rorg)} &: \text{The decision variable indicating whether the RORG at index } (ordernum, RORG]) \text{ is selected for the order.} \\
+L(\text{ordernum}) &: \text{The set of indices for combinations of order number and RORGs for the specific order number } \text{ordernum}.
+\end{align*}
+$$

@@ -128,6 +128,10 @@ $$\sum_{\text{idx} \in N(\text{ordernum})} Y_{\text{idx}} \leq \text{sku count f
 $$
 Y_{(ordernum,\; primary \; sku,\; option)} = Y_{v}
 $$
+
+- 
+
+$$
 \begin{align*}
 X_{v} &: \text{The decision variable representing the allocation of resources at index } v. \\
 Y_{(ordernum,\; option, \; ORDER)} &: \text{The decision variable indicating whether the option at index } (ordernum,\; option, \; ORDER) \text{ is selected for the swap movable order.} \\

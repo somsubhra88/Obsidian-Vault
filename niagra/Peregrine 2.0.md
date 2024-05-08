@@ -47,12 +47,11 @@ Each set of these variables plays a critical role in the optimisation model by d
     
     - **Fields Involved:** ORDERNUM
     - **Description:** This parameter aggregates the total number of cases required per order. It is a broader measure that sums up the demands across multiple SKUs.
-    -
 4. **L - Resource Quantity Aggregated Over All Unique Combinations**
     
     - **Fields Involved:** Based on `unique_identifiers`
-    - **Description:** Similar to `A`, but specifically modifies the case counts possibly for logistical or practical adjustments, such as accounting for bulk handling, packaging differences, or other factors that modify the base case requirement.
+    - **Description:** Similar to `A`, but specifically modifies the modified case counts.
 5. **COST - Total Cost**
     
     - **Fields Involved:** Based on `unique_identifiers`
-    - **Description:** This parameter calculates the total cost associated with each unique identifier combination. It enables the optimization model to incorporate cost efficiency directly into the decision-making process, aiming to minimize this value while meeting all other constraints.
+    - **Description:** This parameter calculates the total cost of each unique identifier combination. It enables the optimization model to incorporate cost efficiency directly into the decision-making process, aiming to minimize this value while meeting all other constraints.

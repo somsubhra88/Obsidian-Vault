@@ -122,3 +122,11 @@ This constraint ensures that resource allocation decisions (`X`) for an order ar
 $$X_{v} \leq Y_{(ordernum,\; option, \; ORDER)}$$
 This constraint limits the number of different options that can be selected for each order to the count of unique SKUs associated with that order (`SKU_COUNT`). It prevents the selection of more options than there are SKUs.
 $$\sum_{\text{idx} \in N(\text{ordernum})} Y_{\text{idx}} \leq \text{sku count for ordernum}$$
+$$
+\begin{align*}
+X_{v} &: \text{The decision variable representing the allocation of resources at index } v. \\
+Y_{(ordernum,\; option, \; ORDER)} &: \text{The decision variable indicating whether the option at index } (ordernum,\; option, \; ORDER) \text{ is selected for the swap order.} \\
+N(\text{ordernum}) &: \text{The set of indices for combinations of order number, alternate options, and option types for the specific order number } \text{ordernum}. \\
+\text{SKU\_COUNT}_{\text{ordernum}} &: \text{The number of unique SKUs for the order number } \text{ordernum}.
+\end{align*}
+$$

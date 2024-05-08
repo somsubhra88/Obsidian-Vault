@@ -119,4 +119,4 @@ $$
 
 ## Option Constraints
 This constraint ensures that resource allocation decisions (`X`) for an order are contingent upon selecting a corresponding option (`Y`). If an option for an order type is not selected, resources cannot be allocated under that option. This setup strictly ties resource allocations to the availability and approval of specific options, reinforcing control over how resources are utilised based on pre-defined strategic choices.
-$$X_{v} \leq Y_{(ordernum,\; alternative option, \; ORDER)}$$
+$$X_{v} \leq Y_{(ordernum,\; option, \; option = ORDER)}$$

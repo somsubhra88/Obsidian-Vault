@@ -92,7 +92,7 @@ $$
 
 ## RORG Constraints
 This constraint ensures that if a resource allocation decision variable (`X`) is selected (indicating resources are assigned), the corresponding Regional Organizational Unit (RORG) decision variable (`S`) must also be selected. This setup restricts resource allocation to only one RORG chosen explicitly for an `ORDERNUM`.
-$$ X_{v} \leq S_{(ordernum, rorg)} $$
+$$ X_{v} \leq S_{(ordernum,\;rorg)} $$
 This constraint mandates that exactly one RORG be chosen for each order. It prevents multiple RORGs from being selected for a single order, ensuring each order is linked to one distinct RORG.
 $$\sum_{\text{idx} \in L(\text{ordernum})} S_{\text{idx}} = 1$$
 $$
@@ -105,4 +105,6 @@ $$
 
 ## Date Constraints
 This constraint ensures that if a resource allocation decision variable (`X`) is active for an order and a specific combination of identifiers, the corresponding date selection variable (`D`) must also be active. This means that resources can only be allocated on dates that have been explicitly selected for each order, ensuring that resource allocation aligns with the scheduled dates.
-$$X_{v} \leq D_{(ordernum, date)}$$
+$$X_{v} \leq D_{(ordernum, \; date)}$$
+
+This constraint mandates that exactly one date must be chosen for each order. It restricts each order to having resources allocated on only one specific date, preventing multiple dates from being selected and thus streamlining scheduling and logistical processes.

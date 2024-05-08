@@ -116,3 +116,5 @@ D_{(ordernum, \; date)} &: \text{The decision variable indicating whether the al
 M(\text{ordernum}) &: \text{The set of indices for combinations of order number and alternate dates for the specific order number } \text{ordernum}.
 \end{align*}
 $$
+
+## Option Constraint

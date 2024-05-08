@@ -69,3 +69,11 @@ A_{\text{idx}} &: \text{The parameter indicating the required cases for the conf
 T_{\text{ordernum}} &: \text{The total required cases for the order number } \text{ordernum}.
 \end{align*}
 $$
+This demand constraint ensures that the total allocation of resources across different configurations does not exceed one for each unique combination of order number and SKU within the dataset. Essentially, this constraint prevents over-allocation, ensuring that each specific SKU within an order is allocated at most once, thus avoiding any duplication in resource assignment.
+$$\sum_{\text{idx} \in J(\text{ordernum}, \text{sku})} X_{\text{idx}} \leq 1$$
+$$
+\begin{align*}
+J(\text{ordernum}, \text{sku}) &: \text{The set of indices for variable combinations related to the specific order number and SKU.} \\
+X_{\text{idx}} &: \text{The decision variable representing the allocation of resources at index } \text{idx}.
+\end{align*}
+$$

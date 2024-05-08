@@ -91,5 +91,7 @@ Q_{\text{resource}, \text{dt}} &: \text{The available quantity of the resource a
 $$
 
 ## RORG Constraints
-This constraint ensures that if a resource allocation decision variable (`X`) is selected (indicating resources are assigned), the corresponding Regional Organizational Unit (RORG) decision variable (`S`) must also be selected. This setup restricts resource allocation to only one RORG chosen explicitly for an `ORDERNUM`, enforcing that each resource allocation unit is associated with a RORG.
+This constraint ensures that if a resource allocation decision variable (`X`) is selected (indicating resources are assigned), the corresponding Regional Organizational Unit (RORG) decision variable (`S`) must also be selected. This setup restricts resource allocation to only one RORG chosen explicitly for an `ORDERNUM`.
 $$ X_{v} \leq S_{(v[0], v[\text{idx}])} $$
+This constraint mandates that exactly one RORG be chosen for each order. It prevents multiple RORGs from being selected for a single order, ensuring each order is linked to one distinct RORG.
+$$\sum_{\text{idx} \in L(\text{ordernum})} S_{\text{idx}} = 1$$

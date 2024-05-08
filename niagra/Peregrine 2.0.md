@@ -58,7 +58,7 @@ Each set of these variables plays a critical role in the optimisation model by d
 
 # Constraints
 ## Demand Constraints
-This demand constraint ensures that the total amount of resources allocated across various configurations for each order meets or exceeds the required cases. It guarantees that the resource allocation satisfies the demand for each order.
+- This demand constraint ensures that the total amount of resources allocated across various configurations for each order meets or exceeds the required cases. It guarantees that the resource allocation satisfies the demand for each order.
 
 $$\sum_{\text{idx} \in I(\text{ordernum})} X_{\text{idx}} \cdot A_{\text{idx}} \geq T_{\text{ordernum}}$$
 $$
@@ -69,7 +69,7 @@ A_{\text{idx}} &: \text{The parameter indicating the required cases for the conf
 T_{\text{ordernum}} &: \text{The total required cases for the order number } \text{ordernum}.
 \end{align*}
 $$
-This demand constraint ensures that the total allocation of resources across different configurations does not exceed one for each unique combination of order number and SKU within the dataset. Essentially, this constraint prevents over-allocation, ensuring that each specific SKU within an order is allocated at most once, thus avoiding any duplication in resource assignment.
+- This demand constraint ensures that the total allocation of resources across different configurations does not exceed one for each unique combination of order number and SKU within the dataset. Essentially, this constraint prevents over-allocation, ensuring that each specific SKU within an order is allocated at most once, thus avoiding any duplication in resource assignment.
 $$\sum_{\text{idx} \in J(\text{ordernum}, \text{sku})} X_{\text{idx}} \leq 1$$
 $$
 \begin{align*}

@@ -78,3 +78,4 @@ X_{\text{idx}} &: \text{The decision variable representing the allocation of res
 \end{align*}
 $$
 ## Resource Constraints
+This resource constraint ensures that the total allocation of resources for each resource type does not exceed the available cumulative quantity up to a given date. It limits the cumulative demand satisfied by a specific resource to its available quantity by the specified date, thus preventing over-allocation of resources and ensuring resource availability is not exceeded during the planning period.

@@ -61,3 +61,7 @@ Each set of these variables plays a critical role in the optimisation model by d
 This demand constraint ensures that the total amount of resources allocated across various configurations for each order meets or exceeds the required cases. It guarantees that the resource allocation satisfies the demand for each order.
 
 $$\sum_{\text{idx} \in I(\text{ordernum})} X_{\text{idx}} \cdot A_{\text{idx}} \geq T_{\text{ordernum}}$$
+- I(ordernum) represents the set of indices for all variable combinations related to the specific order number.
+- 𝑋idxXidx​ denotes the decision variable for resource allocation at index idxidx.
+- 𝐴idxAidx​ is the parameter representing the required cases for the configuration at index idxidx.
+- 𝑇ordernumTordernum​ is the total required cases for the order number ordernumordernum.

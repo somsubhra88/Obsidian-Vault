@@ -126,7 +126,7 @@ $$\sum_{\text{idx} \in N(\text{ordernum})} Y_{\text{idx}} \leq \text{sku count f
 - This constraint ensures consistency in option selections across primary and secondary SKUs within the same order. It requires that if an option is selected for a secondary SKU (as indicated by a naming convention in `ALTERNATE_OPTION`), it must match the selection status of the corresponding primary SKU option.
 
 $$
-Y_{(ordernum, primary \; sku,\; alternative \; sku)} = Y_{v}
+Y_{(ordernum,\; primary \; sku,\; option)} = Y_{v}
 $$
 \begin{align*}
 X_{v} &: \text{The decision variable representing the allocation of resources at index } v. \\

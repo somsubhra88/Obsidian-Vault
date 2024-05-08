@@ -125,8 +125,7 @@ $$\sum_{\text{idx} \in N(\text{ordernum})} Y_{\text{idx}} \leq \text{sku count f
 $$
 \begin{align*}
 X_{v} &: \text{The decision variable representing the allocation of resources at index } v. \\
-Y_{(ordernum,\; option, \; ORDER)} &: \text{The decision variable indicating whether the option at index } (ordernum,\; option, \; ORDER) \text{ is selected for the swap order.} \\
+Y_{(ordernum,\; option, \; ORDER)} &: \text{The decision variable indicating whether the option at index } (ordernum,\; option, \; ORDER) \text{ is selected for the swap movable order.} \\
 N(\text{ordernum}) &: \text{The set of indices for combinations of order number, alternate options, and option types for the specific order number } \text{ordernum}. \\
-\text{SKU\_COUNT}_{\text{ordernum}} &: \text{The number of unique SKUs for the order number } \text{ordernum}.
 \end{align*}
 $$

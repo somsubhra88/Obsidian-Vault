@@ -58,3 +58,4 @@ Each set of these variables plays a critical role in the optimisation model by d
 
 # Constraints
 ## Demand Constraints
+This demand constraint ensures that the total amount of resources allocated across various configurations for each order meets or exceeds the required cases. It guarantees that the resource allocation satisfies the demand for each order.

@@ -14,8 +14,19 @@ The objective is to determine the most cost-effective allocation of resources to
 3. **S - Alternate RORG Variables**
     
     - **Type:** Binary
-    - **Description:** These variables determine whether a specific RORG (a term that might represent a regional organizational unit or resource group) is chosen for each order. As binary variables, they indicate a yes (1) or no (0) selection, ensuring that each order is assigned to one RORG or none.
+    - **Description:** These variables determine whether a specific RORG (a term that might represent a regional organisational unit or resource group) is chosen for each order. As binary variables, they indicate a yes (1) or no (0) selection, ensuring that each order is assigned to one RORG or none.
 4. **D - Alternate Date Variables**
     
     - **Type:** Binary
-    - **Description:** Similar to the `S` variables, these binary variables are used to select a specific alternate date for fulfilling each order. This setup allows the model to optimize the scheduling aspect of resource allocation by selecting or not selecting particular dates.
+    - **Description:** Similar to the `S` variables, these binary variables are used to select a specific alternate date for fulfilling each order. This setup allows the model to optimise the scheduling aspect of resource allocation by selecting or not selecting particular dates.
+
+```Python
+unique_identifiers = [  
+    "ORDERNUM",  
+    "ORIGINAL_SKU",  
+    "ALTERNATE_SKU",  
+    "ALTERNATE_RORG",  
+    "ALTERNATE_DATE",  
+    "ALTERNATE_OPTION",  
+]
+```

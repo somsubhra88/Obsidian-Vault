@@ -77,3 +77,4 @@ J(\text{ordernum}, \text{sku}) &: \text{The set of indices for variable combinat
 X_{\text{idx}} &: \text{The decision variable representing the allocation of resources at index } \text{idx}.
 \end{align*}
 $$
+## Resource Constraints

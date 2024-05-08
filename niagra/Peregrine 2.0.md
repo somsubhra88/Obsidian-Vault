@@ -104,3 +104,5 @@ L(\text{ordernum}) &: \text{The set of indices for combinations of order number 
 $$
 
 ## Date Constraints
+This constraint ensures that if a resource allocation decision variable (`X`) is active for an order and a specific combination of identifiers, the corresponding date selection variable (`D`) must also be active. This means that resources can only be allocated on dates that have been explicitly selected for each order, ensuring that resource allocation aligns with the scheduled dates.
+$$X_{v} \leq D_{(ordernum, date)}$$

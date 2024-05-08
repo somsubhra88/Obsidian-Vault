@@ -118,10 +118,15 @@ M(\text{ordernum}) &: \text{The set of indices for combinations of order number 
 $$
 
 ## Option Constraints
-This constraint ensures that resource allocation decisions (`X`) for an order are contingent upon selecting a corresponding option (`Y`). If an option for an order type is not selected, resources cannot be allocated under that option. This setup strictly ties resource allocations to the availability and approval of specific options.
+- This constraint ensures that resource allocation decisions (`X`) for an order are contingent upon selecting a corresponding option (`Y`). If an option for an order type is not selected, resources cannot be allocated under that option. This setup strictly ties resource allocations to the availability and approval of specific options.
 $$X_{v} \leq Y_{(ordernum,\; option, \; ORDER)}$$
-This constraint limits the number of different options that can be selected for each order to the count of unique SKUs associated with that order (`SKU_COUNT`). It prevents the selection of more options than there are SKUs.
+- This constraint limits the number of different options that can be selected for each order to the count of unique SKUs associated with that order (`SKU_COUNT`). It prevents the selection of more options than there are SKUs.
 $$\sum_{\text{idx} \in N(\text{ordernum})} Y_{\text{idx}} \leq \text{sku count for ordernum}$$
+
+- This constraint ensures consistency in option selections across primary and secondary SKUs within the same order. It requires that if an option is selected for a secondary SKU (as indicated by a naming convention in `ALTERNATE_OPTION`), it must match the selection status of the corresponding primary SKU option. This links the decision-making process across related SKUs within the same order, ensuring coherent and unified resource allocation strategies.
+
+
+
 $$
 \begin{align*}
 X_{v} &: \text{The decision variable representing the allocation of resources at index } v. \\

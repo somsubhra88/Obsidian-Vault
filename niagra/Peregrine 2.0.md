@@ -46,7 +46,8 @@ Each set of these variables plays a critical role in the optimisation model by d
 3. **T - Total Cases Per Order**
     
     - **Fields Involved:** ORDERNUM
-    - **Description:** This parameter aggregates the total number of cases required per order. It is a broader measure that sums up the demands across possibly multiple items or configurations within a single order, providing a macro view of order-level demand.
+    - **Description:** This parameter aggregates the total number of cases required per order. It is a broader measure that sums up the demands across multiple SKUs.
+    -
 4. **L - Resource Quantity Aggregated Over All Unique Combinations**
     
     - **Fields Involved:** Based on `unique_identifiers`

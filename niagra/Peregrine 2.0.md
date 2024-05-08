@@ -78,4 +78,14 @@ X_{\text{idx}} &: \text{The decision variable representing the allocation of res
 \end{align*}
 $$
 ## Resource Constraints
-This resource constraint ensures that the total allocation of resources for each resource type does not exceed the available cumulative quantity up to a given date. It limits the cumulative demand satisfied by a specific resource to its available quantity by the specified date, thus preventing over-allocation of resources and ensuring resource availability is not exceeded during the planning period.
+This resource constraint ensures that the total allocation of resources for each resource type does not exceed the available cumulative quantity up to a given date. It limits the cumulative demand satisfied by a specific resource to its available quantity by the specified date, thus preventing the over-allocation of resources and ensuring resource availability is not exceeded during the planning period.
+$$\sum_{\text{idx} \in K(\text{resource}, \text{dt})} X_{\text{idx}} \cdot A_{\text{idx}} \leq Q_{\text{resource}, \text{dt}}$$
+$$
+\begin{align*}
+K(\text{resource}, \text{dt}) &: \text{The set of indices for variable combinations where the resource is } \text{resource} \text{ and the date is } \leq \text{dt}. \\
+X_{\text{idx}} &: \text{The decision variable representing the allocation of resources at index } \text{idx}. \\
+A_{\text{idx}} &: \text{The required quantity of resource for the configuration at index } \text{idx}. \\
+Q_{\text{resource}, \text{dt}} &: \text{The available quantity of the resource at date } \text{dt}.
+\end{align*}
+
+$$

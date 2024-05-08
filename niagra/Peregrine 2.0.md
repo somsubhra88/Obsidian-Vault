@@ -85,7 +85,7 @@ $$
 K(\text{resource}, \text{dt}) &: \text{The set of indices for variable combinations where the resource is } \text{resource} \text{ and the date is } \leq \text{dt}. \\
 X_{\text{idx}} &: \text{The decision variable representing the allocation of resources at index } \text{idx}. \\
 A_{\text{idx}} &: \text{The required quantity of resource for the configuration at index } \text{idx}. \\
-Q_{\text{resource}, \text{dt}} &: \text{The available quantity of the resource at date } \text{dt}.
+Q_{\text{resource}, \text{dt}} &: \text{The available quantity of the resource at date, quantity is already calculated cummulatively} \text{dt}.
 \end{align*}
 
 $$

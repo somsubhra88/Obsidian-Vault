@@ -97,8 +97,8 @@ This constraint mandates that exactly one RORG be chosen for each order. It prev
 $$\sum_{\text{idx} \in L(\text{ordernum})} S_{\text{idx}} = 1$$
 $$
 \begin{align*}
-X_{v} &: \text{The decision variable representing the allocation of resources at index } v. \\
-S_{(ordernum, rorg)} &: \text{The decision variable indicating whether the RORG at index } (ordernum, RORG]) \text{ is selected for the order.} \\
+X_{v} &: \text{The decision variable representing the allocation of resources at index } v:= unique identifiers. \\
+S_{(ordernum, rorg)} &: \text{The decision variable indicating whether the RORG at index } (ORDERNUM, RORG) \text{ is selected for the order.} \\
 L(\text{ordernum}) &: \text{The set of indices for combinations of order number and RORGs for the specific order number } \text{ordernum}.
 \end{align*}
 $$

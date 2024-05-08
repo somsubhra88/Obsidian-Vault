@@ -32,4 +32,5 @@ unique_identifiers = [
 ```
 ### Summary
 
-Each set of these variables plays a critical role in the optimisation model by defining the decision space over which the model seeks to minimize cost. `X` variables adjust the allocation of resources, `Y` variables toggle the selection of specific order options, and both `S` and `D` variables manage the assignment of orders to different organisational units and dates, respectively.
+Each set of these variables plays a critical role in the optimisation model by defining the decision space over which the model seeks to minimise cost. `X` variables adjust the allocation of resources, `Y` variables toggle the selection of specific order options, and both `S` and `D` variables manage the assignment of orders to different organisational units and dates, respectively.
+
